@@ -1,0 +1,613 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0f0c17">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="GDR">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>Global Dance Radio</title>
+<style>
+  /* Layout: one column, sticky search + genre strip on top, scrolling station list, docked mini player + tab bar at the bottom. */
+  :root {
+    --bg: #0f0c17;
+    --panel: #181322;
+    --panel-2: #211a2e;
+    --line: #2c2339;
+    --fg: #f4effc;
+    --mute: #9d93b3;
+    --accent: #ff6a3d;
+    --accent-ink: #1a0b05;
+    --ok: #4fd18b;
+    --bad: #ff6b81;
+    --font: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+  html, body { margin: 0; background: var(--bg); color: var(--fg); font-family: var(--font); }
+  body { font-size: 16px; line-height: 1.4; padding-bottom: calc(150px + env(safe-area-inset-bottom, 0px)); }
+  button, input, select { font: inherit; color: inherit; }
+  button { cursor: pointer; }
+  :focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+  .wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+  header.top { position: sticky; top: 0; z-index: 20; background: var(--bg); border-bottom: 1px solid var(--line); padding-top: env(safe-area-inset-top, 0px); }
+  .brand { display: flex; align-items: baseline; justify-content: space-between; padding-top: 14px; }
+  .brand h1 { margin: 0; font-size: 15px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; }
+  .brand h1 span { color: var(--accent); }
+  .brand small { color: var(--mute); font-size: 12px; }
+
+  .controls { display: grid; grid-template-columns: 1fr minmax(0, 150px); gap: 8px; padding: 12px 0 10px; }
+  .controls input, .controls select { width: 100%; min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; }
+  .controls input::placeholder { color: var(--mute); }
+  .controls .sort { grid-column: 1 / -1; padding: 9px 12px; font-size: 14px; color: var(--mute); }
+  .badge { display: inline-block; margin-right: 6px; padding: 1px 6px; border-radius: 6px; background: var(--accent); color: var(--accent-ink); font-size: 11px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; vertical-align: 1px; }
+
+  .chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 12px; scrollbar-width: none; }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; background: var(--panel); border: 1px solid var(--line); border-radius: 999px; padding: 7px 14px; font-size: 14px; color: var(--mute); }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
+
+  main { padding-top: 6px; }
+  .section-title { margin: 14px 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--mute); }
+
+  .list { display: flex; flex-direction: column; }
+  .row { display: grid; grid-template-columns: 48px minmax(0, 1fr) auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--line); cursor: pointer; }
+  .row:active { background: var(--panel); }
+  .art { width: 48px; height: 48px; border-radius: 10px; overflow: hidden; display: grid; place-items: center; font-weight: 800; font-size: 15px; color: #fff; background: var(--panel-2); position: relative; }
+  .art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: var(--panel-2); }
+  .name { font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .meta { color: var(--mute); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .row.on .name { color: var(--accent); }
+  .heart { background: none; border: 0; padding: 10px; margin: -10px; color: var(--mute); font-size: 22px; line-height: 1; }
+  .heart[aria-pressed="true"] { color: var(--accent); }
+
+  .eq { display: inline-flex; align-items: flex-end; gap: 2px; height: 11px; margin-right: 6px; vertical-align: -1px; }
+  .eq i { display: block; width: 3px; background: var(--accent); border-radius: 1px; height: 100%; animation: eq 0.9s ease-in-out infinite; transform-origin: bottom; }
+  .eq i:nth-child(2) { animation-delay: -.3s; }
+  .eq i:nth-child(3) { animation-delay: -.6s; }
+  @keyframes eq { 0%, 100% { transform: scaleY(.25); } 50% { transform: scaleY(1); } }
+  @media (prefers-reduced-motion: reduce) { .eq i { animation: none; transform: scaleY(.6); } }
+
+  .state { padding: 28px 4px; text-align: center; color: var(--mute); }
+  .state strong { display: block; color: var(--fg); margin-bottom: 4px; }
+  .btn { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 11px 16px; font-weight: 600; }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+  .more { display: block; width: 100%; margin: 16px 0 4px; }
+
+  /* Live tab */
+  .video { position: relative; width: 100%; aspect-ratio: 16 / 9; max-width: 100%; background: #000; border-radius: 14px; overflow: hidden; margin-top: 12px; }
+  .video iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+  .video .x { position: absolute; top: 8px; right: 8px; z-index: 2; background: rgba(0,0,0,.65); border: 0; border-radius: 999px; width: 34px; height: 34px; font-size: 18px; }
+  .add { display: grid; gap: 8px; margin-top: 8px; }
+  .add input { width: 100%; min-width: 0; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 11px 12px; }
+  .add .help { color: var(--mute); font-size: 13px; margin: 0; }
+  .add .err { color: var(--bad); font-size: 13px; margin: 0; }
+  .linkrow { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 13px 0; border-bottom: 1px solid var(--line); color: var(--fg); text-decoration: none; }
+  .linkrow span:last-child { color: var(--accent); font-size: 13px; flex: 0 0 auto; }
+  .livecard { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 10px; align-items: center; padding: 12px 0; border-bottom: 1px solid var(--line); }
+  .livecard .rm { background: none; border: 0; color: var(--mute); padding: 8px; font-size: 14px; }
+
+  /* Dock */
+  .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--bg); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+  .player { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto auto; gap: 12px; align-items: center; padding-top: 10px; padding-bottom: 10px; }
+  .player[hidden] { display: none; }
+  .player .art { width: 44px; height: 44px; }
+  .pbtn { width: 46px; height: 46px; border-radius: 50%; background: var(--accent); border: 0; color: var(--accent-ink); font-size: 18px; display: grid; place-items: center; }
+  .status { font-size: 12px; color: var(--mute); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .status.err { color: var(--bad); }
+  nav.tabs { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); }
+  nav.tabs button { background: none; border: 0; padding: 12px 4px 10px; color: var(--mute); font-size: 13px; font-weight: 600; letter-spacing: .02em; }
+  nav.tabs button[aria-selected="true"] { color: var(--accent); }
+
+  .toast { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(150px + env(safe-area-inset-bottom, 0px)); background: var(--panel-2); border: 1px solid var(--line); padding: 10px 16px; border-radius: 12px; font-size: 14px; z-index: 40; max-width: calc(100% - 32px); }
+  .toast[hidden] { display: none; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Global Dance <span>Radio</span></h1>
+      <small id="count"></small>
+    </div>
+    <div class="controls" id="controls">
+      <input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Search any station" autocomplete="off" aria-label="Search stations">
+      <select id="country" aria-label="Country"><option value="">All countries</option></select>
+      <select id="sort" class="sort" aria-label="Sort stations">
+        <option value="clickcount">Sort: Most listened</option>
+        <option value="votes">Sort: Top voted</option>
+        <option value="clicktrend">Sort: Trending now</option>
+      </select>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="Genres"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <section id="tab-stations">
+    <div class="list" id="list"></div>
+    <div id="stations-state"></div>
+    <button class="btn more" id="more" hidden>Load more</button>
+  </section>
+
+  <section id="tab-live" hidden>
+    <div id="videoSlot"></div>
+
+    <div class="section-title">Add a YouTube live stream</div>
+    <form class="add" id="addForm" autocomplete="off">
+      <input id="liveUrl" type="url" inputmode="url" placeholder="Paste a YouTube live link" aria-label="YouTube live link">
+      <input id="liveName" type="text" placeholder="Name (optional), e.g. Friday Night Set" aria-label="Name">
+      <button class="btn primary" type="submit">Add to Live</button>
+      <p class="err" id="addErr" hidden></p>
+      <p class="help">Works with youtube.com/watch, youtu.be and youtube.com/live links, or a channel link that looks like youtube.com/channel/UC&hellip;</p>
+    </form>
+
+    <div class="section-title" id="myLiveTitle" hidden>Your live streams</div>
+    <div id="myLive"></div>
+
+    <div class="section-title">Check who is live right now</div>
+    <div id="curated"></div>
+  </section>
+
+  <section id="tab-saved" hidden>
+    <div class="list" id="savedList"></div>
+    <div id="saved-state"></div>
+  </section>
+</main>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<div class="dock">
+  <div class="wrap player" id="player" hidden>
+    <div class="art" id="pArt"></div>
+    <div>
+      <div class="name" id="pName"></div>
+      <div class="status" id="pStatus"></div>
+    </div>
+    <button class="heart" id="pHeart" aria-label="Save station" aria-pressed="false">&#9825;</button>
+    <button class="pbtn" id="pBtn" aria-label="Play or pause">&#9654;</button>
+  </div>
+  <nav class="tabs" id="tabs" role="tablist">
+    <button role="tab" data-tab="stations" aria-selected="true">Stations</button>
+    <button role="tab" data-tab="live" aria-selected="false">Live</button>
+    <button role="tab" data-tab="saved" aria-selected="false">Saved</button>
+  </nav>
+</div>
+
+<audio id="audio" preload="none" playsinline></audio>
+
+<script>
+(() => {
+  'use strict';
+
+  const $ = (s) => document.querySelector(s);
+  const API_BASES = [
+    'https://all.api.radio-browser.info',
+    'https://de1.api.radio-browser.info',
+    'https://nl1.api.radio-browser.info',
+    'https://at1.api.radio-browser.info'
+  ];
+  const PAGE = 40;
+
+  // Each genre lists the tags that stations use for it. Stations are fetched per tag and merged.
+  const GENRES = [
+    { id: 'all',      label: 'All dance',    tags: ['dance', 'edm'] },
+    { id: 'dj',       label: 'DJ sets & mixes', tags: ['dj', 'djmix', 'dj mix', 'live dj'] },
+    { id: 'house',    label: 'House',        tags: ['house', 'house music'] },
+    { id: 'deep',     label: 'Deep house',   tags: ['deep house'] },
+    { id: 'techno',   label: 'Techno',       tags: ['techno', 'tech house'] },
+    { id: 'trance',   label: 'Trance',       tags: ['trance', 'psytrance'] },
+    { id: 'dnb',      label: 'Drum & bass',  tags: ['drum and bass', 'dnb', 'drum & bass'] },
+    { id: 'electro',  label: 'Electro',      tags: ['electro', 'electronic'] },
+    { id: 'progressive', label: 'Progressive', tags: ['progressive', 'progressive house'] },
+    { id: 'hard',     label: 'Hardstyle',    tags: ['hardstyle', 'hardcore', 'hard dance'] },
+    { id: 'bass',     label: 'Dubstep & bass', tags: ['dubstep', 'bass', 'bass music'] },
+    { id: 'minimal',  label: 'Minimal',      tags: ['minimal', 'minimal techno'] },
+    { id: 'disco',    label: 'Disco',        tags: ['disco', 'nu disco', 'funk'] },
+    { id: 'club',     label: 'Club & Eurodance', tags: ['club', 'eurodance'] },
+    { id: 'chill',    label: 'Chill & lounge', tags: ['chillout', 'lounge', 'downtempo'] }
+  ];
+
+  // Starter links for big dance-music YouTube channels. Each opens that channel's live page.
+  const CURATED = [
+    { name: 'Cercle',          url: 'https://www.youtube.com/@cercle/live' },
+    { name: 'Boiler Room',     url: 'https://www.youtube.com/@boilerroom/live' },
+    { name: 'HÖR Berlin', url: 'https://www.youtube.com/@HORBerlin/live' },
+    { name: 'Mixmag',          url: 'https://www.youtube.com/@mixmag/live' },
+    { name: 'Defected Records', url: 'https://www.youtube.com/@DefectedRecords/live' },
+    { name: 'Anjunadeep',      url: 'https://www.youtube.com/@anjunadeep/live' },
+    { name: 'Tomorrowland',    url: 'https://www.youtube.com/@tomorrowland/live' }
+  ];
+
+  // Hand-picked stations pinned to the top of "All dance". Stream address comes from the station's own listen page.
+  const FEATURED = [
+    {
+      stationuuid: 'featured-massive-dance',
+      name: 'Massive Dance',
+      url_resolved: 'https://cast3.torontocast.com:1235/stream',
+      favicon: '',
+      country: 'Global',
+      countrycode: '',
+      tags: 'dance, edm, dj shows',
+      bitrate: 0,
+      codec: '',
+      featured: true
+    }
+  ];
+
+  const store = {
+    get(k, d) { try { const v = JSON.parse(localStorage.getItem('drw.' + k)); return v == null ? d : v; } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem('drw.' + k, JSON.stringify(v)); } catch (e) {} }
+  };
+
+  const S = {
+    tab: 'stations',
+    genre: 'all',
+    sort: 'clickcount',
+    country: '',
+    q: '',
+    offset: 0,
+    items: [],
+    more: false,
+    loading: false,
+    err: '',
+    reqId: 0,
+    playing: null,
+    status: 'idle',
+    favs: store.get('favs', {}),
+    live: store.get('live', [])
+  };
+
+  const audio = $('#audio');
+
+  const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+  async function api(path) {
+    let lastErr;
+    for (const base of API_BASES) {
+      try {
+        const r = await fetch(base + path);
+        if (r.ok) return await r.json();
+        lastErr = new Error('HTTP ' + r.status);
+      } catch (e) { lastErr = e; }
+    }
+    throw lastErr || new Error('offline');
+  }
+
+  function hue(s) { let h = 0; for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; }
+  function initials(n) {
+    const w = String(n || '?').replace(/[^\p{L}\p{N} ]/gu, '').trim().split(/\s+/).slice(0, 2);
+    return (w.map((x) => x[0] || '').join('') || '?').toUpperCase();
+  }
+  function artHTML(st) {
+    const bg = 'hsl(' + hue(st.name || '') + ' 45% 32%)';
+    const img = st.favicon && /^https:/i.test(st.favicon)
+      ? '<img src="' + esc(st.favicon) + '" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()">'
+      : '';
+    return '<div class="art" style="background:' + bg + '">' + esc(initials(st.name)) + img + '</div>';
+  }
+  function metaLine(st) {
+    const bits = [];
+    if (st.country) bits.push(st.country);
+    const tags = String(st.tags || '').split(',').map((t) => t.trim()).filter(Boolean).slice(0, 2);
+    if (tags.length) bits.push(tags.join(', '));
+    if (st.bitrate) bits.push(st.bitrate + 'k');
+    return bits.join(' · ');
+  }
+  function slim(st) {
+    return {
+      stationuuid: st.stationuuid, name: st.name, url_resolved: st.url_resolved, url: st.url,
+      favicon: st.favicon, country: st.country, countrycode: st.countrycode,
+      tags: st.tags, bitrate: st.bitrate, codec: st.codec
+    };
+  }
+
+  function rowHTML(st) {
+    const on = S.playing && S.playing.stationuuid === st.stationuuid;
+    const faved = !!S.favs[st.stationuuid];
+    const eq = on && S.status === 'playing' ? '<span class="eq" aria-hidden="true"><i></i><i></i><i></i></span>' : '';
+    return '<div class="row' + (on ? ' on' : '') + '" data-uuid="' + esc(st.stationuuid) + '">' +
+      artHTML(st) +
+      '<div style="min-width:0"><div class="name">' + eq + (st.featured ? '<span class="badge">Featured</span>' : '') + esc(st.name.trim()) + '</div><div class="meta">' + esc(metaLine(st)) + '</div></div>' +
+      '<button class="heart" data-fav="' + esc(st.stationuuid) + '" aria-pressed="' + faved + '" aria-label="' + (faved ? 'Remove from saved' : 'Save station') + '">' + (faved ? '&#9829;' : '&#9825;') + '</button>' +
+      '</div>';
+  }
+
+  // ---------- Stations ----------
+  async function fetchStations(reset) {
+    const id = ++S.reqId;
+    if (reset) { S.offset = 0; S.items = []; S.more = false; }
+    S.loading = true; S.err = '';
+    renderStations();
+    try {
+      const genre = GENRES.find((g) => g.id === S.genre) || GENRES[0];
+      const tags = S.q ? [null] : genre.tags;
+      const lists = await Promise.all(tags.map((t) => {
+        const p = new URLSearchParams({
+          hidebroken: 'true', order: S.sort, reverse: 'true',
+          limit: String(PAGE), offset: String(S.offset)
+        });
+        if (t) { p.set('tag', t); p.set('tagExact', 'true'); }
+        if (S.q) p.set('name', S.q);
+        if (S.country) p.set('countrycode', S.country);
+        if (location.protocol === 'https:') p.set('is_https', 'true');
+        return api('/json/stations/search?' + p.toString());
+      }));
+      if (id !== S.reqId) return;
+
+      const seen = new Set(S.items.map((s) => s.stationuuid));
+      const seenName = new Set(S.items.map((s) => (s.name + '|' + s.countrycode).toLowerCase().trim()));
+      const batch = [];
+      for (const l of lists) {
+        if (l.length >= PAGE) S.more = true;
+        for (const st of l) {
+          const url = st.url_resolved || st.url;
+          if (!url || !st.name || !st.name.trim()) continue;
+          if (location.protocol === 'https:' && !/^https:/i.test(url)) continue;
+          const key = (st.name + '|' + st.countrycode).toLowerCase().trim();
+          if (seen.has(st.stationuuid) || seenName.has(key)) continue;
+          seen.add(st.stationuuid); seenName.add(key);
+          batch.push(st);
+        }
+      }
+      batch.sort((a, b) => (b[S.sort] || 0) - (a[S.sort] || 0));
+      S.items = S.items.concat(batch);
+      S.offset += PAGE;
+    } catch (e) {
+      if (id !== S.reqId) return;
+      S.err = 'Could not reach the station list. Check your connection and try again.';
+    } finally {
+      if (id === S.reqId) { S.loading = false; renderStations(); }
+    }
+  }
+
+  function renderStations() {
+    const showFeatured = S.genre === 'all' && !S.q && !S.country;
+    $('#list').innerHTML = (showFeatured ? FEATURED : []).concat(S.items).map(rowHTML).join('');
+    const st = $('#stations-state');
+    if (S.loading && !S.items.length) st.innerHTML = '<div class="state">Loading stations…</div>';
+    else if (S.err) st.innerHTML = '<div class="state"><strong>Something went wrong</strong>' + esc(S.err) + '<br><br><button class="btn" id="retry">Try again</button></div>';
+    else if (!S.items.length) st.innerHTML = '<div class="state"><strong>No stations found</strong>Try another genre, country or search.</div>';
+    else st.innerHTML = '';
+    const more = $('#more');
+    more.hidden = !(S.more && !S.loading && !S.err && S.items.length);
+    $('#count').textContent = S.items.length ? S.items.length + ' stations' : '';
+  }
+
+  // ---------- Saved ----------
+  function renderSaved() {
+    const arr = Object.values(S.favs);
+    $('#savedList').innerHTML = arr.map(rowHTML).join('');
+    $('#saved-state').innerHTML = arr.length ? '' : '<div class="state"><strong>No saved stations yet</strong>Tap the heart on any station to keep it here.</div>';
+  }
+
+  // ---------- Player ----------
+  function setStatus(s, msg) { S.status = s; S.statusMsg = msg || ''; renderPlayer(); refreshRows(); }
+
+  function renderPlayer() {
+    const p = $('#player');
+    const st = S.playing;
+    p.hidden = !st;
+    if (!st) return;
+    $('#pArt').outerHTML = artHTML(st).replace('class="art"', 'class="art" id="pArt"');
+    $('#pName').textContent = st.name.trim();
+    const el = $('#pStatus');
+    const q = [st.codec, st.bitrate ? st.bitrate + 'k' : ''].filter(Boolean).join(' ');
+    const labels = {
+      loading: 'Connecting…',
+      playing: 'Live' + (q ? ' · ' + q : ''),
+      paused: 'Paused',
+      error: S.statusMsg || 'This station is not responding. Try another.',
+      idle: ''
+    };
+    el.textContent = labels[S.status] || '';
+    el.className = 'status' + (S.status === 'error' ? ' err' : '');
+    $('#pBtn').innerHTML = S.status === 'playing' || S.status === 'loading' ? '&#10074;&#10074;' : '&#9654;';
+    const faved = !!S.favs[st.stationuuid];
+    const h = $('#pHeart');
+    h.setAttribute('aria-pressed', faved);
+    h.innerHTML = faved ? '&#9829;' : '&#9825;';
+  }
+
+  function refreshRows() {
+    if (S.tab === 'stations') renderStations();
+    else if (S.tab === 'saved') renderSaved();
+  }
+
+  function play(st) {
+    closeVideo();
+    S.playing = st;
+    S.status = 'loading';
+    audio.src = st.url_resolved || st.url;
+    const pr = audio.play();
+    if (pr && pr.catch) pr.catch((e) => { if (e && e.name === 'NotAllowedError') setStatus('paused'); });
+    if (!st.featured) api('/json/url/' + encodeURIComponent(st.stationuuid)).catch(() => {});
+    setMedia(st);
+    renderPlayer(); refreshRows();
+  }
+
+  function setMedia(st) {
+    if (!('mediaSession' in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: st.name.trim(), artist: 'Global Dance Radio',
+        artwork: st.favicon && /^https:/i.test(st.favicon) ? [{ src: st.favicon }] : []
+      });
+      navigator.mediaSession.setActionHandler('play', () => audio.play());
+      navigator.mediaSession.setActionHandler('pause', () => audio.pause());
+    } catch (e) {}
+  }
+
+  function toggle() {
+    if (!S.playing) return;
+    if (S.status === 'playing' || S.status === 'loading') { audio.pause(); }
+    else {
+      if (S.status === 'error' || !audio.src) audio.src = S.playing.url_resolved || S.playing.url;
+      S.status = 'loading'; renderPlayer();
+      const pr = audio.play(); if (pr && pr.catch) pr.catch(() => {});
+    }
+  }
+
+  audio.addEventListener('playing', () => setStatus('playing'));
+  audio.addEventListener('waiting', () => { if (S.playing && S.status !== 'error') setStatus('loading'); });
+  audio.addEventListener('pause', () => { if (S.playing && S.status !== 'error') setStatus('paused'); });
+  audio.addEventListener('error', () => { if (S.playing) setStatus('error'); });
+  audio.addEventListener('stalled', () => { if (S.playing && S.status === 'playing') setStatus('loading'); });
+
+  // ---------- Favorites ----------
+  function toggleFav(uuid) {
+    const st = S.items.find((s) => s.stationuuid === uuid) || FEATURED.find((s) => s.stationuuid === uuid) || S.favs[uuid] || (S.playing && S.playing.stationuuid === uuid ? S.playing : null);
+    if (!st) return;
+    if (S.favs[uuid]) delete S.favs[uuid]; else S.favs[uuid] = slim(st);
+    store.set('favs', S.favs);
+    renderPlayer(); refreshRows();
+    toast(S.favs[uuid] ? 'Saved' : 'Removed from saved');
+  }
+
+  // ---------- Live (YouTube) ----------
+  function parseYT(s) {
+    s = (s || '').trim();
+    let m;
+    if ((m = s.match(/(?:youtu\.be\/|[?&]v=|\/live\/|\/embed\/|\/shorts\/)([\w-]{11})/))) return { kind: 'video', ref: m[1] };
+    if ((m = s.match(/youtube\.com\/channel\/(UC[\w-]{22})/))) return { kind: 'channel', ref: m[1] };
+    if (/^[\w-]{11}$/.test(s)) return { kind: 'video', ref: s };
+    if (/^UC[\w-]{22}$/.test(s)) return { kind: 'channel', ref: s };
+    return null;
+  }
+  function embedSrc(item) {
+    const base = 'https://www.youtube-nocookie.com/embed/';
+    const q = 'autoplay=1&playsinline=1&rel=0';
+    return item.kind === 'channel'
+      ? base + 'live_stream?channel=' + encodeURIComponent(item.ref) + '&' + q
+      : base + encodeURIComponent(item.ref) + '?' + q;
+  }
+  function openVideo(item) {
+    if (S.playing && (S.status === 'playing' || S.status === 'loading')) audio.pause();
+    const slot = $('#videoSlot');
+    slot.innerHTML = '<div class="video"><button class="x" aria-label="Close video" id="closeVideo">&times;</button>' +
+      '<iframe title="' + esc(item.title) + '" src="' + esc(embedSrc(item)) + '" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe></div>';
+    slot.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+  }
+  function closeVideo() { const s = $('#videoSlot'); if (s) s.innerHTML = ''; }
+
+  function renderLive() {
+    $('#myLiveTitle').hidden = !S.live.length;
+    $('#myLive').innerHTML = S.live.map((it, i) =>
+      '<div class="livecard"><div style="min-width:0"><div class="name">' + esc(it.title) + '</div><div class="meta">' + (it.kind === 'channel' ? 'Channel live' : 'Video') + '</div></div>' +
+      '<button class="btn primary" data-watch="' + i + '">Watch</button>' +
+      '<button class="rm" data-rm="' + i + '" aria-label="Remove ' + esc(it.title) + '">Remove</button></div>'
+    ).join('');
+    $('#curated').innerHTML = CURATED.map((c) =>
+      '<a class="linkrow" href="' + esc(c.url) + '" target="_blank" rel="noopener noreferrer"><span>' + esc(c.name) + '</span><span>Open on YouTube</span></a>'
+    ).join('');
+  }
+
+  // ---------- Tabs / chrome ----------
+  function setTab(tab) {
+    S.tab = tab;
+    for (const t of ['stations', 'live', 'saved']) $('#tab-' + t).hidden = t !== tab;
+    document.querySelectorAll('#tabs button').forEach((b) => b.setAttribute('aria-selected', b.dataset.tab === tab));
+    $('#controls').hidden = tab !== 'stations';
+    $('#chips').hidden = tab !== 'stations';
+    if (tab === 'saved') renderSaved();
+    if (tab === 'live') renderLive();
+    if (tab === 'stations') renderStations();
+    window.scrollTo(0, 0);
+  }
+
+  let toastTimer;
+  function toast(msg) {
+    const el = $('#toast');
+    el.textContent = msg; el.hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { el.hidden = true; }, 1800);
+  }
+
+  function renderChips() {
+    $('#chips').innerHTML = GENRES.map((g) =>
+      '<button class="chip" data-genre="' + g.id + '" aria-pressed="' + (g.id === S.genre) + '">' + esc(g.label) + '</button>'
+    ).join('');
+  }
+
+  async function loadCountries() {
+    try {
+      const list = await api('/json/countries?order=name&hidebroken=true');
+      const sel = $('#country');
+      list.filter((c) => c.iso_3166_1 && c.stationcount >= 5).forEach((c) => {
+        const o = document.createElement('option');
+        o.value = c.iso_3166_1; o.textContent = c.name;
+        sel.appendChild(o);
+      });
+    } catch (e) { /* the country filter just stays on "All countries" */ }
+  }
+
+  // ---------- Events ----------
+  $('#chips').addEventListener('click', (e) => {
+    const b = e.target.closest('[data-genre]'); if (!b) return;
+    S.genre = b.dataset.genre; S.q = ''; $('#q').value = '';
+    renderChips(); fetchStations(true);
+  });
+  $('#country').addEventListener('change', (e) => { S.country = e.target.value; fetchStations(true); });
+  let qTimer;
+  $('#q').addEventListener('input', (e) => {
+    clearTimeout(qTimer);
+    qTimer = setTimeout(() => { S.q = e.target.value.trim(); fetchStations(true); }, 350);
+  });
+  $('#more').addEventListener('click', () => fetchStations(false));
+  $('#stations-state').addEventListener('click', (e) => { if (e.target.id === 'retry') fetchStations(S.items.length === 0); });
+
+  function rowClick(e, source) {
+    const fav = e.target.closest('[data-fav]');
+    if (fav) { e.stopPropagation(); toggleFav(fav.dataset.fav); return; }
+    const row = e.target.closest('.row'); if (!row) return;
+    const uuid = row.dataset.uuid;
+    const st = source().find((s) => s.stationuuid === uuid); if (!st) return;
+    if (S.playing && S.playing.stationuuid === uuid && S.status !== 'error') toggle(); else play(st);
+  }
+  $('#list').addEventListener('click', (e) => rowClick(e, () => FEATURED.concat(S.items)));
+  $('#sort').addEventListener('change', (e) => { S.sort = e.target.value; fetchStations(true); });
+  $('#savedList').addEventListener('click', (e) => rowClick(e, () => Object.values(S.favs)));
+
+  $('#pBtn').addEventListener('click', toggle);
+  $('#pHeart').addEventListener('click', () => { if (S.playing) toggleFav(S.playing.stationuuid); });
+  $('#tabs').addEventListener('click', (e) => { const b = e.target.closest('[data-tab]'); if (b) setTab(b.dataset.tab); });
+
+  $('#addForm').addEventListener('submit', (e) => {
+    e.preventDefault();
+    const err = $('#addErr');
+    const parsed = parseYT($('#liveUrl').value);
+    if (!parsed) { err.textContent = 'That does not look like a YouTube video or channel link.'; err.hidden = false; return; }
+    err.hidden = true;
+    const title = $('#liveName').value.trim() || (parsed.kind === 'channel' ? 'YouTube channel live' : 'YouTube live');
+    const item = { kind: parsed.kind, ref: parsed.ref, title };
+    S.live = S.live.filter((x) => !(x.kind === item.kind && x.ref === item.ref));
+    S.live.unshift(item);
+    store.set('live', S.live);
+    $('#liveUrl').value = ''; $('#liveName').value = '';
+    renderLive(); openVideo(item);
+  });
+  $('#tab-live').addEventListener('click', (e) => {
+    const w = e.target.closest('[data-watch]');
+    if (w) { openVideo(S.live[+w.dataset.watch]); return; }
+    const r = e.target.closest('[data-rm]');
+    if (r) { S.live.splice(+r.dataset.rm, 1); store.set('live', S.live); renderLive(); return; }
+    if (e.target.closest('#closeVideo')) closeVideo();
+  });
+
+  // ---------- Start ----------
+  renderChips();
+  renderLive();
+  loadCountries();
+  fetchStations(true);
+})();
+</script>
+</body>
+</html>
