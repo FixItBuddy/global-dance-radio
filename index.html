@@ -243,6 +243,15 @@
     }
   ];
 
+  // More hand-picked stations. Each is looked up in the Radio Browser directory when the app opens,
+  // so the stream address stays current if the station moves it.
+  const FEATURED_LOOKUPS = [
+    { name: 'Sunshine Live', cc: 'DE' },
+    { name: 'Ibiza Global Radio', cc: 'ES' },
+    { name: 'Radio FG', cc: 'FR' },
+    { name: 'Rinse FM', cc: 'GB' }
+  ];
+
   const store = {
     get(k, d) { try { const v = JSON.parse(localStorage.getItem('drw.' + k)); return v == null ? d : v; } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem('drw.' + k, JSON.stringify(v)); } catch (e) {} }
@@ -371,7 +380,9 @@
 
   function renderStations() {
     const showFeatured = S.genre === 'all' && !S.q && !S.country;
-    $('#list').innerHTML = (showFeatured ? FEATURED : []).concat(S.items).map(rowHTML).join('');
+    const pinned = new Set(FEATURED.map((s) => s.stationuuid));
+    const rest = showFeatured ? S.items.filter((s) => !pinned.has(s.stationuuid)) : S.items;
+    $('#list').innerHTML = (showFeatured ? FEATURED : []).concat(rest).map(rowHTML).join('');
     const st = $('#stations-state');
     if (S.loading && !S.items.length) st.innerHTML = '<div class="state">Loading stations…</div>';
     else if (S.err) st.innerHTML = '<div class="state"><strong>Something went wrong</strong>' + esc(S.err) + '<br><br><button class="btn" id="retry">Try again</button></div>';
@@ -602,11 +613,30 @@
     if (e.target.closest('#closeVideo')) closeVideo();
   });
 
+  async function resolveFeatured() {
+    const found = await Promise.all(FEATURED_LOOKUPS.map(async (l) => {
+      try {
+        const p = new URLSearchParams({ name: l.name, countrycode: l.cc, hidebroken: 'true', order: 'clickcount', reverse: 'true', limit: '10' });
+        if (location.protocol === 'https:') p.set('is_https', 'true');
+        const list = await api('/json/stations/search?' + p.toString());
+        const want = l.name.toLowerCase();
+        return list.find((s) => (s.url_resolved || s.url) && s.name && s.name.toLowerCase().includes(want)) || null;
+      } catch (e) { return null; }
+    }));
+    const have = new Set(FEATURED.map((s) => s.stationuuid));
+    found.forEach((s) => {
+      if (s && !have.has(s.stationuuid)) { have.add(s.stationuuid); FEATURED.push(Object.assign({}, s, { featured: true })); }
+    });
+    if (S.tab === 'stations') renderStations();
+    else if (S.tab === 'saved') renderSaved();
+  }
+
   // ---------- Start ----------
   renderChips();
   renderLive();
   loadCountries();
   fetchStations(true);
+  resolveFeatured();
 })();
 </script>
 </body>
