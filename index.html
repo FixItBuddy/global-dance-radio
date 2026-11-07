@@ -227,23 +227,10 @@
     { name: 'Tomorrowland',    url: 'https://www.youtube.com/@tomorrowland/live' }
   ];
 
-  // Hand-picked stations pinned to the top of "All dance". Stream address comes from the station's own listen page.
-  const FEATURED = [
-    {
-      stationuuid: 'featured-massive-dance',
-      name: 'Massive Dance',
-      url_resolved: 'https://cast3.torontocast.com:1235/stream',
-      favicon: '',
-      country: 'Global',
-      countrycode: '',
-      tags: 'dance, edm, dj shows',
-      bitrate: 0,
-      codec: '',
-      featured: true
-    }
-  ];
+  // Hand-picked stations pinned to the top of "All dance". They are filled in by resolveFeatured() below.
+  const FEATURED = [];
 
-  // More hand-picked stations. Each is looked up in the Radio Browser directory when the app opens,
+  // Each featured station is looked up in the Radio Browser directory when the app opens,
   // so the stream address stays current if the station moves it.
   const FEATURED_LOOKUPS = [
     { name: 'Sunshine Live', cc: 'DE' },
