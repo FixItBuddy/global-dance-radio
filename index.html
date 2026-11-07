@@ -75,10 +75,16 @@
   .rank { position: absolute; top: 8px; left: 8px; z-index: 1; min-width: 26px; height: 26px; padding: 0 6px; border-radius: 8px; background: var(--accent); color: var(--accent-ink); font-size: 14px; font-weight: 800; display: grid; place-items: center; font-variant-numeric: tabular-nums; }
 
   .tile { flex: 0 0 132px; height: 132px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 12px; border: 0; border-radius: 14px; color: #fff; text-align: left; font-size: 16px; font-weight: 750; text-shadow: 0 1px 2px rgba(0, 0, 0, .35); scroll-snap-align: start; }
+  .tile { position: relative; overflow: hidden; isolation: isolate; box-shadow: inset 0 0 0 1px rgba(255,255,255,.12); }
+  .tile::before { content: ""; position: absolute; z-index: -1; width: 120px; height: 120px; right: -42px; top: -42px; border-radius: 50%; background: radial-gradient(circle at 30% 30%, rgba(255,255,255,.34), rgba(255,255,255,0) 70%); }
+  .tile::after { content: ""; position: absolute; z-index: -1; width: 84px; height: 84px; right: -26px; bottom: -30px; border-radius: 50%; border: 10px solid rgba(255,255,255,.12); }
+  .tile .ico { display: grid; place-items: center; width: 40px; height: 40px; border-radius: 12px; background: rgba(15,12,23,.35); }
   .pill { font-size: 12px; font-weight: 800; letter-spacing: .04em; padding: 3px 8px; border-radius: 999px; background: rgba(15, 12, 23, .55); text-shadow: none; }
-  .ctile { flex: 0 0 88px; display: flex; flex-direction: column; gap: 6px; padding: 0; background: none; border: 0; text-align: left; color: var(--fg); scroll-snap-align: start; }
-  .ctile .cc { height: 60px; border-radius: 10px; background: var(--panel-2); border: 1px solid var(--line); display: grid; place-items: center; font-size: 20px; font-weight: 800; letter-spacing: .04em; }
-  .ctile span.n { font-size: 13px; font-weight: 650; }
+  .ctile { flex: 0 0 120px; height: 128px; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; padding: 12px; background: linear-gradient(160deg, var(--panel-2), var(--panel)); border: 1px solid var(--line); border-radius: 16px; text-align: left; color: var(--fg); scroll-snap-align: start; }
+  .ctile .flag { font-size: 40px; line-height: 1; font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; }
+  .ctile .n { font-size: 14px; font-weight: 700; line-height: 1.2; }
+  .ctile .k { display: block; font-size: 12px; font-weight: 600; color: var(--mute); letter-spacing: .06em; margin-top: 2px; }
+  .flag-i { font-family: "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif; margin-right: 4px; }
 
   .vcard { flex: 0 0 232px; display: flex; flex-direction: column; gap: 4px; padding: 0; background: none; border: 0; text-align: left; color: var(--fg); scroll-snap-align: start; }
   .vthumb { width: 232px; height: 130px; border-radius: 14px; display: grid; place-items: center; margin-bottom: 4px; color: #fff; font-size: 30px; font-weight: 800; }
@@ -344,7 +350,8 @@
   const COUNTRIES = [
     { cc: 'AU', name: 'Australia' }, { cc: 'GB', name: 'United Kingdom' }, { cc: 'US', name: 'United States' },
     { cc: 'DE', name: 'Germany' }, { cc: 'FR', name: 'France' }, { cc: 'ES', name: 'Spain' },
-    { cc: 'NL', name: 'Netherlands' }, { cc: 'IT', name: 'Italy' }, { cc: 'BR', name: 'Brazil' }, { cc: 'CA', name: 'Canada' }
+    { cc: 'NL', name: 'Netherlands' }, { cc: 'IT', name: 'Italy' }, { cc: 'BR', name: 'Brazil' }, { cc: 'CA', name: 'Canada' },
+    { cc: 'BE', name: 'Belgium' }, { cc: 'SE', name: 'Sweden' }, { cc: 'JP', name: 'Japan' }, { cc: 'MX', name: 'Mexico' }, { cc: 'ZA', name: 'South Africa' }, { cc: 'IN', name: 'India' }
   ];
 
   // Starter links for big dance-music YouTube channels. Each opens that channel's live page.
@@ -412,6 +419,7 @@
   const audio = $('#audio');
   let skipTimer;
 
+  const flag = (cc) => /^[A-Za-z]{2}$/.test(cc || '') ? String.fromCodePoint(...cc.toUpperCase().split('').map((c) => 127397 + c.charCodeAt(0))) : '';
   const esc = (s) => String(s == null ? '' : s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
   async function api(path) {
@@ -474,7 +482,7 @@
   }
   function metaLine(st) {
     const bits = [];
-    if (st.country) bits.push(st.country);
+    if (st.country) bits.push((flag(st.countrycode) + ' ' + st.country).trim());
     const tags = String(st.tags || '').split(',').map((t) => t.trim()).filter(Boolean).slice(0, 2);
     if (tags.length) bits.push(tags.join(', '));
     if (st.bitrate) bits.push(st.bitrate + 'k');
@@ -548,11 +556,11 @@
     h += sec('Live streams', goBtn('shows'), rail(lives.join('')));
 
     h += sec('Genres', goBtn('radio'), rail(GENRES.filter((g) => g.id !== 'all').map((g) =>
-      '<button class="tile" data-genre-go="' + g.id + '" style="background:' + (GRAD[g.id] || GRAD.dj) + '">' + ICON_BARS + '<span>' + esc(g.label) + '</span></button>'
+      '<button class="tile" data-genre-go="' + g.id + '" style="background:' + (GRAD[g.id] || GRAD.dj) + '">' + '<span class="ico">' + ICON_BARS + '</span><span>' + esc(g.label) + '</span></button>'
     ).join('')));
 
     h += sec('Countries', goBtn('radio'), rail(COUNTRIES.map((c) =>
-      '<button class="ctile" data-country-go="' + c.cc + '"><span class="cc">' + c.cc + '</span><span class="n">' + esc(c.name) + '</span></button>'
+      '<button class="ctile" data-country-go="' + c.cc + '"><span class="flag" aria-hidden="true">' + flag(c.cc) + '</span><span class="n">' + esc(c.name) + '<span class="k">' + c.cc + '</span></span></button>'
     ).join('')));
 
     $('#homeRows').innerHTML = h;
@@ -617,7 +625,7 @@
       const sel = $('#country');
       list.filter((c) => c.iso_3166_1 && c.stationcount >= 5).forEach((c) => {
         const o = document.createElement('option');
-        o.value = c.iso_3166_1; o.textContent = c.name;
+        o.value = c.iso_3166_1; o.textContent = (flag(c.iso_3166_1) + ' ' + c.name).trim();
         sel.appendChild(o);
       });
       sel.value = S.country;
