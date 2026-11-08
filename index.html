@@ -367,10 +367,21 @@
 
   // Hand-picked stations. They are filled in by resolveFeatured() below.
   const FEATURED = [];
+  // Australian digital (DAB+) dance stations, found the same way.
+  const DAB = [];
 
   // Each featured station is looked up in the Radio Browser directory when the app opens,
   // so the stream address stays current if the station moves it.
+  // 'fallback' is used when no secure (https) stream is listed: the card then opens the station's own listen page.
   const FEATURED_LOOKUPS = [
+    { name: 'Kiss FM', cc: 'AU', fallback: {
+      stationuuid: 'link-kissfm', name: 'Kiss FM Melbourne', country: 'Australia', countrycode: 'AU',
+      tags: 'dance,house,drum and bass', link: 'https://kissfm.com.au/you-are-listening-live' } },
+    { name: 'KIIS Dance', cc: 'AU', group: 'dab' },
+    { name: 'Hit Dance', cc: 'AU', group: 'dab' },
+    { name: 'Nova Nation', cc: 'AU', group: 'dab' },
+    { name: 'iHeartDance', cc: 'AU', group: 'dab' },
+    { name: 'Dance Hits', cc: 'AU', group: 'dab' },
     { name: 'Sunshine Live', cc: 'DE' },
     { name: 'Ibiza Global Radio', cc: 'ES' },
     { name: 'Radio FG', cc: 'FR' },
@@ -489,6 +500,7 @@
     return bits.join(' · ');
   }
   function cardSub(st) {
+    if (st.link) return 'Opens their site';
     const t = String(st.tags || '').split(',').map((x) => x.trim()).filter(Boolean)[0];
     return [st.country, t].filter(Boolean).join(' · ');
   }
@@ -496,7 +508,7 @@
     return {
       stationuuid: st.stationuuid, name: st.name, url_resolved: st.url_resolved, url: st.url,
       favicon: st.favicon, country: st.country, countrycode: st.countrycode,
-      tags: st.tags, bitrate: st.bitrate, codec: st.codec
+      tags: st.tags, bitrate: st.bitrate, codec: st.codec, link: st.link
     };
   }
   const isPlaying = (st) => !!(S.playing && S.playing.stationuuid === st.stationuuid);
@@ -506,7 +518,7 @@
     const faved = !!S.favs[st.stationuuid];
     return '<div class="row' + (isPlaying(st) ? ' on' : '') + '" data-uuid="' + esc(st.stationuuid) + '">' +
       artHTML(st) +
-      '<div style="min-width:0"><div class="name">' + eqHTML(st) + (st.featured ? '<span class="badge">Featured</span>' : '') + esc(st.name.trim()) + '</div><div class="meta">' + esc(metaLine(st)) + '</div></div>' +
+      '<div style="min-width:0"><div class="name">' + eqHTML(st) + (st.badge ? '<span class="badge">' + esc(st.badge) + '</span>' : '') + esc(st.name.trim()) + '</div><div class="meta">' + esc(metaLine(st)) + '</div></div>' +
       '<button class="heart" data-fav="' + esc(st.stationuuid) + '" aria-pressed="' + faved + '" aria-label="' + (faved ? 'Remove from saved' : 'Save station') + '">' + (faved ? '&#9829;' : '&#9825;') + '</button>' +
       '</div>';
   }
@@ -539,6 +551,7 @@
       : '<div class="empty">' + ICON_HEART + '<span>Tap the heart on any station to keep it here.</span></div>');
 
     if (FEATURED.length) h += sec('Featured stations', '', rail(FEATURED.map((s, i) => cardHTML(s, 'feat', i)).join('')));
+    if (DAB.length) h += sec('Australian digital (DAB+)', '', rail(DAB.map((s, i) => cardHTML(s, 'dab', i)).join('')));
 
     let charts;
     if (S.homeCharts.length) charts = rail(S.homeCharts.map((s, i) => cardHTML(s, 'chart', i, i + 1)).join(''));
@@ -601,9 +614,10 @@
 
   function renderStations() {
     const showFeatured = S.genre === 'all' && !S.q && !S.country;
-    const pinned = new Set(FEATURED.map((s) => s.stationuuid));
+    const top = FEATURED.concat(DAB);
+    const pinned = new Set(top.map((s) => s.stationuuid));
     const rest = showFeatured ? S.items.filter((s) => !pinned.has(s.stationuuid)) : S.items;
-    $('#list').innerHTML = (showFeatured ? FEATURED : []).concat(rest).map(rowHTML).join('');
+    $('#list').innerHTML = (showFeatured ? top : []).concat(rest).map(rowHTML).join('');
     const st = $('#stations-state');
     if (S.loading && !S.items.length) st.innerHTML = '<div class="state">Loading stations…</div>';
     else if (S.err) st.innerHTML = '<div class="state"><strong>Something went wrong</strong>' + esc(S.err) + '<br><br><button class="btn" id="retry">Try again</button></div>';
@@ -799,9 +813,11 @@
   }
   function playSingle(st) { S.queue = []; S.qi = 0; S.skips = 0; play(st); }
   function playFrom(list, i) {
-    S.queue = list.length > 1 ? list.slice() : [];
-    S.qi = i; S.skips = 0;
-    play(list[i]);
+    const st = list[i];
+    const q = list.filter((s) => !s.link);
+    S.queue = q.length > 1 ? q : [];
+    S.qi = Math.max(0, q.indexOf(st)); S.skips = 0;
+    play(st);
   }
   function next(step) {
     if (S.queue.length < 2) return;
@@ -850,7 +866,7 @@
 
   // ---------- Favorites ----------
   function toggleFav(uuid) {
-    const pools = [S.items, FEATURED, S.chart.items, S.homeCharts, S.queue, Object.values(S.favs)];
+    const pools = [S.items, FEATURED, DAB, S.chart.items, S.homeCharts, S.queue, Object.values(S.favs)];
     let st = null;
     for (const p of pools) { st = p.find((s) => s.stationuuid === uuid); if (st) break; }
     if (!st && S.playing && S.playing.stationuuid === uuid) st = S.playing;
@@ -927,6 +943,7 @@
   // ---------- Events ----------
   function listFor(src) {
     if (src === 'feat') return FEATURED;
+    if (src === 'dab') return DAB;
     if (src === 'fav') return Object.values(S.favs);
     if (src === 'chart') return S.homeCharts;
     return [];
@@ -941,9 +958,10 @@
     if ((el = t.closest('.row'))) {
       const uuid = el.dataset.uuid;
       const host = el.parentElement.id;
-      const list = host === 'list' ? FEATURED.concat(S.items) : host === 'savedList' ? Object.values(S.favs) : host === 'chartList' ? S.chart.items : [];
+      const list = host === 'list' ? FEATURED.concat(DAB, S.items) : host === 'savedList' ? Object.values(S.favs) : host === 'chartList' ? S.chart.items : [];
       const i = list.findIndex((s) => s.stationuuid === uuid);
       if (i < 0) return;
+      if (list[i].link) { window.open(list[i].link, '_blank', 'noopener'); return; }
       if (S.playing && S.playing.stationuuid === uuid && S.status !== 'error') { toggle(); return; }
       if (host === 'list') playSingle(list[i]); else playFrom(list, i);
       return;
@@ -953,6 +971,7 @@
       const list = listFor(el.dataset.src);
       const i = +el.dataset.i;
       if (!list[i]) return;
+      if (list[i].link) { window.open(list[i].link, '_blank', 'noopener'); return; }
       if (S.playing && S.playing.stationuuid === list[i].stationuuid && S.status !== 'error') { toggle(); return; }
       playFrom(list, i);
       return;
@@ -1026,9 +1045,16 @@
         return list.find((s) => (s.url_resolved || s.url) && s.name && s.name.toLowerCase().includes(want)) || null;
       } catch (e) { return null; }
     }));
-    const have = new Set(FEATURED.map((s) => s.stationuuid));
-    found.forEach((s) => {
-      if (s && !have.has(s.stationuuid)) { have.add(s.stationuuid); FEATURED.push(Object.assign({}, s, { featured: true })); }
+    const have = new Set();
+    found.forEach((s, i) => {
+      const l = FEATURED_LOOKUPS[i];
+      const dab = l.group === 'dab';
+      const st = s ? Object.assign({}, s) : (l.fallback ? Object.assign({}, l.fallback) : null);
+      if (!st || have.has(st.stationuuid)) return;
+      have.add(st.stationuuid);
+      st.featured = true;
+      st.badge = dab ? 'DAB+' : 'Featured';
+      (dab ? DAB : FEATURED).push(st);
     });
     if (S.tab === 'home') renderHome();
     else if (S.tab === 'radio') renderStations();
