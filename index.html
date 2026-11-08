@@ -154,9 +154,35 @@
 
   /* Dock */
   .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--bg); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
-  .player { display: grid; grid-template-columns: 44px minmax(0, 1fr) auto auto auto; gap: 12px; align-items: center; padding-top: 10px; padding-bottom: 10px; background: var(--panel); }
+  .player { display: grid; grid-template-columns: minmax(0, 1fr) auto auto auto; gap: 12px; align-items: center; padding-top: 10px; padding-bottom: 10px; background: var(--panel); }
   .player[hidden] { display: none; }
   .player .art { width: 44px; height: 44px; }
+  .pinfo { display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; align-items: center; min-width: 0; cursor: pointer; }
+  .np { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; overflow-y: auto; -webkit-overflow-scrolling: touch; padding: env(safe-area-inset-top, 0px) var(--gr) calc(24px + env(safe-area-inset-bottom, 0px)) var(--gl); background: var(--bg); transform: translateY(0); transition: transform .28s ease; }
+  .np.closed { transform: translateY(100%); visibility: hidden; transition: transform .28s ease, visibility 0s .28s; }
+  .np-in { width: 100%; max-width: 480px; margin: 0 auto; display: flex; flex-direction: column; }
+  .np-top { display: flex; align-items: center; justify-content: space-between; min-height: 56px; }
+  .np-top span { font-size: 12px; font-weight: 800; letter-spacing: .14em; text-transform: uppercase; color: var(--mute); }
+  .np-close { width: 44px; height: 44px; margin-left: -10px; background: none; border: 0; color: var(--fg); display: grid; place-items: center; }
+  .np-art { position: relative; width: min(100%, 340px, 46vh); aspect-ratio: 1; margin: 6px auto 20px; border-radius: 20px; overflow: hidden; display: grid; place-items: center; font-size: 64px; font-weight: 800; color: #fff; box-shadow: 0 18px 50px rgba(0, 0, 0, .5); }
+  .np-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; background: var(--panel-2); }
+  .np-live { align-self: flex-start; display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; letter-spacing: .1em; padding: 3px 10px; border-radius: 999px; background: var(--accent); color: var(--accent-ink); margin-bottom: 10px; }
+  .np-live.off { background: var(--panel-2); color: var(--mute); }
+  .np-title { font-size: 24px; font-weight: 800; line-height: 1.2; overflow-wrap: anywhere; }
+  .np-sub { margin-top: 4px; font-size: 16px; color: var(--mute); overflow-wrap: anywhere; }
+  .np-station { margin-top: 14px; font-size: 14px; color: var(--mute); }
+  .np-station strong { color: var(--fg); font-weight: 650; }
+  .np-yt { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; border-radius: 12px; background: var(--panel); border: 1px solid var(--line); font-weight: 650; color: var(--fg); }
+  .np-note { margin-top: 12px; font-size: 13px; color: var(--mute); line-height: 1.45; }
+  .np-ctl { display: flex; align-items: center; justify-content: center; gap: 22px; margin: 22px 0 8px; }
+  .np-ctl .heart { font-size: 28px; padding: 12px; margin: 0; }
+  .np-ctl .nbtn { width: 48px; height: 48px; }
+  .np-ctl .pbtn { width: 68px; height: 68px; font-size: 24px; }
+  .np-det { margin-top: 18px; border-top: 1px solid var(--line); }
+  .np-det div { display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid var(--line); font-size: 14px; }
+  .np-det span:first-child { color: var(--mute); flex: 0 0 auto; }
+  .np-det span:last-child, .np-det a { text-align: right; overflow-wrap: anywhere; }
+  .np-det a { color: var(--accent); font-weight: 600; }
   .pbtn { width: 46px; height: 46px; border-radius: 50%; background: var(--accent); border: 0; color: var(--accent-ink); font-size: 18px; display: grid; place-items: center; }
   .nbtn { width: 40px; height: 40px; background: none; border: 0; color: var(--fg); display: grid; place-items: center; }
   .status { font-size: 12px; color: var(--mute); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -262,10 +288,12 @@
 
 <div class="dock">
   <div class="wrap player" id="player" hidden>
-    <div class="art" id="pArt"></div>
-    <div style="min-width: 0">
-      <div class="name" id="pName"></div>
-      <div class="status" id="pStatus"></div>
+    <div class="pinfo" id="pInfo" role="button" tabindex="0" aria-label="Open now playing">
+      <div class="art" id="pArt"></div>
+      <div style="min-width: 0">
+        <div class="name" id="pName"></div>
+        <div class="status" id="pStatus"></div>
+      </div>
     </div>
     <button class="heart" id="pHeart" aria-label="Save station" aria-pressed="false">&#9825;</button>
     <button class="nbtn" id="pNext" aria-label="Next station" hidden>
@@ -283,6 +311,37 @@
     <button role="tab" data-tab="charts" aria-selected="false">
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 20V10M12 20V4M19 20v-7"/></svg>Charts</button>
   </nav>
+</div>
+
+<div class="np closed" id="np" role="dialog" aria-modal="true" aria-label="Now playing" aria-hidden="true">
+  <div class="np-in">
+    <div class="np-top">
+      <button class="np-close" id="npClose" aria-label="Close now playing">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+      </button>
+      <span>Now playing</span>
+      <span style="width: 34px"></span>
+    </div>
+    <div class="np-art" id="npArt"></div>
+    <div class="np-live" id="npLive">LIVE</div>
+    <div class="np-title" id="npTitle"></div>
+    <div class="np-sub" id="npSub"></div>
+    <a class="np-yt" id="npYT" target="_blank" rel="noopener noreferrer" hidden>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>Find this track on YouTube Music</a>
+    <div class="np-note" id="npNote"></div>
+    <div class="np-ctl">
+      <button class="heart" id="npHeart" aria-label="Save station" aria-pressed="false">&#9825;</button>
+      <button class="nbtn" id="npPrev" aria-label="Previous station" hidden>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18 5l-9 7 9 7z"/><rect x="4" y="5" width="3" height="14" rx="1"/></svg>
+      </button>
+      <button class="pbtn" id="npBtn" aria-label="Play or pause">&#9654;</button>
+      <button class="nbtn" id="npNext" aria-label="Next station" hidden>
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6 5l9 7-9 7z"/><rect x="17" y="5" width="3" height="14" rx="1"/></svg>
+      </button>
+    </div>
+    <div class="np-station" id="npStation"></div>
+    <div class="np-det" id="npDet"></div>
+  </div>
 </div>
 
 <audio id="audio" preload="none" playsinline></audio>
@@ -369,6 +428,7 @@
   const FEATURED = [];
   // Australian digital (DAB+) dance stations, found the same way.
   const DAB = [];
+  const AU = [];
 
   // Each featured station is looked up in the Radio Browser directory when the app opens,
   // so the stream address stays current if the station moves it.
@@ -377,10 +437,12 @@
     { name: 'Kiss FM', cc: 'AU', fallback: {
       stationuuid: 'link-kissfm', name: 'Kiss FM Melbourne', country: 'Australia', countrycode: 'AU',
       tags: 'dance,house,drum and bass', link: 'https://kissfm.com.au/you-are-listening-live' } },
-    { name: 'KIIS Dance', cc: 'AU', group: 'dab' },
-    { name: 'Hit Dance', cc: 'AU', group: 'dab' },
-    { name: 'Nova Nation', cc: 'AU', group: 'dab' },
-    { name: 'iHeartDance', cc: 'AU', group: 'dab' },
+    { name: 'KIIS Dance', alts: ['KIIS Dance', 'KIIS 1065 Dance', 'KIIS FM Dance'], cc: 'AU', group: 'dab' },
+    { name: 'iHeartDance', alts: ['iHeartDance', 'iHeart Dance'], cc: 'AU', group: 'dab', fallback: {
+      stationuuid: 'link-iheartdance', name: 'iHeartDance Australia', country: 'Australia', countrycode: 'AU',
+      tags: 'dance,electronic', link: 'https://www.iheart.com/live/iheartdance-6941/' } },
+    { name: 'Hit Dance', alts: ['Hit Dance', 'LiSTNR Hit Dance', 'Hit Network Dance'], cc: 'AU', group: 'dab' },
+    { name: 'Nova Nation', alts: ['Nova Nation', 'Novanation'], cc: 'AU', group: 'dab' },
     { name: 'Dance Hits', cc: 'AU', group: 'dab' },
     { name: 'Sunshine Live', cc: 'DE' },
     { name: 'Ibiza Global Radio', cc: 'ES' },
@@ -428,6 +490,7 @@
   };
 
   const audio = $('#audio');
+  S.track = null;
   let skipTimer;
 
   const flag = (cc) => /^[A-Za-z]{2}$/.test(cc || '') ? String.fromCodePoint(...cc.toUpperCase().split('').map((c) => 127397 + c.charCodeAt(0))) : '';
@@ -508,7 +571,7 @@
     return {
       stationuuid: st.stationuuid, name: st.name, url_resolved: st.url_resolved, url: st.url,
       favicon: st.favicon, country: st.country, countrycode: st.countrycode,
-      tags: st.tags, bitrate: st.bitrate, codec: st.codec, link: st.link
+      tags: st.tags, bitrate: st.bitrate, codec: st.codec, link: st.link, homepage: st.homepage
     };
   }
   const isPlaying = (st) => !!(S.playing && S.playing.stationuuid === st.stationuuid);
@@ -552,6 +615,7 @@
 
     if (FEATURED.length) h += sec('Featured stations', '', rail(FEATURED.map((s, i) => cardHTML(s, 'feat', i)).join('')));
     if (DAB.length) h += sec('Australian digital (DAB+)', '', rail(DAB.map((s, i) => cardHTML(s, 'dab', i)).join('')));
+    if (AU.length) h += sec('Australian dance stations', '', rail(AU.map((s, i) => cardHTML(s, 'au', i)).join('')));
 
     let charts;
     if (S.homeCharts.length) charts = rail(S.homeCharts.map((s, i) => cardHTML(s, 'chart', i, i + 1)).join(''));
@@ -777,7 +841,7 @@
     const q = [st.codec, st.bitrate ? st.bitrate + 'k' : ''].filter(Boolean).join(' ');
     const labels = {
       loading: 'Connecting…',
-      playing: 'Live' + (q ? ' · ' + q : ''),
+      playing: S.track ? S.track.raw : 'Live' + (q ? ' · ' + q : ''),
       paused: 'Paused',
       error: S.statusMsg || 'This station is not responding. Try another.',
       idle: ''
@@ -790,6 +854,149 @@
     const h = $('#pHeart');
     h.setAttribute('aria-pressed', faved);
     h.innerHTML = faved ? '&#9829;' : '&#9825;';
+    renderNP();
+  }
+
+  // ---------- Now playing (full screen) ----------
+  const npEl = $('#np');
+  const npOpen = () => !npEl.classList.contains('closed');
+  function openNP() {
+    if (!S.playing) return;
+    npEl.classList.remove('closed'); npEl.setAttribute('aria-hidden', 'false');
+    npEl.scrollTop = 0;
+    renderNP();
+    $('#npClose').focus({ preventScroll: true });
+  }
+  function closeNP() {
+    npEl.classList.add('closed'); npEl.setAttribute('aria-hidden', 'true');
+  }
+  function ytMusicUrl(t) { return 'https://music.youtube.com/search?q=' + encodeURIComponent(t.raw.replace(/ - /g, ' ')); }
+
+  function renderNP() {
+    const st = S.playing;
+    if (!st || !npOpen()) return;
+    const t = S.track;
+    const faved = !!S.favs[st.stationuuid];
+    const hueV = hue(st.name || '');
+    npEl.style.background = 'linear-gradient(180deg, hsl(' + hueV + ' 38% 20%) 0%, var(--bg) 62%)';
+    const artSrc = t && t.art ? t.art : (st.favicon && /^https:/i.test(st.favicon) ? st.favicon : '');
+    $('#npArt').style.background = 'hsl(' + hueV + ' 45% 32%)';
+    $('#npArt').innerHTML = esc(initials(st.name)) + (artSrc ? '<img src="' + esc(artSrc) + '" alt="" referrerpolicy="no-referrer" onerror="this.remove()">' : '');
+    const live = $('#npLive');
+    live.textContent = S.status === 'playing' ? 'LIVE' : S.status === 'loading' ? 'CONNECTING' : S.status === 'error' ? 'OFFLINE' : 'PAUSED';
+    live.className = 'np-live' + (S.status === 'playing' ? '' : ' off');
+    $('#npTitle').textContent = t ? t.title : st.name.trim();
+    $('#npSub').textContent = t ? (t.artist || st.name.trim()) : (S.status === 'error' ? (S.statusMsg || 'This station is not responding.') : 'Live radio');
+    const yt = $('#npYT');
+    yt.hidden = !t;
+    if (t) yt.href = ytMusicUrl(t);
+    $('#npNote').textContent = t ? '' : (ICY.off[st.stationuuid]
+      ? 'This station does not share what is playing, so there is no track info.'
+      : 'Looking for the current track…');
+    const playing = S.status === 'playing' || S.status === 'loading';
+    $('#npBtn').innerHTML = playing ? '&#10074;&#10074;' : '&#9654;';
+    $('#npPrev').hidden = $('#npNext').hidden = !(S.queue.length > 1);
+    const h = $('#npHeart');
+    h.setAttribute('aria-pressed', faved);
+    h.innerHTML = faved ? '&#9829;' : '&#9825;';
+    $('#npStation').innerHTML = t ? 'On <strong>' + esc(st.name.trim()) + '</strong>' : '';
+    const tags = String(st.tags || '').split(',').map((x) => x.trim()).filter(Boolean).slice(0, 4).join(', ');
+    const q = [st.codec, st.bitrate ? st.bitrate + 'k' : ''].filter(Boolean).join(' ');
+    const rows = [];
+    if (st.country) rows.push(['Country', (flag(st.countrycode) + ' ' + st.country).trim()]);
+    if (tags) rows.push(['Genres', tags]);
+    if (q) rows.push(['Quality', q]);
+    let det = rows.map((r) => '<div><span>' + r[0] + '</span><span>' + esc(r[1]) + '</span></div>').join('');
+    if (st.homepage && /^https?:/i.test(st.homepage)) det += '<div><span>Website</span><a href="' + esc(st.homepage) + '" target="_blank" rel="noopener noreferrer">Open station site</a></div>';
+    $('#npDet').innerHTML = det;
+  }
+
+  // Track info: many stations send the current song inside the stream (ICY metadata).
+  // Browsers can read it only when the station allows it, so this is a best effort.
+  const ICY = { uuid: null, timer: null, ctrl: null, off: {} };
+  function stopIcy() { clearTimeout(ICY.timer); ICY.timer = null; if (ICY.ctrl) { try { ICY.ctrl.abort(); } catch (e) {} } ICY.ctrl = null; ICY.uuid = null; }
+  function startIcy() {
+    const st = S.playing;
+    if (!st || st.link || ICY.off[st.stationuuid]) return;
+    if (ICY.uuid === st.stationuuid && (ICY.timer || ICY.ctrl)) return;
+    stopIcy();
+    ICY.uuid = st.stationuuid;
+    pollIcy(st);
+  }
+  async function readIcy(url, signal) {
+    const r = await fetch(url, { headers: { 'Icy-MetaData': '1' }, signal, cache: 'no-store' });
+    const mi = parseInt(r.headers.get('icy-metaint') || '0', 10);
+    if (!r.ok || !mi || !r.body) return false;
+    const reader = r.body.getReader();
+    let buf = new Uint8Array(0);
+    const ensure = async (n) => {
+      while (buf.length < n) {
+        const { value, done } = await reader.read();
+        if (done) throw new Error('end');
+        const nb = new Uint8Array(buf.length + value.length);
+        nb.set(buf); nb.set(value, buf.length); buf = nb;
+      }
+    };
+    let pos = 0;
+    for (let k = 0; k < 3; k++) {
+      await ensure(pos + mi + 1);
+      const len = buf[pos + mi] * 16;
+      if (len > 0) {
+        await ensure(pos + mi + 1 + len);
+        const bytes = buf.slice(pos + mi + 1, pos + mi + 1 + len);
+        let txt;
+        try { txt = new TextDecoder('utf-8', { fatal: true }).decode(bytes); } catch (e) { txt = new TextDecoder('latin1').decode(bytes); }
+        const m = txt.match(/StreamTitle='([\s\S]*?)';/);
+        return m ? m[1] : '';
+      }
+      pos += mi + 1;
+    }
+    return '';
+  }
+  async function pollIcy(st) {
+    const id = st.stationuuid;
+    const ctrl = new AbortController();
+    ICY.ctrl = ctrl;
+    const guard = setTimeout(() => ctrl.abort(), 15000);
+    let res;
+    try { res = await readIcy(st.url_resolved || st.url, ctrl.signal); }
+    catch (e) { res = ctrl.signal.aborted && ICY.uuid !== id ? null : (e && e.name === 'AbortError' ? '' : false); }
+    clearTimeout(guard);
+    try { ctrl.abort(); } catch (e) {}
+    if (ICY.uuid !== id || !S.playing || S.playing.stationuuid !== id) return;
+    ICY.ctrl = null;
+    if (res === false) { ICY.off[id] = true; renderNP(); return; }
+    if (typeof res === 'string') setTrack(res);
+    ICY.timer = setTimeout(() => { ICY.timer = null; if (S.status === 'playing') pollIcy(st); }, 30000);
+  }
+
+  const artCache = {};
+  function setTrack(raw) {
+    raw = (raw || '').replace(/\s+/g, ' ').trim();
+    const st = S.playing;
+    const junk = !raw || raw.length < 3 || (st && raw.toLowerCase() === st.name.trim().toLowerCase());
+    if (junk) { if (S.track) { S.track = null; renderPlayer(); setMedia(st); } return; }
+    if (S.track && S.track.raw === raw) return;
+    const i = raw.indexOf(' - ');
+    const artist = i > 0 ? raw.slice(0, i).trim() : '';
+    const title = i > 0 ? raw.slice(i + 3).trim() : raw;
+    S.track = { raw, artist, title, art: artCache[raw] || null };
+    renderPlayer(); setMedia(st);
+    if (!S.track.art && !(raw in artCache)) lookupArt(raw, artist, title);
+  }
+  const normTxt = (x) => String(x || '').toLowerCase().replace(/\(.*?\)|\[.*?\]/g, '').replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
+  async function lookupArt(raw, artist, title) {
+    artCache[raw] = '';
+    try {
+      const r = await fetch('https://itunes.apple.com/search?media=music&entity=song&limit=3&term=' + encodeURIComponent(raw.replace(/ - /g, ' ')));
+      const j = await r.json();
+      const want = normTxt(title);
+      const hit = (j.results || []).find((x) => { const a = normTxt(x.trackName); return a && want && (a.includes(want) || want.includes(a)); });
+      if (hit && hit.artworkUrl100) {
+        artCache[raw] = hit.artworkUrl100.replace('100x100bb', '600x600bb');
+        if (S.track && S.track.raw === raw) { S.track.art = artCache[raw]; renderNP(); setMedia(S.playing); }
+      }
+    } catch (e) { /* artwork is optional */ }
   }
 
   function refreshRows() {
@@ -804,6 +1011,8 @@
     closeVideo();
     S.playing = st;
     S.status = 'loading';
+    S.track = null;
+    stopIcy();
     audio.src = st.url_resolved || st.url;
     const pr = audio.play();
     if (pr && pr.catch) pr.catch((e) => { if (e && e.name === 'NotAllowedError') setStatus('paused'); });
@@ -828,9 +1037,13 @@
   function setMedia(st) {
     if (!('mediaSession' in navigator)) return;
     try {
+      const t = S.track;
+      const art = t && t.art ? t.art : (st.favicon && /^https:/i.test(st.favicon) ? st.favicon : '');
       navigator.mediaSession.metadata = new MediaMetadata({
-        title: st.name.trim(), artist: 'Global Dance Radio',
-        artwork: st.favicon && /^https:/i.test(st.favicon) ? [{ src: st.favicon }] : []
+        title: t ? t.title : st.name.trim(),
+        artist: t ? (t.artist || st.name.trim()) : 'Global Dance Radio',
+        album: t ? st.name.trim() : '',
+        artwork: art ? [{ src: art }] : []
       });
       navigator.mediaSession.setActionHandler('play', () => audio.play());
       navigator.mediaSession.setActionHandler('pause', () => audio.pause());
@@ -849,7 +1062,7 @@
     }
   }
 
-  audio.addEventListener('playing', () => { S.skips = 0; setStatus('playing'); });
+  audio.addEventListener('playing', () => { S.skips = 0; setStatus('playing'); startIcy(); });
   audio.addEventListener('waiting', () => { if (S.playing && S.status !== 'error') setStatus('loading'); });
   audio.addEventListener('pause', () => { if (S.playing && S.status !== 'error') setStatus('paused'); });
   audio.addEventListener('stalled', () => { if (S.playing && S.status === 'playing') setStatus('loading'); });
@@ -866,7 +1079,7 @@
 
   // ---------- Favorites ----------
   function toggleFav(uuid) {
-    const pools = [S.items, FEATURED, DAB, S.chart.items, S.homeCharts, S.queue, Object.values(S.favs)];
+    const pools = [S.items, FEATURED, DAB, AU, S.chart.items, S.homeCharts, S.queue, Object.values(S.favs)];
     let st = null;
     for (const p of pools) { st = p.find((s) => s.stationuuid === uuid); if (st) break; }
     if (!st && S.playing && S.playing.stationuuid === uuid) st = S.playing;
@@ -944,6 +1157,7 @@
   function listFor(src) {
     if (src === 'feat') return FEATURED;
     if (src === 'dab') return DAB;
+    if (src === 'au') return AU;
     if (src === 'fav') return Object.values(S.favs);
     if (src === 'chart') return S.homeCharts;
     return [];
@@ -1015,6 +1229,17 @@
   });
 
   $('#pBtn').addEventListener('click', toggle);
+  $('#pInfo').addEventListener('click', openNP);
+  $('#pInfo').addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openNP(); } });
+  $('#npClose').addEventListener('click', closeNP);
+  $('#npBtn').addEventListener('click', toggle);
+  $('#npNext').addEventListener('click', () => next(1));
+  $('#npPrev').addEventListener('click', () => next(-1));
+  $('#npHeart').addEventListener('click', () => { if (S.playing) toggleFav(S.playing.stationuuid); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && npOpen()) closeNP(); });
+  let npY = null;
+  npEl.addEventListener('touchstart', (e) => { npY = npEl.scrollTop <= 0 ? e.touches[0].clientY : null; }, { passive: true });
+  npEl.addEventListener('touchend', (e) => { if (npY != null && e.changedTouches[0].clientY - npY > 110) closeNP(); npY = null; }, { passive: true });
   $('#pNext').addEventListener('click', () => next(1));
   $('#pHeart').addEventListener('click', () => { if (S.playing) toggleFav(S.playing.stationuuid); });
   $('#savedBtn').addEventListener('click', () => setTab('saved'));
@@ -1035,16 +1260,29 @@
     renderLive(); openVideo(item);
   });
 
-  async function resolveFeatured() {
-    const found = await Promise.all(FEATURED_LOOKUPS.map(async (l) => {
+  // Some stations only list an http stream. That cannot play on a secure page, except hosts known to also serve https.
+  function playableUrl(st) {
+    const u = st.url_resolved || st.url || '';
+    if (location.protocol !== 'https:' || /^https:/i.test(u)) return u;
+    if (/^http:\/\/[^/]*streamtheworld\.com/i.test(u)) return u.replace(/^http:/i, 'https:');
+    return '';
+  }
+
+  async function lookupOne(l) {
+    for (const nm of (l.alts || [l.name])) {
       try {
-        const p = new URLSearchParams({ name: l.name, countrycode: l.cc, hidebroken: 'true', order: 'clickcount', reverse: 'true', limit: '10' });
-        if (location.protocol === 'https:') p.set('is_https', 'true');
+        const p = new URLSearchParams({ name: nm, countrycode: l.cc, hidebroken: 'true', order: 'clickcount', reverse: 'true', limit: '15' });
         const list = await api('/json/stations/search?' + p.toString());
-        const want = l.name.toLowerCase();
-        return list.find((s) => (s.url_resolved || s.url) && s.name && s.name.toLowerCase().includes(want)) || null;
-      } catch (e) { return null; }
-    }));
+        const want = nm.toLowerCase();
+        const hit = list.find((s) => s.name && s.name.toLowerCase().includes(want) && playableUrl(s));
+        if (hit) return Object.assign({}, hit, { url_resolved: playableUrl(hit) });
+      } catch (e) { /* try the next name */ }
+    }
+    return null;
+  }
+
+  async function resolveFeatured() {
+    const found = await Promise.all(FEATURED_LOOKUPS.map(lookupOne));
     const have = new Set();
     found.forEach((s, i) => {
       const l = FEATURED_LOOKUPS[i];
@@ -1061,12 +1299,23 @@
     else if (S.tab === 'saved') renderSaved();
   }
 
+  // Top Australian dance and electronic stations in the directory, whatever they are called.
+  async function loadAU() {
+    try {
+      const r = await searchStations({ tags: ['dance', 'electronic', 'house', 'edm'], country: 'AU', order: 'clickcount', limit: 25 });
+      AU.length = 0;
+      r.items.slice(0, 14).forEach((x) => AU.push(x));
+    } catch (e) { /* the row just stays hidden */ }
+    if (S.tab === 'home') renderHome();
+  }
+
   // ---------- Start ----------
   renderChips();
   renderHome();
   loadCountries();
   loadHomeCharts();
   resolveFeatured();
+  loadAU();
 })();
 </script>
 </body>
