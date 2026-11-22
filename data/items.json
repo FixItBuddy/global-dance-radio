@@ -1,6 +1,98 @@
 {
- "generatedAt": "2026-11-22T10:09:35.166Z",
+ "generatedAt": "2026-11-22T11:06:08.552Z",
  "items": [
+  {
+   "id": "news:5977198d5e3e",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUFJYQWJOMWZZdHdaMlp1Y25qcnJUSUpQakVwaHdJcUpndzlBTldxSW96clA3MlFoZVByQmNoMzNOWF9VZURHdEVMTXotdHBlbmpxdmlTT3FnSFdCQS03YXBlRVpiMko0Q3R5bi1yX2hQVzBuOTZmdVhObF8wOHFicXRR?oc=5",
+   "title": "'GTA 6' players can't stop doomscrolling in the game: 'Art really does imitate life' - Business Insider",
+   "description": "'GTA 6' players can't stop doomscrolling in the game: 'Art really does imitate life' &nbsp;&nbsp; Business Insider",
+   "author": "Business Insider",
+   "publishedAt": "2026-11-22T10:23:00.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "'GTA 6' players can't stop doomscrolling in the game: 'Art really does imitate life' &nbsp;&nbsp; Business Insider",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:1d1e61bb4a36",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZk8wTXpnaUFOM0NPOXR6VkNpa0xSZjk3a3VnOElzOExwOVRvSGppb3htelI5T2VxdXZnbVNUeDcxazAxRkhxX2w3aWxFaklHeDhRaTg0eWUzX19nbXFSeXBFRTNpY2ZOVU8zTXNSNXF2UnkxMk5TNTlHVXREbTItX0hEeTV4dllDdVFEOGZZendITl9XRmNCU05KanhsZ0YxQUFjZFZiS0FqSDFWV1VKSk5QM1I4TGhSMDNEUlZBR0F0NFJycmg3dXBTdEc1LW5QeHFiWHFoNDQ5VGpiUTRNYw?oc=5",
+   "title": "Jordan proposes GTA 6 ban over child safety fears as game breaks sales records - www.thenationalnews.com",
+   "description": "Jordan proposes GTA 6 ban over child safety fears as game breaks sales records &nbsp;&nbsp; www.thenationalnews.com",
+   "author": "www.thenationalnews.com",
+   "publishedAt": "2026-11-22T11:04:57.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Jordan proposes GTA 6 ban over child safety fears as game breaks sales records &nbsp;&nbsp; www.thenationalnews.com",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:e2f193624487",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdkQyczhVOEVEMlh5OFdLS2xFR05GbFB1b2d2Y2U2WEp5X3hEYWFmaVJRS19relpNeWViQnpVeVJvdVRlakR6bEtaOXBHZDlBeHh3NDBZNURZLTBjWjBLSG5WSWxHSTVBWUctOVZFTTBKdEZ1d0xORE45cEpwM1RCaGpNeXQyRkxxQVh4am96WlhrR0pSTHJfWUx2Ul9KdE05aldBRlk0UGdBdjdGX09XQUpR?oc=5",
+   "title": "Rockstar spent months on one detail in GTA 6: Lucia opening a door with her hip - Creative Bloq",
+   "description": "Rockstar spent months on one detail in GTA 6: Lucia opening a door with her hip &nbsp;&nbsp; Creative Bloq",
+   "author": "Creative Bloq",
+   "publishedAt": "2026-11-22T11:00:00.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Rockstar spent months on one detail in GTA 6: Lucia opening a door with her hip &nbsp;&nbsp; Creative Bloq",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:27b36a8d65a8",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZVJRd3FodWpJQUczR0xsM2o0Sjg2MnBVYy1iS1o2dy1UMENmdWNuUi1kdU5xSzNOQS1rdC12NWpnaW9XLWxPU1luQmRwazhiTUNtRkFnc3ZQTWg2YzFNSzdXdHpfVWRFZHd5Zi1JcXJNOThXRGdSMGhxQVpYZEh0cnNjelowbkFfUnk2OHBaSDhxVGZnNk5fZzQzdzFwMTltYmtlS01VNEMwRW1aZFRSQ1o4Zk1YNkU?oc=5",
+   "title": "SS United States diving, GTA 6 Pensacola nod in top news - Pensacola News Journal",
+   "description": "SS United States diving, GTA 6 Pensacola nod in top news &nbsp;&nbsp; Pensacola News Journal",
+   "author": "Pensacola News Journal",
+   "publishedAt": "2026-11-22T10:06:00.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "SS United States diving, GTA 6 Pensacola nod in top news &nbsp;&nbsp; Pensacola News Journal",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.61
+  },
   {
    "id": "news:4cb8fbe4f01a",
    "source": "news",
@@ -22,7 +114,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 48.57
   },
   {
    "id": "news:03fbc54bfb5e",
@@ -45,7 +137,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.99
   },
   {
    "id": "news:e5a608f1354f",
@@ -68,7 +160,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 38.8
   },
   {
    "id": "news:6f25beb563fc",
@@ -91,7 +183,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 44.99
+   "trend": 32.86
   },
   {
    "id": "news:9a8bb4b4a157",
@@ -114,7 +206,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 42.58
+   "trend": 31.47
   },
   {
    "id": "news:9374a9ac60eb",
@@ -137,7 +229,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 36.39
+   "trend": 27.78
   },
   {
    "id": "news:56932f8ceb64",
@@ -160,7 +252,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.75
+   "trend": 27.38
   },
   {
    "id": "news:33b2edf84ed8",
@@ -183,7 +275,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.22
+   "trend": 27.06
+  },
+  {
+   "id": "news:5a7f19acfe15",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLWtQUTU2MFlqVDVmbnY4ejVhcWVQRVgzaDFROVlMWnN4RG5SbUwzZl9FUHhtSlc0VlhHS3pmc0RjRXpGbHd0U3A3Vk5hbWw0SE01enlqYW9zNHhVcWE0YkUyMFFGOU5YdVZlQ0tQZDYxYjk5cUNtaW5ITXBSUWVqby1VYWJlcFlQalNEMy12c0pKRzNSS2xvNnIxTldrclE2ZmxHa3pRVWpSbjNaY01F0gG0AUFVX3lxTE4zSFM2dGp3SmJVY21jVWNwR3RtLUV5OHcxbkdYeFprQzFEUlh1Z1Jsc0ZxQTJjSnhyQUFLcmpQanZUSDNCdnpvbXV4RzUwNTlTbnNUaTVFR2E5QWsweGpkdUNTXzRYTHYyYWFtNlQ1eHkyWkhyNUJGLV95ZUlHX2VDR2N2SzRyYXF6R0liRmZhU0lkUHRyZUVIcmt6SEtxTUZ5S1R6WVFrN24wTWR0SzhGdjNzNg?oc=5",
+   "title": "GTA 6 voice actor: Game’s realism resonates with players - NewsNation",
+   "description": "GTA 6 voice actor: Game’s realism resonates with players &nbsp;&nbsp; NewsNation",
+   "author": "NewsNation",
+   "publishedAt": "2026-11-22T08:00:26.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 voice actor: Game’s realism resonates with players &nbsp;&nbsp; NewsNation",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 26.13
   },
   {
    "id": "news:3c23ff8d6fd4",
@@ -206,7 +321,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.31
+   "trend": 25.22
   },
   {
    "id": "news:86f3293eacd5",
@@ -229,7 +344,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.93
+   "trend": 15.27
   },
   {
    "id": "news:b7993ac8513c",
@@ -252,7 +367,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.4
+   "trend": 13.35
   },
   {
    "id": "news:6e07bd754cfb",
@@ -275,7 +390,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 13.15
+   "trend": 11.58
   },
   {
    "id": "news:0693c93d02cf",
@@ -298,7 +413,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.67
+   "trend": 11.2
   },
   {
    "id": "news:2b8150c8f675",
@@ -321,7 +436,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 7.28
+   "trend": 6.72
   },
   {
    "id": "news:bbce030821c8",
@@ -344,7 +459,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 7.21
+   "trend": 6.65
   },
   {
    "id": "news:83b5011f3ad9",
@@ -367,7 +482,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 7.1
+   "trend": 6.56
   },
   {
    "id": "news:b793ef0fb171",
@@ -390,7 +505,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.66
+   "trend": 6.18
   },
   {
    "id": "news:6e38975b4581",
@@ -413,7 +528,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.16
+   "trend": 5.74
   },
   {
    "id": "news:75dbb30f4890",
@@ -436,7 +551,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.73
+   "trend": 5.36
   },
   {
    "id": "news:1b24ce6fdedf",
@@ -459,7 +574,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.58
+   "trend": 5.23
   },
   {
    "id": "news:13c9ecd9b846",
@@ -482,7 +597,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.34
+   "trend": 5.01
   },
   {
    "id": "news:f83aa67c4754",
@@ -505,7 +620,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.32
+   "trend": 5
+  },
+  {
+   "id": "news:927e0aa2d04c",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOc0FVVU5qRU1WNGVrUkQtZ3hobHFyUUh6OGZGdEg0cWNHdmZmeHkyUncxNHY2Y2M1M3A0cUZkdTAzMjd2ODNrR24weG5uOTBQSUtsQVFWeHhSRE1lVWtZa3BtdklORHZ4a2x2MVgtS283MnJqNnZoblZ1WklIYjF4OVZHT25pUTY1X2lGajQ2c3ZGSWJhNDNaSlF1d182NWN5WTlRUk9TOXFtLUc2TkE?oc=5",
+   "title": "Grand Theft Auto VI appears to mock NFL sexual misconduct scandals in radio parody - The Guardian",
+   "description": "Grand Theft Auto VI appears to mock NFL sexual misconduct scandals in radio parody &nbsp;&nbsp; The Guardian",
+   "author": "The Guardian",
+   "publishedAt": "2026-11-21T17:43:00.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Grand Theft Auto VI appears to mock NFL sexual misconduct scandals in radio parody &nbsp;&nbsp; The Guardian",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 4.92
   },
   {
    "id": "news:a347a142c49d",
@@ -528,7 +666,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.18
+   "trend": 4.87
   },
   {
    "id": "news:92067cae7de8",
@@ -551,7 +689,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.99
+   "trend": 4.7
+  },
+  {
+   "id": "news:58857c731b19",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15SkZlSFJwOUdjR191YmVGdVhTM2NXZkthSjJRc3B6ZkR4LWJiUEFxa3RXLWlYUGNBd2tmdjN6MkZLMXZ1TzlMX2V5N015dHRtZ1BPOFp1UUEzUUZLd1d6UU5RX3NCY21WM2VV?oc=5",
+   "title": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems - PC Gamer",
+   "description": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems &nbsp;&nbsp; PC Gamer",
+   "author": "PC Gamer",
+   "publishedAt": "2026-11-21T16:49:25.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "walkthrough",
+   "spoiler": "major",
+   "spoilerWhy": "mentions story/mission progress terms",
+   "summary": "GTA 6 guide: A full walkthrough of all our tips and advice on Vice City systems &nbsp;&nbsp; PC Gamer",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 4.65
   },
   {
    "id": "news:6c7cab9d99b9",
@@ -574,7 +735,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.76
+   "trend": 4.5
   },
   {
    "id": "news:440f45a751eb",
@@ -597,7 +758,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.46
+   "trend": 4.22
+  },
+  {
+   "id": "news:6a6b90fb1ab2",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWC12bUo0X3M1alRPRHNvSVRBSnRMbUdzVmltRHdRUW9qdGl5NHNpdXhvU0dmUnkxQkRtcU9QeENzQzFpUVdvTHFsbW1JUHFTUmdqcFRzWXhiOVRvb2R6Y1UyOFJQOGZDSG82ODR1VHVucEFpbXU5RkhCUS1nTXZLLVdFSTdUZlZvUGJaLWlJU3d4b0t0RU55ZFhMVDROdmZLQlZIODZR?oc=5",
+   "title": "How Grand Theft Auto VI's launch surpassed expectations - Reuters",
+   "description": "How Grand Theft Auto VI's launch surpassed expectations &nbsp;&nbsp; Reuters",
+   "author": "Reuters",
+   "publishedAt": "2026-11-21T15:09:50.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "How Grand Theft Auto VI's launch surpassed expectations &nbsp;&nbsp; Reuters",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 4.21
   },
   {
    "id": "news:09d20c6b55dd",
@@ -620,7 +804,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.41
+   "trend": 4.17
   },
   {
    "id": "news:5ce8fe98416c",
@@ -643,7 +827,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.33
+   "trend": 4.1
   },
   {
    "id": "news:12689bea9a2f",
@@ -666,7 +850,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.14
+   "trend": 3.93
   },
   {
    "id": "news:82d0873d6b9e",
@@ -689,7 +873,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.11
+   "trend": 3.9
+  },
+  {
+   "id": "news:32c53540b2e6",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMkgtSGlxa0dldW9UZjhlVnQwVzNReUVmaC13NkFtbG9WMTFjdGtaVERYazlvYnlkZEFtRF83SkxpdURaVXJYVjBfOEZrUXhfOXdCR29zS1JGTDR5QVBONmFXUWlxR0ZHa1ZnMGJhQ2NFUjcyaklodW0tQkJDcjFtdXJuakZfU0czRFUteF8xaG1ETnpQZHJ6Ry12a1FGbFVoZWF3RDl4b2x1UQ?oc=5",
+   "title": "‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic - Forbes",
+   "description": "‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic &nbsp;&nbsp; Forbes",
+   "author": "Forbes",
+   "publishedAt": "2026-11-21T13:43:06.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "‘Grand Theft Auto 6’ Is Being Review Bombed On Metacritic &nbsp;&nbsp; Forbes",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 3.89
   },
   {
    "id": "news:01bf095dae47",
@@ -712,7 +919,53 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.71
+   "trend": 3.54
+  },
+  {
+   "id": "news:5d0ef36fdca8",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPemkyQ2dSWFM1S1RsY0JuMGNFMmhGYzlsOWxsLVM3YXlEQndwVDhGNUhzdmN1VE53cHo0ckhnZDNmSUY1eWpuTjBuMVY1anVWZEhyejlpNnFXZXNKeDV4Z1ZHQ1JjcEQxbGhuRm9tNFJYOU92aVhucG9nOHk3cGZ3ZExiYnJSS0FlWmRxNFotNXVKZUJxazJPaW9kbjFjUTFLdkVRa21feW5LaUM2ZFYtSlJVYzkzamRr0gG-AUFVX3lxTE1xcWREb2RueTBtOE9GTTlETFRaT3dEMXNXQl9TRWFwTHctUjlCRk1xNzRFMUQ0SkNLS1VTaVpWT3hhRlYyYS1XdjJybHF3VmFfN2I2NjEwZHBVTGNkODJTVE5hVGZPcDEwRUNyV3JFV2FDOGZra05oZHVWRnF3OFFRUWktWTEwckJrc0JHZzFsZm5sS2pUOXl6ejE4Wk9rWllURDBsbjdfcWZScnpVTEJQRkdvcER2ek9kMnh0WVE?oc=5",
+   "title": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5 - TechPowerUp",
+   "description": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5 &nbsp;&nbsp; TechPowerUp",
+   "author": "TechPowerUp",
+   "publishedAt": "2026-11-21T05:22:40.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5 &nbsp;&nbsp; TechPowerUp",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 2.66
+  },
+  {
+   "id": "news:6dd87a7cb800",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSmV1Q2xGQVZqek5XWVBoUFppREd2LS0ySkk1VWlJWmZ5THBlMlVYQUducUx0b2ZhYnB6bHNhMm9vR0pQMGxqSEhZaktoRl90b09oQ3ZRMGp3NmRxNnZ4WFQxNGRKN1c0eTZSU2NSSHpXR2g4MFB6TmQweDAtY2pJbzViQ3dxRFA4cjlUNTJDdDRBbXlPWVZhVWJaR1Z6aDI4dkJQeFNYOG5aSkxabGxLSlkxUl82Z0lwVm90UWJwVXd6Q09UTEV4dmlyUTk0b3EtZ2VETw?oc=5",
+   "title": "Missouri City dad finds missing download code in sealed GTA 6 copy, warns other buyers - Click2Houston",
+   "description": "Missouri City dad finds missing download code in sealed GTA 6 copy, warns other buyers &nbsp;&nbsp; Click2Houston",
+   "author": "Click2Houston",
+   "publishedAt": "2026-11-21T02:41:23.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Missouri City dad finds missing download code in sealed GTA 6 copy, warns other buyers &nbsp;&nbsp; Click2Houston",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 2.4
   },
   {
    "id": "news:84689aa31e0e",
@@ -735,7 +988,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.36
+   "trend": 2.28
+  },
+  {
+   "id": "news:5dead6c5b53a",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5RNm95ZEIzSWJPaVhFUkE1dVRVTDJoTFUxOGV2WUUzRjRYRkktMFoyU0N1Sk4tcnpoOHVvMEV0X2FRckVKV0pZdFd5SW42QWs2M0RlbV81am8yNW8?oc=5",
+   "title": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history - BBC",
+   "description": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history &nbsp;&nbsp; BBC ‘GTA VI’ sales blew past $3 billion in its first day, making it one of the biggest entertainment launches ever &nbsp;&nbsp; CNN Grand Theft Auto VI review – gaming’s most depraved world is now also its greatest love story &nbsp;&nbsp; The Guardian",
+   "author": "BBC",
+   "publishedAt": "2026-11-20T22:53:24.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 sales hit $3.8bn in a single day - the biggest entertainment launch in history &nbsp;&nbsp; BBC ‘GTA VI’ sales blew past $3 billion in its first day, mak…",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 2.11
   },
   {
    "id": "news:8b483ae94755",
@@ -758,7 +1034,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.15
+   "trend": 2.09
   },
   {
    "id": "news:03431783d2ab",
@@ -781,7 +1057,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.94
+   "trend": 1.89
   },
   {
    "id": "news:e382ea9f8474",
@@ -804,7 +1080,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.71
+   "trend": 1.66
   },
   {
    "id": "news:c7c450f65e2f",
@@ -827,7 +1103,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.67
+   "trend": 1.62
   },
   {
    "id": "news:a68c33c2cadc",
@@ -850,7 +1126,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.63
+   "trend": 1.59
   },
   {
    "id": "news:80d49dbbb91b",
@@ -873,7 +1149,53 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.53
+   "trend": 1.49
+  },
+  {
+   "id": "news:4a5ac95ec934",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMUtfa1prQXgzcHpSNDl4ZndBX0picU9JZmJ1YjNfSHFMNFoyNVBuaktRQlpBWnl4eFBodDlzMTFiT3RzYkxncGhLakY5c1JuRlpKWHpNS0J1b2tBNE9FNnd6R0ZBLWRKZDdGMnh0S1FGbnFtOGRMTnM4MFhqcnBCRDJXUldFc2Q5eUtISWpFRFdOOVlER0kzYXpGRVlKS3NWNDJ6bDNBTEFUbHM3S2tmNy1BV2o3QQ?oc=5",
+   "title": "I Explored GTA 6's National Park Instead of Stealing Cars. It Even Has Public Bathrooms. - Outside Magazine",
+   "description": "I Explored GTA 6's National Park Instead of Stealing Cars. It Even Has Public Bathrooms. &nbsp;&nbsp; Outside Magazine",
+   "author": "Outside Magazine",
+   "publishedAt": "2026-11-19T18:47:39.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "I Explored GTA 6's National Park Instead of Stealing Cars. It Even Has Public Bathrooms. &nbsp;&nbsp; Outside Magazine",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 1.06
+  },
+  {
+   "id": "news:90f2f7767823",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSDNXMHAyOGlyVVZSRlNCa1JjSEVsNnpKR3JjeEtadDNlT1RPRGpsSE5VZDVEMW1ITlY3UERoTE1aR1JHdTlzZzlDMWNoWC1hWnJFUnk4YnpzSkVPOHgzNjV5MG5NSUp5OUIzdGc1dWtDSlQxTFNOOHBVZnNRdHJseWs3VzJicjZ5b2FqUnZTa0ZBZE0yamhpeDA5TnRDWEFOUFFnd1ZOSjhkNGk1MjZUMQ?oc=5",
+   "title": "The Best Ways To Earn Money In ‘GTA 6,’ Early, Mid- And Late-Game - Forbes",
+   "description": "The Best Ways To Earn Money In ‘GTA 6,’ Early, Mid- And Late-Game &nbsp;&nbsp; Forbes",
+   "author": "Forbes",
+   "publishedAt": "2026-11-19T14:44:50.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "The Best Ways To Earn Money In ‘GTA 6,’ Early, Mid- And Late-Game &nbsp;&nbsp; Forbes",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 0.98
   },
   {
    "id": "news:da62ff8fa31a",
@@ -896,7 +1218,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.98
+   "trend": 0.96
+  },
+  {
+   "id": "news:b788ecdd4579",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5EMXdKNWs0b0stZGVpUFd5ODh5ekFLS3FteWk0YzdaZmZZaWs3cVBkY3hWLWtyZWZmUGdhV0M2WU9aejIxalFVX3ozb2FfMVJ4LVFUbmhtYWxPclNWNkdIeXE1MTNPcGdFOFE?oc=5",
+   "title": "GTA 6: A guide to every mission and chapter - Red Bull",
+   "description": "GTA 6: A guide to every mission and chapter &nbsp;&nbsp; Red Bull",
+   "author": "Red Bull",
+   "publishedAt": "2026-11-19T11:20:02.000Z",
+   "fetchedAt": "2026-11-22T11:06:08.552Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6: A guide to every mission and chapter &nbsp;&nbsp; Red Bull",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 0.93
   }
  ]
 }
