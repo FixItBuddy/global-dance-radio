@@ -1,6 +1,144 @@
 {
- "generatedAt": "2026-11-22T13:24:34.943Z",
+ "generatedAt": "2026-11-22T14:15:32.331Z",
  "items": [
+  {
+   "id": "news:5646cf5cf25c",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9EZzRnaDJTOUUyVkZpSGljc1A4YXdsMkpiclh5RFhiTVkzRGNTUThwTV9RTGppV3RRdlVQdi1FSGFuOEpPT1lCWV9rRnVHak0zWXVqSVg4NTlraldjbDFHaml2MGRjSHlROWViRXVRQ3AxTjZZOC1rQmV2QVViVDQ?oc=5",
+   "title": "GTA 6's Day 1 copies sold have already beaten the Nintendo 64's lifetime sales - GAMINGbible",
+   "description": "GTA 6's Day 1 copies sold have already beaten the Nintendo 64's lifetime sales &nbsp;&nbsp; GAMINGbible",
+   "author": "GAMINGbible",
+   "publishedAt": "2026-11-22T14:00:00.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6's Day 1 copies sold have already beaten the Nintendo 64's lifetime sales &nbsp;&nbsp; GAMINGbible",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:189a8ff5ad7a",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCVlQxaE1ZazR5THF1aWU1c2luVkJTSUZSRDhZZ09LUGlyb2tvVjJ6aW9jaVBJR3JxTUlVME1WSWplX09zM0w4OGotR09VcUdONVp6RUpjck9WektodXpTOVdn?oc=5",
+   "title": "GTA 6: How to Fix HDR Settings - Push Square",
+   "description": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
+   "author": "Push Square",
+   "publishedAt": "2026-11-22T13:25:02.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:b1a37ea61d4f",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOclc5b2dRTG5JTHB4ekt2YmF3QzdLeHZrb1l1eXoyaF94b1UwRGFrWDRTdHQ5UVRlVVpVYlN6TzJCdldWMGdDaVotVjBaU3hHOWVreE8wNVpncVJwOFd5SGVqeUFNUEprMzJYQ3FYOExHYkJuRzhYcVNZamhHUXEwbmtn?oc=5",
+   "title": "This Is the One Thing I’ll Never Do Again in GTA 6 - IGN",
+   "description": "This Is the One Thing I’ll Never Do Again in GTA 6 &nbsp;&nbsp; IGN",
+   "author": "IGN",
+   "publishedAt": "2026-11-22T14:00:00.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "This Is the One Thing I’ll Never Do Again in GTA 6 &nbsp;&nbsp; IGN",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:c218323f0906",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPTUVjbkNlNHhHMjJmdzROMFNLbDlOdUFiRS1RVVp6ZzhlMlpDa0lHdTV6R2o5VldFQTlubVV4OE5Yc1FaVExHR2ZNRmpUUzlFdEJZanY5TkVyYzloYkFZMVFGMnhEVlV2UGM2ZGdQTlZ2aVdFeURyZERyaGx6YXFWTmxnLUJxSGo4WnZxRHhFVF9uYlVxQU1yMGd5dHRuUUV4czlhRXY1bnlfbmhKTThYV3pic3B5OGs3OVE?oc=5",
+   "title": "Three weeks in GTA 6 reminded me why human artists are so impressive - Creative Bloq",
+   "description": "Three weeks in GTA 6 reminded me why human artists are so impressive &nbsp;&nbsp; Creative Bloq",
+   "author": "Creative Bloq",
+   "publishedAt": "2026-11-22T14:00:00.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Three weeks in GTA 6 reminded me why human artists are so impressive &nbsp;&nbsp; Creative Bloq",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:78f559257773",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wVElqV0ZKZmtSc3RZWE9QNVlqaUNpTzdoSWFGeElVWHRERkRSX2dHc3l2S0FCY3hZWFRDVEVGeldZNHcwaXdKbG9TWU9TbjNhTC1VQzRMZ2U5MHpGTGtIWmRoc21CaC16T3JuWkFWS3NQVWpNMWtF?oc=5",
+   "title": "GTA 6 Riata - Grassrivers - Yahoo Tech",
+   "description": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
+   "author": "Yahoo Tech",
+   "publishedAt": "2026-11-22T13:27:51.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:31d3b2649b01",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWDNIZS1lOWVqcTQ1LU5ENERoMDk5aHZhUUZPc0NXWklCWnlWVVVPdHdDT0VpZmoxby1iZW1GTjN0TmE5X3FwZWxsSHhtcG1vY0x6R19qMDc4Q0lPT1NacUJXQnJxcGJ3VlFTU19SenZidVFvc2R5bDZCWnZVZUhaZTFrd3NnOHNFa0dhN2NvT1ZZZGJoLURUVWZZQVZURWZCTnYzVUFOOWFmcVd0TDlKU1dR?oc=5",
+   "title": "GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Drawbacks - Pure Xbox",
+   "description": "GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Drawbacks &nbsp;&nbsp; Pure Xbox",
+   "author": "Pure Xbox",
+   "publishedAt": "2026-11-22T14:00:00.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Glitch Unlocks The FPS On Xbox Series X|S, But With Multiple Drawbacks &nbsp;&nbsp; Pure Xbox",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
   {
    "id": "news:3b0cc58c1008",
    "source": "news",
@@ -22,53 +160,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
-  },
-  {
-   "id": "news:55a65472b3ca",
-   "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CS1puUjRfRzhHYWk3TXdYdkM4ZmZYX2NPTFBNa0xGQkp5VWxtRzU2ZHZSUXpUbzdXWU5hYzRpNXRkVGt1RmktNUxTbVRuSm52bmEyREoxSTExRkR0WVFvandNc1BHM3czc2JTdA?oc=5",
-   "title": "GTA 6 is a critical masterpiece. So why all the hate? - Ynetnews",
-   "description": "GTA 6 is a critical masterpiece. So why all the hate? &nbsp;&nbsp; Ynetnews",
-   "author": "Ynetnews",
-   "publishedAt": "2026-11-22T12:32:54.000Z",
-   "fetchedAt": "2026-11-22T13:24:34.943Z",
-   "thumbnail": null,
-   "stats": {},
-   "spoilerFloor": null,
-   "trusted": false,
-   "kind": "news",
-   "spoiler": "safe",
-   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6 is a critical masterpiece. So why all the hate? &nbsp;&nbsp; Ynetnews",
-   "area": "",
-   "tags": [],
-   "availability": null,
-   "enriched": "heuristic",
-   "trend": 50.66
-  },
-  {
-   "id": "news:4621c5b28d42",
-   "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wbV83R09pbGd1LWl0cWVUTmRmSGktS1VLS3B4OVJWYTVDV0owTkFRQ2dULVpMQzhkY3RNSHpMOFMtTGROZS1uSGNKb3JrT3U5d05CaFhIUHVJOGY5T1hpdXRQRVg3MmFqcGRCLU9OUXpIT3pwVEJlOVhnNy1CTGc?oc=5",
-   "title": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch - Yahoo Sports",
-   "description": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch &nbsp;&nbsp; Yahoo Sports",
-   "author": "Yahoo Sports",
-   "publishedAt": "2026-11-22T12:47:00.000Z",
-   "fetchedAt": "2026-11-22T13:24:34.943Z",
-   "thumbnail": null,
-   "stats": {},
-   "spoilerFloor": null,
-   "trusted": false,
-   "kind": "news",
-   "spoiler": "safe",
-   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch &nbsp;&nbsp; Yahoo Sports",
-   "area": "",
-   "tags": [],
-   "availability": null,
-   "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.76
   },
   {
    "id": "news:588f356503ab",
@@ -91,7 +183,53 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.67
+  },
+  {
+   "id": "news:4621c5b28d42",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5wbV83R09pbGd1LWl0cWVUTmRmSGktS1VLS3B4OVJWYTVDV0owTkFRQ2dULVpMQzhkY3RNSHpMOFMtTGROZS1uSGNKb3JrT3U5d05CaFhIUHVJOGY5T1hpdXRQRVg3MmFqcGRCLU9OUXpIT3pwVEJlOVhnNy1CTGc?oc=5",
+   "title": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch - Yahoo Sports",
+   "description": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch &nbsp;&nbsp; Yahoo Sports",
+   "author": "Yahoo Sports",
+   "publishedAt": "2026-11-22T12:47:00.000Z",
+   "fetchedAt": "2026-11-22T13:24:34.943Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Miami Heat NBA Game Draws 95% New Shoppers For GTA VI Launch &nbsp;&nbsp; Yahoo Sports",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 42.14
+  },
+  {
+   "id": "news:55a65472b3ca",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CS1puUjRfRzhHYWk3TXdYdkM4ZmZYX2NPTFBNa0xGQkp5VWxtRzU2ZHZSUXpUbzdXWU5hYzRpNXRkVGt1RmktNUxTbVRuSm52bmEyREoxSTExRkR0WVFvandNc1BHM3czc2JTdA?oc=5",
+   "title": "GTA 6 is a critical masterpiece. So why all the hate? - Ynetnews",
+   "description": "GTA 6 is a critical masterpiece. So why all the hate? &nbsp;&nbsp; Ynetnews",
+   "author": "Ynetnews",
+   "publishedAt": "2026-11-22T12:32:54.000Z",
+   "fetchedAt": "2026-11-22T13:24:34.943Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 is a critical masterpiece. So why all the hate? &nbsp;&nbsp; Ynetnews",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 38.83
   },
   {
    "id": "news:90260ad0cb38",
@@ -114,7 +252,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 37.18
   },
   {
    "id": "news:89fa8b217922",
@@ -137,7 +275,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 47.95
+   "trend": 35.53
   },
   {
    "id": "news:1e91b51ae7c5",
@@ -160,7 +298,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 45.68
+   "trend": 34.2
   },
   {
    "id": "news:e023d55d50d9",
@@ -183,7 +321,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 43.25
+   "trend": 32.74
   },
   {
    "id": "news:56181678e0ee",
@@ -206,7 +344,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 43.17
+   "trend": 32.69
   },
   {
    "id": "news:7153ade9d02a",
@@ -229,7 +367,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 37.01
+   "trend": 28.86
   },
   {
    "id": "news:807c7eb532ba",
@@ -252,7 +390,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.84
+   "trend": 26.14
   },
   {
    "id": "news:1d1e61bb4a36",
@@ -275,7 +413,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.05
+   "trend": 25.61
   },
   {
    "id": "news:e2f193624487",
@@ -298,7 +436,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 31.3
+   "trend": 25.11
   },
   {
    "id": "news:3dda3e9ec0e3",
@@ -321,7 +459,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 30.18
+   "trend": 24.36
   },
   {
    "id": "news:f9c73e046731",
@@ -344,7 +482,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 29.32
+   "trend": 23.77
   },
   {
    "id": "news:5977198d5e3e",
@@ -367,7 +505,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.57
+   "trend": 21.86
   },
   {
    "id": "news:9e11ed43d656",
@@ -390,7 +528,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 25.98
+   "trend": 21.44
   },
   {
    "id": "news:27b36a8d65a8",
@@ -413,7 +551,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.81
+   "trend": 20.61
   },
   {
    "id": "news:4cb8fbe4f01a",
@@ -436,7 +574,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.24
+   "trend": 20.2
   },
   {
    "id": "news:03fbc54bfb5e",
@@ -459,7 +597,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 23.49
+   "trend": 19.66
   },
   {
    "id": "news:e5a608f1354f",
@@ -482,7 +620,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.21
+   "trend": 17.98
   },
   {
    "id": "news:6f25beb563fc",
@@ -505,7 +643,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 19.09
+   "trend": 16.39
   },
   {
    "id": "news:9a8bb4b4a157",
@@ -528,7 +666,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 18.56
+   "trend": 15.99
   },
   {
    "id": "news:9374a9ac60eb",
@@ -551,7 +689,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.08
+   "trend": 14.85
   },
   {
    "id": "news:56932f8ceb64",
@@ -574,7 +712,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.91
+   "trend": 14.72
   },
   {
    "id": "news:33b2edf84ed8",
@@ -597,7 +735,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.78
+   "trend": 14.61
   },
   {
    "id": "news:5a7f19acfe15",
@@ -620,7 +758,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.38
+   "trend": 14.3
   },
   {
    "id": "news:3c23ff8d6fd4",
@@ -643,7 +781,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.98
+   "trend": 13.99
   },
   {
    "id": "news:86f3293eacd5",
@@ -666,7 +804,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.06
+   "trend": 10
   },
   {
    "id": "news:b7993ac8513c",
@@ -689,7 +827,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.96
+   "trend": 9.07
   },
   {
    "id": "news:6e07bd754cfb",
@@ -712,7 +850,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.88
+   "trend": 8.16
   },
   {
    "id": "news:0693c93d02cf",
@@ -735,7 +873,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.64
+   "trend": 7.96
   },
   {
    "id": "news:5e4ea696de41",
@@ -758,7 +896,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.55
+   "trend": 6.13
   },
   {
    "id": "news:2b8150c8f675",
@@ -781,7 +919,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.63
+   "trend": 5.3
   },
   {
    "id": "news:bbce030821c8",
@@ -804,7 +942,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.58
+   "trend": 5.26
   },
   {
    "id": "news:83b5011f3ad9",
@@ -827,7 +965,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.51
+   "trend": 5.19
   },
   {
    "id": "news:b793ef0fb171",
@@ -850,7 +988,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.23
+   "trend": 4.94
+  },
+  {
+   "id": "news:a144e22dbf1f",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSDZJSzVuQ1ZVSGh1b3Z3SFpjNnVVbk9CU1pjaVFOU3ZJOEZaSmJrTW5mcWNIWmVaWHBGWkVqclBRMDZJRjl3SlM0aXQtTVNGWUgyYnk3TUJXc3hmWWZXaFlZNnZ3alQ3YXJwUGtSQnRibVE5dXl3RzdHQlM1SzVoSmxQTnpDdVg5aWprV1JwTEhNWXZMMWgyMi11cUhJdG1qYndrNkRJWjkwcWZXYi1LRXQzNEbSAboBQVVfeXFMTVNNV3NmR2M1ZGl6OEtub3loekNIUThzXzdZZHF2VDhPZDlqRUZLbVRJVElkcEt5VVV2UExzRm4tNS1aaTZsR1hJVHJYTnkxUUtKcXZKNWZnOUVURWFBcTlGQXZrQnFTbkhBcVlULXE4NzdaS25IdWZ1Vy03bmppWk9obWdHZlhCSkZtZmFoUWlrSmRWZTQ1Y3l2VFdsVGRZT291THppamFVbzNETHlvNkx2cVlIMHl1YUZB?oc=5",
+   "title": "Grand Theft Auto VI mania could endanger marriages as relationship coach exposes red flag - Fox News",
+   "description": "Grand Theft Auto VI mania could endanger marriages as relationship coach exposes red flag &nbsp;&nbsp; Fox News",
+   "author": "Fox News",
+   "publishedAt": "2026-11-21T20:53:49.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Grand Theft Auto VI mania could endanger marriages as relationship coach exposes red flag &nbsp;&nbsp; Fox News",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 4.92
   },
   {
    "id": "news:6e38975b4581",
@@ -873,7 +1034,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.9
+   "trend": 4.65
   },
   {
    "id": "news:75dbb30f4890",
@@ -896,7 +1057,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.61
+   "trend": 4.38
   },
   {
    "id": "news:1b24ce6fdedf",
@@ -919,7 +1080,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.51
+   "trend": 4.29
   },
   {
    "id": "news:13c9ecd9b846",
@@ -942,7 +1103,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.35
+   "trend": 4.14
   },
   {
    "id": "news:f83aa67c4754",
@@ -965,7 +1126,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.34
+   "trend": 4.13
   },
   {
    "id": "news:927e0aa2d04c",
@@ -988,7 +1149,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.27
+   "trend": 4.07
   },
   {
    "id": "news:a347a142c49d",
@@ -1011,7 +1172,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.24
+   "trend": 4.04
   },
   {
    "id": "news:92067cae7de8",
@@ -1034,7 +1195,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.1
+   "trend": 3.92
   },
   {
    "id": "news:58857c731b19",
@@ -1057,7 +1218,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.06
+   "trend": 3.88
   },
   {
    "id": "news:6c7cab9d99b9",
@@ -1080,7 +1241,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.94
+   "trend": 3.77
   },
   {
    "id": "news:440f45a751eb",
@@ -1103,7 +1264,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.72
+   "trend": 3.57
   },
   {
    "id": "news:6a6b90fb1ab2",
@@ -1126,7 +1287,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.72
+   "trend": 3.56
   },
   {
    "id": "news:09d20c6b55dd",
@@ -1149,7 +1310,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.69
+   "trend": 3.53
   },
   {
    "id": "news:5ce8fe98416c",
@@ -1172,7 +1333,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.63
+   "trend": 3.48
   },
   {
    "id": "news:12689bea9a2f",
@@ -1195,7 +1356,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.49
+   "trend": 3.35
   },
   {
    "id": "news:82d0873d6b9e",
@@ -1218,7 +1379,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.47
+   "trend": 3.33
   },
   {
    "id": "news:32c53540b2e6",
@@ -1241,7 +1402,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.46
+   "trend": 3.32
   },
   {
    "id": "news:01bf095dae47",
@@ -1264,7 +1425,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.17
+   "trend": 3.05
   },
   {
    "id": "news:5d0ef36fdca8",
@@ -1287,7 +1448,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.43
+   "trend": 2.36
   },
   {
    "id": "news:6dd87a7cb800",
@@ -1310,7 +1471,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.21
+   "trend": 2.15
   },
   {
    "id": "news:84689aa31e0e",
@@ -1333,7 +1494,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.11
+   "trend": 2.05
   },
   {
    "id": "news:5dead6c5b53a",
@@ -1356,7 +1517,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.96
+   "trend": 1.91
   },
   {
    "id": "news:8b483ae94755",
@@ -1379,7 +1540,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.94
+   "trend": 1.89
   },
   {
    "id": "news:03431783d2ab",
@@ -1402,7 +1563,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.76
+   "trend": 1.72
   },
   {
    "id": "news:e382ea9f8474",
@@ -1425,7 +1586,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.57
+   "trend": 1.53
   },
   {
    "id": "news:c7c450f65e2f",
@@ -1448,7 +1609,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.53
+   "trend": 1.5
   },
   {
    "id": "news:a68c33c2cadc",
@@ -1471,7 +1632,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.5
+   "trend": 1.47
   },
   {
    "id": "news:80d49dbbb91b",
@@ -1494,7 +1655,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.41
+   "trend": 1.38
   },
   {
    "id": "news:4a5ac95ec934",
@@ -1517,7 +1678,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.01
+   "trend": 1
   },
   {
    "id": "news:90f2f7767823",
@@ -1540,7 +1701,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.94
+   "trend": 0.93
   },
   {
    "id": "news:da62ff8fa31a",
@@ -1563,7 +1724,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.93
+   "trend": 0.91
   },
   {
    "id": "news:b788ecdd4579",
@@ -1586,7 +1747,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.89
+   "trend": 0.88
   }
  ]
 }
