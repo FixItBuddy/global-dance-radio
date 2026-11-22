@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-22T15:08:43.676Z",
+ "generatedAt": "2026-11-22T16:06:35.653Z",
  "aiEnrichment": false,
  "sourceStatus": {
   "youtube": {
@@ -8,7 +8,7 @@
    "errors": [
     "YOUTUBE_API_KEY not set — keyword search skipped (channel RSS still used)"
    ],
-   "at": "2026-11-22T15:08:43.676Z",
+   "at": "2026-11-22T16:06:35.653Z",
    "lastOkAt": null
   },
   "tiktok": {
@@ -17,7 +17,7 @@
    "errors": [
     "APIFY_TOKEN not set — TikTok hashtag search skipped (curated URLs still used)"
    ],
-   "at": "2026-11-22T15:08:43.676Z",
+   "at": "2026-11-22T16:06:35.653Z",
    "lastOkAt": null
   },
   "sites": {
@@ -26,7 +26,7 @@
    "errors": [
     "ANTHROPIC_API_KEY not set — seed sites skipped"
    ],
-   "at": "2026-11-22T15:08:43.676Z",
+   "at": "2026-11-22T16:06:35.653Z",
    "lastOkAt": null
   },
   "reddit": {
@@ -38,26 +38,26 @@
     "r/GrandTheftAutoVI/new: HTTP 403 for https://www.reddit.com/r/GrandTheftAutoVI/new.json?limit=50&raw_json=1",
     "r/GrandTheftAutoVI/hot: HTTP 403 for https://www.reddit.com/r/GrandTheftAutoVI/hot.json?limit=50&raw_json=1"
    ],
-   "at": "2026-11-22T15:08:43.676Z",
+   "at": "2026-11-22T16:06:35.653Z",
    "lastOkAt": null
   },
   "news": {
    "ok": true,
    "count": 40,
    "errors": [],
-   "at": "2026-11-22T15:08:43.676Z",
-   "lastOkAt": "2026-11-22T15:08:43.676Z"
+   "at": "2026-11-22T16:06:35.653Z",
+   "lastOkAt": "2026-11-22T16:06:35.653Z"
   }
  },
  "counts": {
   "youtube": 0,
   "tiktok": 0,
   "reddit": 0,
-  "news": 87,
+  "news": 93,
   "site": 0
  },
  "totals": {
-  "items": 87,
+  "items": 93,
   "collectibles": 0
  }
 }
