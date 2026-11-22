@@ -87,8 +87,8 @@ export function normaliseExtraction(raw, pageUrl, now) {
   return { collectibles, items };
 }
 
-export async function fetchSites(cfg = [], { apiKey = process.env.ANTHROPIC_API_KEY, now = new Date().toISOString(), call = callClaude, fetcher = fetchText, delayMs = 1000, log = () => {} } = {}) {
-  const result = { items: [], collectibles: [], errors: [] };
+export async function fetchSites(cfg = [], { apiKey = process.env.ANTHROPIC_API_KEY, now = new Date().toISOString(), call = callClaude, fetcher = fetchText, delayMs = 1000, log = () => {}, cache = {} } = {}) {
+  const result = { items: [], collectibles: [], errors: [], cache: { ...cache } };
   if (!cfg.length) return result;
   if (!apiKey) {
     result.errors.push('ANTHROPIC_API_KEY not set — seed sites skipped');
@@ -111,11 +111,14 @@ export async function fetchSites(cfg = [], { apiKey = process.env.ANTHROPIC_API_
       for (const p of pages) {
         const text = stripHtml(p.html).slice(0, 24000);
         if (text.length < 200) continue;
+        const hash = sha(text);
+        if (result.cache[p.url] === hash) { log(`site ${p.url}: unchanged, skipped`); continue; }
         try {
           const reply = await call({ system: SYSTEM, user: `<page url="${p.url}">\n${text.replace(/</g, '‹')}\n</page>`, apiKey, maxTokens: 8000 });
           const ex = normaliseExtraction(parseJsonLoose(reply), p.url, now);
           result.items.push(...ex.items);
           result.collectibles.push(...ex.collectibles);
+          result.cache[p.url] = hash; // only cache after a successful extraction so failures are retried
         } catch (e) { result.errors.push(`extract ${p.url}: ${e.message}`); }
         log(`site ${p.url}: ok`);
       }

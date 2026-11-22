@@ -224,3 +224,18 @@ test('run without API keys degrades to heuristics instead of failing', async () 
     restore();
   }
 });
+
+test('unchanged seed pages are not re-extracted (content-hash cache)', async () => {
+  const { fetchSites } = await import('../pipeline/sources/sites.mjs');
+  const html = `<html><body>${'<p>Collectible list and tips for the game. </p>'.repeat(20)}</body></html>`;
+  let calls = 0;
+  const call = async () => { calls++; return JSON.stringify({ collectibles: [], items: [] }); };
+  const fetcher = async (u) => { if (u.endsWith('robots.txt')) throw new Error('404'); return html; };
+  const opts = { apiKey: 'k', call, fetcher, delayMs: 0 };
+  const a = await fetchSites([{ url: 'https://guide.test/a' }], opts);
+  const b = await fetchSites([{ url: 'https://guide.test/a' }], { ...opts, cache: a.cache });
+  assert.equal(calls, 1, 'second run skipped the unchanged page');
+  const c = await fetchSites([{ url: 'https://guide.test/a' }], { ...opts, cache: { 'https://guide.test/a': 'stale' } });
+  assert.equal(calls, 2, 'changed content is re-extracted');
+  assert.ok(b.cache['https://guide.test/a'] && c.cache['https://guide.test/a'] !== 'stale');
+});

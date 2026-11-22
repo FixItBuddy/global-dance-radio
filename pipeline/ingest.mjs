@@ -56,7 +56,7 @@ export function applyEnrichment(item, res) {
 }
 
 export function prune(items, { maxAgeDays = 120, maxItems = 2500 } = {}, now = Date.now()) {
-  const kept = items.filter((i) => now - Date.parse(i.publishedAt || i.fetchedAt) < maxAgeDays * 864e5 || (i.availability?.until && Date.parse(i.availability.until) > now));
+  const kept = items.filter((i) => i.source === 'site' || now - Date.parse(i.publishedAt || i.fetchedAt) < maxAgeDays * 864e5 || (i.availability?.until && Date.parse(i.availability.until) > now));
   return kept.sort((a, b) => b.trend - a.trend).slice(0, maxItems);
 }
 
@@ -83,6 +83,7 @@ export async function run({ root = ROOT, now = Date.now(), env = process.env, lo
   const prevItems = (await readJson(path.join(dataDir, 'items.json'), { items: [] })).items;
   const prevColl = await readJson(path.join(dataDir, 'collectibles.json'), { categories: [] });
   const prevMeta = await readJson(path.join(dataDir, 'meta.json'), {});
+  const siteCache = await readJson(path.join(dataDir, 'site-cache.json'), {});
 
   // 1. fetch every source independently — one failing source never blocks the rest
   const jobs = {
@@ -90,16 +91,16 @@ export async function run({ root = ROOT, now = Date.now(), env = process.env, lo
     reddit: () => fetchReddit(cfg.reddit, { clientId: env.REDDIT_CLIENT_ID, clientSecret: env.REDDIT_CLIENT_SECRET }),
     news: () => fetchNews(cfg.news),
     tiktok: () => fetchTikTok(cfg.tiktok, { apifyToken: env.APIFY_TOKEN }),
-    sites: () => fetchSites(cfg.sites, { now: nowIso, log, apiKey: env.ANTHROPIC_API_KEY }),
+    sites: () => fetchSites(cfg.sites, { now: nowIso, log, apiKey: env.ANTHROPIC_API_KEY, cache: siteCache }),
   };
   const sourceStatus = {};
   const fresh = [];
-  const siteResult = { items: [], collectibles: [] };
+  const siteResult = { items: [], collectibles: [], cache: siteCache };
   await Promise.all(Object.entries(jobs).map(async ([name, job]) => {
     try {
       const r = await job();
       sourceStatus[name] = { ok: !r.errors.length || r.items.length > 0, count: r.items.length, errors: r.errors.slice(0, 5), at: nowIso };
-      if (name === 'sites') { siteResult.items = r.items; siteResult.collectibles = r.collectibles; } else fresh.push(...r.items);
+      if (name === 'sites') { siteResult.items = r.items; siteResult.collectibles = r.collectibles; siteResult.cache = r.cache; } else fresh.push(...r.items);
     } catch (e) {
       sourceStatus[name] = { ok: false, count: 0, errors: [e.message], at: nowIso };
     }
@@ -147,6 +148,7 @@ export async function run({ root = ROOT, now = Date.now(), env = process.env, lo
   const counts = Object.fromEntries(['youtube', 'tiktok', 'reddit', 'news', 'site'].map((s) => [s, items.filter((i) => i.source === s).length]));
   await writeJson(path.join(dataDir, 'items.json'), { generatedAt: nowIso, items });
   await writeJson(path.join(dataDir, 'collectibles.json'), coll.file);
+  await writeJson(path.join(dataDir, 'site-cache.json'), siteResult.cache);
   await writeJson(path.join(dataDir, 'meta.json'), {
     generatedAt: nowIso,
     aiEnrichment: !!apiKey,

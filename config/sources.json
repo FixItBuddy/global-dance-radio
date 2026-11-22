@@ -25,7 +25,8 @@
     "urls": []
   },
   "sites": [
-    { "url": "https://www.pushsquare.com/guides/gta-6-guide", "maxPages": 15, "include": "gta-6" }
+    { "url": "https://www.pushsquare.com/guides/gta-6-guide", "maxPages": 15, "include": "/guides/gta-6" },
+    { "url": "https://www.pushsquare.com/guides", "maxPages": 40, "include": "/guides/gta-6" }
   ],
   "retention": { "maxAgeDays": 120, "maxItems": 2500 }
 }
