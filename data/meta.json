@@ -1,7 +1,63 @@
 {
- "generatedAt": null,
+ "generatedAt": "2026-11-22T10:09:35.166Z",
  "aiEnrichment": false,
- "sourceStatus": {},
- "counts": {},
- "totals": { "items": 0, "collectibles": 0 }
+ "sourceStatus": {
+  "youtube": {
+   "ok": false,
+   "count": 0,
+   "errors": [
+    "YOUTUBE_API_KEY not set — keyword search skipped (channel RSS still used)"
+   ],
+   "at": "2026-11-22T10:09:35.166Z",
+   "lastOkAt": null
+  },
+  "tiktok": {
+   "ok": false,
+   "count": 0,
+   "errors": [
+    "APIFY_TOKEN not set — TikTok hashtag search skipped (curated URLs still used)"
+   ],
+   "at": "2026-11-22T10:09:35.166Z",
+   "lastOkAt": null
+  },
+  "sites": {
+   "ok": false,
+   "count": 0,
+   "errors": [
+    "ANTHROPIC_API_KEY not set — seed sites skipped"
+   ],
+   "at": "2026-11-22T10:09:35.166Z",
+   "lastOkAt": null
+  },
+  "reddit": {
+   "ok": false,
+   "count": 0,
+   "errors": [
+    "r/GTA6/new: HTTP 403 for https://www.reddit.com/r/GTA6/new.json?limit=50&raw_json=1",
+    "r/GTA6/hot: HTTP 403 for https://www.reddit.com/r/GTA6/hot.json?limit=50&raw_json=1",
+    "r/GrandTheftAutoVI/new: HTTP 403 for https://www.reddit.com/r/GrandTheftAutoVI/new.json?limit=50&raw_json=1",
+    "r/GrandTheftAutoVI/hot: HTTP 403 for https://www.reddit.com/r/GrandTheftAutoVI/hot.json?limit=50&raw_json=1"
+   ],
+   "at": "2026-11-22T10:09:35.166Z",
+   "lastOkAt": null
+  },
+  "news": {
+   "ok": true,
+   "count": 40,
+   "errors": [],
+   "at": "2026-11-22T10:09:35.166Z",
+   "lastOkAt": "2026-11-22T10:09:35.166Z"
+  }
+ },
+ "counts": {
+  "youtube": 0,
+  "tiktok": 0,
+  "reddit": 0,
+  "news": 39,
+  "site": 0
+ },
+ "totals": {
+  "items": 39,
+  "collectibles": 0
+ }
 }
