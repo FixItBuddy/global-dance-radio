@@ -1,28 +1,189 @@
 {
- "generatedAt": "2026-11-22T16:06:35.653Z",
+ "generatedAt": "2026-11-22T17:07:54.952Z",
  "items": [
   {
-   "id": "news:fd3c7ff33cf6",
+   "id": "news:9cd661f056d9",
    "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzB2MU9VamQxUGQwZlVuZ3RuaVk4UWRmWkl4OWs3SEZGZjVNWDVyLWRMSEZsSFNydHRWR1NFV21lT0VIbE5WTHg2cXBtb1Y3a1FaOXNiSHZvYXdhRnJUOHl3OGtRNm85SmVyN2VnSXlGaXNpZ1BlTW4xdEp2VG4yb0c2Y0s?oc=5",
-   "title": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) - Cultured Vultures",
-   "description": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) &nbsp;&nbsp; Cultured Vultures",
-   "author": "Cultured Vultures",
-   "publishedAt": "2026-11-22T15:23:28.000Z",
-   "fetchedAt": "2026-11-22T16:06:35.653Z",
+   "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOdHdoX05kaTdvTDcyYi1oV2hvRFMxN3hORXVQWnAyUHV2Q21UQ2Z4ODd4Z1YwcTR0dWlTUGo1bEYwZVNlS1hvcTNJVmg4dm82Um53ZWNIT2hBcUhlcHhSZlY0T2ZCLVdtd1lMQ2tlWXhZX05DNWYzclpBR0N1cWRSNVRjZW1sVndTdERNeDJCNXZkZThZNzFVa3NRM1U2N2hsVlJrd0dZTVBHR19PSlNHSGw3NG1XM3RnS2ZDdkk2eVJaT1owbm90Y3FhOUllTE93T0N2eXI5aXVjY09SUGpRYVJkLXRtb1JydFlRMmtLaEFIVDFvbUpfaTF1cHZydw?oc=5",
+   "title": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers - PC Gamer",
+   "description": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers &nbsp;&nbsp; PC Gamer",
+   "author": "PC Gamer",
+   "publishedAt": "2026-11-22T16:55:10.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
    "thumbnail": null,
    "stats": {},
    "spoilerFloor": null,
    "trusted": false,
-   "kind": "secret",
+   "kind": "news",
    "spoiler": "safe",
    "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) &nbsp;&nbsp; Cultured Vultures",
+   "summary": "Former Rockstar environment artist breaks silence: GTA 6 is 'generally stunning,' but Red Dead 2 might have had better rivers &nbsp;&nbsp; PC Gamer",
    "area": "",
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
    "trend": 50.66
+  },
+  {
+   "id": "news:d4be4ea4dcb7",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRS0NDUHRaS3lCT2w0MFEySHVTX3dCdTVyME5zZ2EyYThVWGJTckdkN3E5NmlVVkNSQTJ0TEV5dU45YnVlV18ybGFjRVI4eVduU3pjZkVpQll2UmRhb3hKblp3TkV6R21Qaktjc2lFRlZOaVBZeE5ibXIxdzVOeFk?oc=5",
+   "title": "Trump Administration Tries To Use 'GTA VI' To Boost Its Agenda — And It's A Total Self-Own - Yahoo News Singapore",
+   "description": "Trump Administration Tries To Use 'GTA VI' To Boost Its Agenda — And It's A Total Self-Own &nbsp;&nbsp; Yahoo News Singapore",
+   "author": "Yahoo News Singapore",
+   "publishedAt": "2026-11-22T16:42:21.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Trump Administration Tries To Use 'GTA VI' To Boost Its Agenda — And It's A Total Self-Own &nbsp;&nbsp; Yahoo News Singapore",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:cddc3d439674",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96ODNoN2pES0RIT1F5RWRhNVJRNG1VME9CT3NmYjdPLVNveTJBVGdHTUYzcHY1ZjNCcmNPN0hQUG1TVEhfM3Zna3l0c0NPRkU5UEl3dktUNXJqWXRWZnIwS2tQRVR6SXZfYWNCX0ZwT053bC15N0QxRC1B?oc=5",
+   "title": "Neuralink Lets Man Play GTA 6 With His Mind - PCMag",
+   "description": "Neuralink Lets Man Play GTA 6 With His Mind &nbsp;&nbsp; PCMag",
+   "author": "PCMag",
+   "publishedAt": "2026-11-22T16:49:20.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Neuralink Lets Man Play GTA 6 With His Mind &nbsp;&nbsp; PCMag",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:6fe24d665e5f",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQb0xmUDNoZkpXNzVzX3pzbko5UDV2SkxPR3Y5aktHMm9ZeXBieVVrSWJuZk5GdGdwQTFvWlc3YWpwakg3dTAtZDdEc1FUWTJ0SklSVklIVU0tTS1fNDFod2w3M1FLUWVRdmVpY0Nac1JSVy1oOUtoQlMxOFdlT1J3d1Z2dlZUb1FvbEREYVFyOA?oc=5",
+   "title": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million - MoneyWise.com",
+   "description": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; MoneyWise.com",
+   "author": "MoneyWise.com",
+   "publishedAt": "2026-11-22T16:37:15.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; MoneyWise.com",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:b325641dec58",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLV9RSnVnSjhkMTZFUlRjcUxPSXB2cEZKTGlvUF9yY3NwS1pXc0pHa0F4WVpvSk90VGdPc2tiOExxN3k1RjNhSDRKTlRYMXE4UFplVXNLdk5JWkx3LWtMZkVQSlpwb3NRZ0ZxcWpUb0FIRVZKX2ZfeHc5NzZYZ3pnbG04U1ZETWJfaXNpY19rNkdGTHBMY2dUbGhXbWNMVHJORXpZdmNR?oc=5",
+   "title": "'GTA VI' Has an NPC Who Thinks He's Trapped in a Video Game: 'Why Can't I Leave???' - Complex",
+   "description": "'GTA VI' Has an NPC Who Thinks He's Trapped in a Video Game: 'Why Can't I Leave???' &nbsp;&nbsp; Complex",
+   "author": "Complex",
+   "publishedAt": "2026-11-22T16:29:10.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "'GTA VI' Has an NPC Who Thinks He's Trapped in a Video Game: 'Why Can't I Leave???' &nbsp;&nbsp; Complex",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:858055e0dce3",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMFZwUWxNUV9yOWFXcDZQdnE3ZzlaeWEtZWNjd0dGOXBGRGJLTHEzZUpKWktuTWxmaTdIdVZtSFBUaHItT1NRSDd0X19qSEZQZnA2SkFuODl6S0ZObGRiaXFRRmJrQzRMcmJuWlpxRlJUdDA2LXdzVGlWZEt0ZGYyMG1WbEZ5ZjRFNUx5N25JNzZHRFdlUGIxUzEtd2RYV0NnNTdGTHFodk9QT0tlSy1wLWR2cjVWQlJWakFEVzFFUXVDa3BHN3F3SdIB3AFBVV95cUxPczNyTDhtOU1NX055UmpVNjRLRGhFTmNsanNUY3ZWa2s2RVdIMHh2dk1oLVREbTdLR2h3QkZ2Zm5NUWRUbUV5aWxScDFVQVZUZzZHNV8xdnBXZ3BsQWNSc1JVcEkxSGNMelJ6N2JRWUtFWUZVaTFPZkhsVzFfU3pfeWtVMUdNZ01OcXJPLTBWNmNRdDA0ajZwcnlSX0hmZVdFY09vcDBGVmdMd0FyOUNuWThZQkZ0SldhaVZuRnJ0NGwySHdmMi0zeExYYnQ4NHREU19pcHFfUHlzMnVH?oc=5",
+   "title": "‘GTA VI’ is here. What parents need to know before handing over the controller - KIRO 7 News Seattle",
+   "description": "‘GTA VI’ is here. What parents need to know before handing over the controller &nbsp;&nbsp; KIRO 7 News Seattle",
+   "author": "KIRO 7 News Seattle",
+   "publishedAt": "2026-11-22T16:06:34.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "‘GTA VI’ is here. What parents need to know before handing over the controller &nbsp;&nbsp; KIRO 7 News Seattle",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.19
+  },
+  {
+   "id": "news:9de737886b96",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9WRmRyQ0JwTmMwdkcydjlMMG9xTS05d2JTenNweVVzWHIxNlZtcDlmSTFVSWZ0T1ZHOWEwdmtJbE9TX01LZjRzU1ZoUmlySmJGejRBdzg1RGtfc2Vzdjh2NW9hWDNNQnZQcU8wSWZQU2tBWnhwUVFyTEd5cDBydw?oc=5",
+   "title": "All the GTA 6 aircraft we've spotted so far - Aerospace Global News",
+   "description": "All the GTA 6 aircraft we've spotted so far &nbsp;&nbsp; Aerospace Global News",
+   "author": "Aerospace Global News",
+   "publishedAt": "2026-11-22T16:01:00.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "All the GTA 6 aircraft we've spotted so far &nbsp;&nbsp; Aerospace Global News",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 48.32
+  },
+  {
+   "id": "news:ae3a604ceb1f",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sZER2ZmdsMHBhQXdJNjI1d3VFaU5FbG1xLUgtS2dOX2NlR25KQ3d6SjM0Q2o1TnZ6YzBEV2ZJU2RZWTFQQ2tpSk5pMmF1QnlSMDE1U0ttbGNpeHc?oc=5",
+   "title": "GTA 6 Already Got One Thing Very Wrong - ScreenRant",
+   "description": "GTA 6 Already Got One Thing Very Wrong &nbsp;&nbsp; ScreenRant",
+   "author": "ScreenRant",
+   "publishedAt": "2026-11-22T16:00:18.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Already Got One Thing Very Wrong &nbsp;&nbsp; ScreenRant",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 48.1
   },
   {
    "id": "news:82e662306da2",
@@ -45,30 +206,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
-  },
-  {
-   "id": "news:59c77f100ba4",
-   "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkJCMWxiS0hhcktOR21WamZVWHQ4QmZVNWhZOVZZUXl3MXdnSmJmNkhYYXBESU9TZ1VHZnhVbEwyamxxU0taMjc5LTdGOVFvZVJUTU1MeEtZaTZGT0V5QWJ5X3pqbmNnWmJ4WUM4WGtOQ01vTkQ0dVFNZWlWdUdSM2FJVkFNNjNqdGdfZg?oc=5",
-   "title": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 - Polygon.com",
-   "description": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 &nbsp;&nbsp; Polygon.com",
-   "author": "Polygon.com",
-   "publishedAt": "2026-11-22T15:32:59.000Z",
-   "fetchedAt": "2026-11-22T16:06:35.653Z",
-   "thumbnail": null,
-   "stats": {},
-   "spoilerFloor": null,
-   "trusted": false,
-   "kind": "tip",
-   "spoiler": "safe",
-   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 &nbsp;&nbsp; Polygon.com",
-   "area": "",
-   "tags": [],
-   "availability": null,
-   "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 48
   },
   {
    "id": "news:1f24da4b81d6",
@@ -91,7 +229,99 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 43.63
+  },
+  {
+   "id": "news:c31afaca530c",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObHNSZkpVSlM5SlR1UzRlRi03eEQ2WXl2UVpxTjJKT1c4WFRVRzU5R2d2MmhTZFAtWnE5NTQ4NUNiTUp6VXhMWTRRdDRDWUJDZG9FWmhUR3dlZXpWSkJBQ2NHc1E4RnhtSDRwbHRXLWlTYUE4NUoxWjVlUnBBUkxTdDFpd0R5MTVu?oc=5",
+   "title": "GTA 6's Record Opening Sales Rewrite Entertainment History - 조선일보",
+   "description": "GTA 6's Record Opening Sales Rewrite Entertainment History &nbsp;&nbsp; 조선일보",
+   "author": "조선일보",
+   "publishedAt": "2026-11-22T15:34:38.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6's Record Opening Sales Rewrite Entertainment History &nbsp;&nbsp; 조선일보",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 40.98
+  },
+  {
+   "id": "news:59c77f100ba4",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkJCMWxiS0hhcktOR21WamZVWHQ4QmZVNWhZOVZZUXl3MXdnSmJmNkhYYXBESU9TZ1VHZnhVbEwyamxxU0taMjc5LTdGOVFvZVJUTU1MeEtZaTZGT0V5QWJ5X3pqbmNnWmJ4WUM4WGtOQ01vTkQ0dVFNZWlWdUdSM2FJVkFNNjNqdGdfZg?oc=5",
+   "title": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 - Polygon.com",
+   "description": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 &nbsp;&nbsp; Polygon.com",
+   "author": "Polygon.com",
+   "publishedAt": "2026-11-22T15:32:59.000Z",
+   "fetchedAt": "2026-11-22T16:06:35.653Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Where to find the Fast & Furious Mitsubishi Eclipse in GTA 6 &nbsp;&nbsp; Polygon.com",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 40.58
+  },
+  {
+   "id": "news:009943a11580",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVQno5ZksySzBJb040dXh5OVhVQ1Y4ZHlDMzA3X19MVnRjUUc3Wk1lNUVMa2paejdvODAwTVl4VWhFd0MxV2t4Q0hmV1g2RGxQSWlIckJldGNubFgzMVdUeXhyZkFlUC0xWUpVbGp3?oc=5",
+   "title": "GTA 6 Parody In Binding of Isaac Used AI Without Creator's Knowledge - Polygon.com",
+   "description": "GTA 6 Parody In Binding of Isaac Used AI Without Creator's Knowledge &nbsp;&nbsp; Polygon.com",
+   "author": "Polygon.com",
+   "publishedAt": "2026-11-22T15:29:47.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Parody In Binding of Isaac Used AI Without Creator's Knowledge &nbsp;&nbsp; Polygon.com",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 39.84
+  },
+  {
+   "id": "news:fd3c7ff33cf6",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQXzB2MU9VamQxUGQwZlVuZ3RuaVk4UWRmWkl4OWs3SEZGZjVNWDVyLWRMSEZsSFNydHRWR1NFV21lT0VIbE5WTHg2cXBtb1Y3a1FaOXNiSHZvYXdhRnJUOHl3OGtRNm85SmVyN2VnSXlGaXNpZ1BlTW4xdEp2VG4yb0c2Y0s?oc=5",
+   "title": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) - Cultured Vultures",
+   "description": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) &nbsp;&nbsp; Cultured Vultures",
+   "author": "Cultured Vultures",
+   "publishedAt": "2026-11-22T15:23:28.000Z",
+   "fetchedAt": "2026-11-22T16:06:35.653Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6: How To Do the First-Person Glitch (PS5 & Xbox) &nbsp;&nbsp; Cultured Vultures",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 38.44
   },
   {
    "id": "news:8f27cc9f02eb",
@@ -114,7 +344,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.52
+   "trend": 35.04
   },
   {
    "id": "news:8085740f2410",
@@ -137,7 +367,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 49.21
+   "trend": 34.36
   },
   {
    "id": "news:b12a11541905",
@@ -160,7 +390,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 48.53
+   "trend": 34
+  },
+  {
+   "id": "news:b2e0cbf9d11b",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQU9rZTJHdFl0eGE1cmFQdV9mQjVLUUQxZ2FLaTNhaFRvc1RMcWVRSkFxUkJrMkhCNlNsbXMyVU9SaEJKcERyVGtST3FrWmVfcDdIQWk3QzVxYmlVZXRoVjAyUW82aE1QNkNPRTVCWlRYNzMyNllDMy11QThvM3JOQmFxN1c5RGpXWWpXcGh2bVdocm1HLTN3UTg0MlpZZEF4ZGJHRXlHb3lXSEFFTk1NOHFKQ05rNlU?oc=5",
+   "title": "The GTAs that are still worth playing while you wait for GTA 6 on PC - PC Gamer",
+   "description": "The GTAs that are still worth playing while you wait for GTA 6 on PC &nbsp;&nbsp; PC Gamer",
+   "author": "PC Gamer",
+   "publishedAt": "2026-11-22T15:00:00.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "The GTAs that are still worth playing while you wait for GTA 6 on PC &nbsp;&nbsp; PC Gamer",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 33.95
   },
   {
    "id": "news:fdbad6d8d2c9",
@@ -183,7 +436,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 46.14
+   "trend": 32.73
+  },
+  {
+   "id": "news:05a6ebe99210",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxQSl9zYzZLM0ZNSVVvUk1HdWlYaU9ITG9ZT04tQ0NKYmRtWjNBdWJCWmE3Nk00YTE1aVNrWFVLZ3Y5RXVyVF9kbzRtdVltYU1yNV9tWHZvbW5pR0cwb0tTbTdFU3c4bmhKSXZpNDZUbjY3VkRYZmZWVDNHQlV5SjNYTjJPOENENmtZYmxJZGJfRXdZNlBMWXFBVkhKWDlfemFLS21jaWxEbXROTjA0ZDhwZGt1REV0YVRkUVNfazhvNU1OT08ySGdxMy1sNDNUcmNYVWlrbXdlcjg3ajZ3R3lSOW1uNzlGb09qa1RSS3N0ZEFpdmJyWWJuVm1qdnU1NmtEMHRMWXN6S1N4NmhibTg1VkZPeHlUMUR2aE1BdnpFTmkxNjVMR2lRZ2QtbjFfM09palBWdURyTzlpMzFiRTlkbUlHc2l6VzJKQi1hMzB4WS16QQ?oc=5",
+   "title": "Neuralink trial participant ditches mouth stick to play GTA 6 with his mind — brain-computer interface maps imagined ring-finger taps and hand slides to a PlayStation 5 controller - Tom's Hardware",
+   "description": "Neuralink trial participant ditches mouth stick to play GTA 6 with his mind — brain-computer interface maps imagined ring-finger taps and hand slides to a PlayStation 5 controller &nbsp;&nbsp; Tom's Hardware",
+   "author": "Tom's Hardware",
+   "publishedAt": "2026-11-22T14:49:48.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Neuralink trial participant ditches mouth stick to play GTA 6 with his mind — brain-computer interface maps imagined ring-finger taps and hand slides to a Play…",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 32.28
   },
   {
    "id": "news:baf1097ef81d",
@@ -206,7 +482,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 41.75
+   "trend": 30.32
+  },
+  {
+   "id": "news:d2fc78999786",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVMTBIRnNFVjk4VzZaamxPVGI5b0RMamhpZUlpRHhUWVRSWEdKV2xZNldnUWQ3eXFaNWstbWFFSlJPbmZ0V2t3MDJxeWdsd0Z4R21qNzFqTFEtS09RbUpoLUo3T3JYXzNlLXo4SjhmTG4zOTd2US1v?oc=5",
+   "title": "GTA 6 Mamba - Near The Prison - Yahoo Tech",
+   "description": "GTA 6 Mamba - Near The Prison &nbsp;&nbsp; Yahoo Tech",
+   "author": "Yahoo Tech",
+   "publishedAt": "2026-11-22T14:34:55.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Mamba - Near The Prison &nbsp;&nbsp; Yahoo Tech",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 30.1
   },
   {
    "id": "news:0e977d3e7c1c",
@@ -229,7 +528,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 40.87
+   "trend": 29.82
   },
   {
    "id": "news:9105544d1bdc",
@@ -252,7 +551,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 37.65
+   "trend": 27.96
   },
   {
    "id": "news:443a4259ae35",
@@ -275,7 +574,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 37.58
+   "trend": 27.92
   },
   {
    "id": "news:5a7442985701",
@@ -298,7 +597,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.16
+   "trend": 26.49
   },
   {
    "id": "news:0c73430c50a4",
@@ -321,7 +620,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.36
+   "trend": 26
   },
   {
    "id": "news:5646cf5cf25c",
@@ -344,7 +643,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.18
+   "trend": 25.89
   },
   {
    "id": "news:b1a37ea61d4f",
@@ -367,7 +666,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.18
+   "trend": 25.89
   },
   {
    "id": "news:c218323f0906",
@@ -390,7 +689,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.18
+   "trend": 25.89
   },
   {
    "id": "news:31d3b2649b01",
@@ -413,7 +712,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.18
+   "trend": 25.89
   },
   {
    "id": "news:500bc0c77dc2",
@@ -436,7 +735,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 31.93
+   "trend": 24.51
+  },
+  {
+   "id": "news:9f779a4553a2",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUmNPWkdVU2x4OUM0enpNS21GbXJhczRZOE1scngwdy1FcHdhb0JVZEZCLUg2RWNubUxxTEtkMG5zZHRBN25YQVVab0NCZTBsR1UyaExEOGpXZU5sZjVnRlM1Q0xaQW5Zc0RKX0JNTjZKMl9TV19WZ1I1R3lwNUhLS0c4ejc1Y0p5UmJpVw?oc=5",
+   "title": "I Think GTA 6's Cars Are Way, Way More Than Just Getaway Wheels - IGN",
+   "description": "I Think GTA 6's Cars Are Way, Way More Than Just Getaway Wheels &nbsp;&nbsp; IGN",
+   "author": "IGN",
+   "publishedAt": "2026-11-22T13:30:00.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "I Think GTA 6's Cars Are Way, Way More Than Just Getaway Wheels &nbsp;&nbsp; IGN",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 23.05
   },
   {
    "id": "news:78f559257773",
@@ -459,7 +781,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 29.32
+   "trend": 22.87
   },
   {
    "id": "news:189a8ff5ad7a",
@@ -482,7 +804,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 28.96
+   "trend": 22.64
   },
   {
    "id": "news:3b0cc58c1008",
@@ -505,7 +827,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.06
+   "trend": 20.75
   },
   {
    "id": "news:588f356503ab",
@@ -528,7 +850,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.03
+   "trend": 20.73
   },
   {
    "id": "news:4621c5b28d42",
@@ -551,7 +873,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.72
+   "trend": 19.85
   },
   {
    "id": "news:55a65472b3ca",
@@ -574,7 +896,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 23.42
+   "trend": 18.96
   },
   {
    "id": "news:90260ad0cb38",
@@ -597,7 +919,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 22.74
+   "trend": 18.5
   },
   {
    "id": "news:89fa8b217922",
@@ -620,7 +942,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 22.05
+   "trend": 18.02
   },
   {
    "id": "news:1e91b51ae7c5",
@@ -643,7 +965,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.48
+   "trend": 17.63
   },
   {
    "id": "news:e023d55d50d9",
@@ -666,7 +988,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 20.84
+   "trend": 17.18
   },
   {
    "id": "news:56181678e0ee",
@@ -689,7 +1011,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 20.82
+   "trend": 17.16
   },
   {
    "id": "news:7153ade9d02a",
@@ -712,7 +1034,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 19.06
+   "trend": 15.9
   },
   {
    "id": "news:807c7eb532ba",
@@ -735,7 +1057,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.75
+   "trend": 14.95
   },
   {
    "id": "news:1d1e61bb4a36",
@@ -758,7 +1080,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.48
+   "trend": 14.75
   },
   {
    "id": "news:e2f193624487",
@@ -781,7 +1103,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.23
+   "trend": 14.56
   },
   {
    "id": "news:3dda3e9ec0e3",
@@ -804,7 +1126,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.84
+   "trend": 14.28
   },
   {
    "id": "news:f9c73e046731",
@@ -827,7 +1149,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.54
+   "trend": 14.05
   },
   {
    "id": "news:5977198d5e3e",
@@ -850,7 +1172,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.53
+   "trend": 13.29
   },
   {
    "id": "news:9e11ed43d656",
@@ -873,7 +1195,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.3
+   "trend": 13.12
   },
   {
    "id": "news:27b36a8d65a8",
@@ -896,7 +1218,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.84
+   "trend": 12.77
   },
   {
    "id": "news:4cb8fbe4f01a",
@@ -919,7 +1241,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.61
+   "trend": 12.6
   },
   {
    "id": "news:03fbc54bfb5e",
@@ -942,7 +1264,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.31
+   "trend": 12.36
   },
   {
    "id": "news:e5a608f1354f",
@@ -965,7 +1287,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 13.35
+   "trend": 11.62
   },
   {
    "id": "news:6f25beb563fc",
@@ -988,7 +1310,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.4
+   "trend": 10.88
   },
   {
    "id": "news:9a8bb4b4a157",
@@ -1011,7 +1333,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.16
+   "trend": 10.68
   },
   {
    "id": "news:9374a9ac60eb",
@@ -1034,7 +1356,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.45
+   "trend": 10.12
   },
   {
    "id": "news:56932f8ceb64",
@@ -1057,7 +1379,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.37
+   "trend": 10.06
   },
   {
    "id": "news:33b2edf84ed8",
@@ -1080,7 +1402,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.3
+   "trend": 10
   },
   {
    "id": "news:5a7f19acfe15",
@@ -1103,7 +1425,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.1
+   "trend": 9.84
   },
   {
    "id": "news:3c23ff8d6fd4",
@@ -1126,7 +1448,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 10.91
+   "trend": 9.68
   },
   {
    "id": "news:86f3293eacd5",
@@ -1149,7 +1471,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.23
+   "trend": 7.48
   },
   {
    "id": "news:b7993ac8513c",
@@ -1172,7 +1494,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 7.57
+   "trend": 6.92
   },
   {
    "id": "news:6e07bd754cfb",
@@ -1195,7 +1517,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.9
+   "trend": 6.35
   },
   {
    "id": "news:0693c93d02cf",
@@ -1218,7 +1540,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.75
+   "trend": 6.22
   },
   {
    "id": "news:5e4ea696de41",
@@ -1241,7 +1563,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.35
+   "trend": 5
   },
   {
    "id": "news:5f11e1249811",
@@ -1264,7 +1586,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.35
+   "trend": 5
   },
   {
    "id": "news:2b8150c8f675",
@@ -1287,7 +1609,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.7
+   "trend": 4.42
   },
   {
    "id": "news:bbce030821c8",
@@ -1310,7 +1632,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.66
+   "trend": 4.38
   },
   {
    "id": "news:83b5011f3ad9",
@@ -1333,7 +1655,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.61
+   "trend": 4.34
   },
   {
    "id": "news:b793ef0fb171",
@@ -1356,7 +1678,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.41
+   "trend": 4.15
   },
   {
    "id": "news:a144e22dbf1f",
@@ -1379,7 +1701,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.39
+   "trend": 4.14
   },
   {
    "id": "news:6e38975b4581",
@@ -1402,7 +1724,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.17
+   "trend": 3.94
+  },
+  {
+   "id": "news:3ef89b4ee5e7",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1Vbm13YTJQSV9rYkdIQU5wTGxDT0g3cmdvc3hqYWhkQ0FzWml3Zk9OODQ4OThaT3pxMF9VZHhHMUkxT2dPcmNzbzB5ZFpvYTNkQ1VTOC1XYzhpcFdIX09oVzB2azlwdEJKZ0RsYm9CVQ?oc=5",
+   "title": "Can My PC Run GTA 6? Minimum And Recommended Specs To Expect - HotHardware",
+   "description": "Can My PC Run GTA 6? Minimum And Recommended Specs To Expect &nbsp;&nbsp; HotHardware",
+   "author": "HotHardware",
+   "publishedAt": "2026-11-21T19:30:00.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Can My PC Run GTA 6? Minimum And Recommended Specs To Expect &nbsp;&nbsp; HotHardware",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 3.84
   },
   {
    "id": "news:75dbb30f4890",
@@ -1425,7 +1770,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.95
+   "trend": 3.74
   },
   {
    "id": "news:1b24ce6fdedf",
@@ -1448,7 +1793,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.87
+   "trend": 3.67
   },
   {
    "id": "news:13c9ecd9b846",
@@ -1471,7 +1816,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.75
+   "trend": 3.56
   },
   {
    "id": "news:f83aa67c4754",
@@ -1494,7 +1839,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.74
+   "trend": 3.55
   },
   {
    "id": "news:927e0aa2d04c",
@@ -1517,7 +1862,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.69
+   "trend": 3.5
   },
   {
    "id": "news:a347a142c49d",
@@ -1540,7 +1885,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.66
+   "trend": 3.48
   },
   {
    "id": "news:92067cae7de8",
@@ -1563,7 +1908,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.56
+   "trend": 3.39
   },
   {
    "id": "news:58857c731b19",
@@ -1586,7 +1931,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.53
+   "trend": 3.36
   },
   {
    "id": "news:6c7cab9d99b9",
@@ -1609,7 +1954,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.43
+   "trend": 3.27
   },
   {
    "id": "news:440f45a751eb",
@@ -1632,7 +1977,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.26
+   "trend": 3.11
   },
   {
    "id": "news:6a6b90fb1ab2",
@@ -1655,7 +2000,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.26
+   "trend": 3.11
   },
   {
    "id": "news:09d20c6b55dd",
@@ -1678,7 +2023,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.23
+   "trend": 3.09
   },
   {
    "id": "news:5ce8fe98416c",
@@ -1701,7 +2046,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.19
+   "trend": 3.05
   },
   {
    "id": "news:12689bea9a2f",
@@ -1724,7 +2069,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.08
+   "trend": 2.94
   },
   {
    "id": "news:82d0873d6b9e",
@@ -1747,7 +2092,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.06
+   "trend": 2.93
   },
   {
    "id": "news:32c53540b2e6",
@@ -1770,7 +2115,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.05
+   "trend": 2.92
   },
   {
    "id": "news:01bf095dae47",
@@ -1793,7 +2138,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.82
+   "trend": 2.71
   },
   {
    "id": "news:5d0ef36fdca8",
@@ -1816,7 +2161,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.21
+   "trend": 2.14
   },
   {
    "id": "news:6dd87a7cb800",
@@ -1839,7 +2184,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.02
+   "trend": 1.96
   },
   {
    "id": "news:84689aa31e0e",
@@ -1862,7 +2207,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.94
+   "trend": 1.88
   },
   {
    "id": "news:5dead6c5b53a",
@@ -1885,7 +2230,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.8
+   "trend": 1.75
   },
   {
    "id": "news:8b483ae94755",
@@ -1908,7 +2253,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.79
+   "trend": 1.74
+  },
+  {
+   "id": "news:c8cf02db9caf",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPb3ppYXBrUmpwelhSX0lWX1E1RmgxRzFPcTdrdDMyNC1ZWU4xalNhYUZnbm5XRmhBd19qVzNnel92YXRHM0xhLW1KaVpSYkoweFNvTWhsbkNGZHBBT1Z3c2REdU9LM0Z1NFhQVjBoaFA2bW8tLWZva1VLbEpYZzVlU1BaZlgxczlRVWI4Nl91NWlJdkFEUWhsWnd5Z2lJV3FO0gGmAUFVX3lxTE02NS1TNUducE91RGpnN1ZzXzBtOFpLS0pyYzJuR2wtWUswbG9oLWxJdklYdWEzdW1YTFdXS0dlQzY5TnROZ1RGRWZTX25YZGptMGNpR2YtZ3VLSkMyS3lnaU02MExXRmJUNDVGZU85NUZ6RVRjQkM5V05oODBrRFc0RWUwdVM3UVg0a25Mcnk4NDJqVmRhSUpMUTZGcV9uNjlKUjJtNEE?oc=5",
+   "title": "GTA VI Proves Too Demanding For Some PS5 Consoles, Even at 30 FPS - TechPowerUp",
+   "description": "GTA VI Proves Too Demanding For Some PS5 Consoles, Even at 30 FPS &nbsp;&nbsp; TechPowerUp",
+   "author": "TechPowerUp",
+   "publishedAt": "2026-11-20T21:10:51.000Z",
+   "fetchedAt": "2026-11-22T17:07:54.952Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA VI Proves Too Demanding For Some PS5 Consoles, Even at 30 FPS &nbsp;&nbsp; TechPowerUp",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 1.67
   },
   {
    "id": "news:03431783d2ab",
@@ -1931,7 +2299,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.64
+   "trend": 1.59
   },
   {
    "id": "news:e382ea9f8474",
@@ -1954,7 +2322,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.46
+   "trend": 1.43
   },
   {
    "id": "news:c7c450f65e2f",
@@ -1977,7 +2345,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.43
+   "trend": 1.4
   },
   {
    "id": "news:a68c33c2cadc",
@@ -2000,7 +2368,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.4
+   "trend": 1.37
   },
   {
    "id": "news:80d49dbbb91b",
@@ -2023,7 +2391,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.33
+   "trend": 1.3
   },
   {
    "id": "news:b6736ef7e237",
@@ -2046,7 +2414,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.08
+   "trend": 1.06
   },
   {
    "id": "news:4a5ac95ec934",
@@ -2069,7 +2437,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.97
+   "trend": 0.95
   },
   {
    "id": "news:90f2f7767823",
@@ -2092,7 +2460,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.9
+   "trend": 0.89
   },
   {
    "id": "news:da62ff8fa31a",
@@ -2115,7 +2483,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.89
+   "trend": 0.87
   },
   {
    "id": "news:b788ecdd4579",
@@ -2138,7 +2506,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.85
+   "trend": 0.84
   }
  ]
 }
