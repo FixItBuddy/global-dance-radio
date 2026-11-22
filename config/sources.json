@@ -1,0 +1,32 @@
+{
+  "_help": "Edit this file to change what the assistant watches. See README.md. 'trusted' sources skip the must-mention-GTA-VI filter.",
+  "youtube": {
+    "searchQueries": ["GTA 6 tips and tricks", "GTA 6 secrets", "GTA 6 collectibles", "GTA 6 easter eggs", "GTA 6 walkthrough", "GTA 6 news"],
+    "orders": ["date", "viewCount"],
+    "maxResultsPerQuery": 15,
+    "publishedWithinDays": 30,
+    "channels": [],
+    "trustChannels": false
+  },
+  "reddit": {
+    "subreddits": ["GTA6", "GrandTheftAutoVI"],
+    "listings": ["new", "hot"],
+    "limit": 50,
+    "trusted": true
+  },
+  "news": {
+    "feeds": [
+      { "name": "Google News", "url": "https://news.google.com/rss/search?q=%22GTA+VI%22+OR+%22GTA+6%22&hl=en-US&gl=US&ceid=US:en", "limit": 40 }
+    ]
+  },
+  "tiktok": {
+    "hashtags": ["gta6", "gtavi"],
+    "perHashtag": 30,
+    "urls": []
+  },
+  "sites": [
+    { "url": "https://www.pushsquare.com/guides/gta-6-guide", "maxPages": 15, "include": "/guides/gta-6" },
+    { "url": "https://www.pushsquare.com/guides", "maxPages": 40, "include": "/guides/gta-6" }
+  ],
+  "retention": { "maxAgeDays": 120, "maxItems": 2500 }
+}
