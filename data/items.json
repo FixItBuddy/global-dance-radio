@@ -1,6 +1,213 @@
 {
- "generatedAt": "2026-11-22T14:15:32.331Z",
+ "generatedAt": "2026-11-22T15:08:43.676Z",
  "items": [
+  {
+   "id": "news:8f27cc9f02eb",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TWmFmSEl2UXdxNEFWUFdoYUU3c2FvRW1lVGdlNmNSMmhpUHFyQmRXLXRzREN6S2FfTUtCM0ZZdDBscExWcTMwZF81WnQ0NWxudFVQLVVuazVwZXA4Vl83YWRZVkluUDcxdnRNellGZVZ3QTdvaDM2T3c3TFQ2Wnc?oc=5",
+   "title": "How Long Is Chapter 2 in GTA 6? All Missables and Mission List - VICE",
+   "description": "How Long Is Chapter 2 in GTA 6? All Missables and Mission List &nbsp;&nbsp; VICE",
+   "author": "VICE",
+   "publishedAt": "2026-11-22T15:06:13.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "walkthrough",
+   "spoiler": "major",
+   "spoilerWhy": "mentions story/mission progress terms",
+   "summary": "How Long Is Chapter 2 in GTA 6? All Missables and Mission List &nbsp;&nbsp; VICE",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:fdbad6d8d2c9",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15SlNISzRYN0VDWUlFMlhmRHh5M1JxQWp6MEc4djJxTkRWSHB0M2U0Wmk0QkJZYVFDUjZUTXhpSXhtRVFlc2Y0cUFWNm1pdFU2b1lYemY5TVlkMElKZkVfcFR0dWZkX005RU1laDZrMA?oc=5",
+   "title": "GTA 6 glitch on XBOX Series X gets game running at 60fps - here's how to do it - Indy100",
+   "description": "GTA 6 glitch on XBOX Series X gets game running at 60fps - here's how to do it &nbsp;&nbsp; Indy100",
+   "author": "Indy100",
+   "publishedAt": "2026-11-22T14:52:38.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 glitch on XBOX Series X gets game running at 60fps - here's how to do it &nbsp;&nbsp; Indy100",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:9105544d1bdc",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxQU2RSLTRpc0wtb2NOVldFWTFDXzNtZmYxZHJncmp3QkRGM2JpTm9Oc1lucWpZcnpHNXZNSXNKUDBkWDM5OWJWbUh5eFh6eTBJTnVnY0dsUTM1Tk05NUFMU2MxbzhVSmdEMjZiUmU2OVRENkFCNkdyLWw2Y1NyeXZWZlh1TThITnJrRVZHMHRUcF9rWklCa3pDVzhqS2hUbEVJMFVYeFoyR0NnTW1jbWdlQW9CM3g3UEQzbWRvUjd1UGhJTG9KX0xUd193eDdmejhmQUNXWlp3VllPaFVPSGIwUGRUaVNVZXpFTGxFM3c1cEJiLU1GVURtTnROdVJpbGptSTVNUmNObUtJczdEdlVPQ1JjWUZGc08zbFdVNnFhdlNLY0tKa0NtVWdyMm95WldNaHUxd0hBbFd1NzVZVDNPU3FqdVZoU3VISnRkQ2VCMG94NjVqSjhuT1hYdzROZFBsUE0tZWZ3?oc=5",
+   "title": "KFC offers disc-shaped fried chicken to sad disc-less GTA VI fans — KFC Spain’s ‘The Replacement Disc’ campaign delivers where Rockstar disappoints after selling $3.79 billion of GTA VI without a physical disc - Tom's Hardware",
+   "description": "KFC offers disc-shaped fried chicken to sad disc-less GTA VI fans — KFC Spain’s ‘The Replacement Disc’ campaign delivers where Rockstar disappoints after selling $3.79 billion of GTA VI without a physical disc &nbsp;&nbsp; Tom's Hardware",
+   "author": "Tom's Hardware",
+   "publishedAt": "2026-11-22T14:18:22.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "major",
+   "spoilerWhy": "mentions story/mission progress terms",
+   "summary": "KFC offers disc-shaped fried chicken to sad disc-less GTA VI fans — KFC Spain’s ‘The Replacement Disc’ campaign delivers where Rockstar disappoints after selli…",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:443a4259ae35",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE80bGdSNVhqVXRLaHlGc0dDUDdLTTVPMG95V2Jub3N0TXBHTUljNWYyeVdLZHlrTVhrdm1UNXdEN2ZzSTJKMHc0cEhYb1NRNTMtOU9hdEFmUEdSVzV1SFNlNXNjRC16S1lSeVowY1B0VG1tVGNrNFE?oc=5",
+   "title": "Fox News Host Joins Chorus Of Right-Wing Voices Raging Against 'GTA VI' - Yahoo News Singapore",
+   "description": "Fox News Host Joins Chorus Of Right-Wing Voices Raging Against 'GTA VI' &nbsp;&nbsp; Yahoo News Singapore",
+   "author": "Yahoo News Singapore",
+   "publishedAt": "2026-11-22T14:18:03.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Fox News Host Joins Chorus Of Right-Wing Voices Raging Against 'GTA VI' &nbsp;&nbsp; Yahoo News Singapore",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:0e977d3e7c1c",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hSlQ3UWlia1hWd1Nlcl9yd3JtLXlEOHcxMGkwRjZ4UkJXbFNpTEJJUlQyRGdEdW10M2t2bFAxTkplYm1RbWdROFZhVDhCVHJQZndfMVViWmFCeFFXSkRLbnlCYXgxLUotTjhVMzVISnlQVEdaVGIxTHdpdDhadw?oc=5",
+   "title": "GTA 6 Mamba - Collapsed Bridge - Yahoo Tech",
+   "description": "GTA 6 Mamba - Collapsed Bridge &nbsp;&nbsp; Yahoo Tech",
+   "author": "Yahoo Tech",
+   "publishedAt": "2026-11-22T14:32:52.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Mamba - Collapsed Bridge &nbsp;&nbsp; Yahoo Tech",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:baf1097ef81d",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9aMTNqTFJqWmhiN0tVbHZ4Z1BTSEVkRU5CQ0NCWWJkdFo5YndoOTVCd25WZmhFaEExOVlZX281Rl94X0dQcVYwQTk4TDVHbS0zc3d1NTRmdUlrc2hJUF93X3g1RmFmVGNvallxb2w1YVQ2WFUtcExnZg?oc=5",
+   "title": "GTA 6 Players Keep Discovering Ridiculous New Ways To Steal Money - Polygon.com",
+   "description": "GTA 6 Players Keep Discovering Ridiculous New Ways To Steal Money &nbsp;&nbsp; Polygon.com",
+   "author": "Polygon.com",
+   "publishedAt": "2026-11-22T14:36:30.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Players Keep Discovering Ridiculous New Ways To Steal Money &nbsp;&nbsp; Polygon.com",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:8085740f2410",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOR1cwUEI3OFphOGV2aVhWVkN6NGRpOVJrZHFDb1dvSUtxQ3llVVRvRGlyMGVlaVVYdTVjTVRTRnBoSFFhYVNELWlpVVNrMmNoX3VBQ3NrVHJaQ0ZjU3FYcUFoMHA0TXg1M1ZfTXZhMFhzbjk3eE5iNU9QVTRjOFZDNEhQR1hYeHZnWGdzb1EyRWVzZzRld0FpMFYwYS01b2s1UjNrNklHYVJ3ZXB1Z2sxVGRwZw?oc=5",
+   "title": "Mom Sends Daughter to Grandma’s House So She Can Play GTA 6 for 24 Hours Straight - VICE",
+   "description": "Mom Sends Daughter to Grandma’s House So She Can Play GTA 6 for 24 Hours Straight &nbsp;&nbsp; VICE",
+   "author": "VICE",
+   "publishedAt": "2026-11-22T15:02:23.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Mom Sends Daughter to Grandma’s House So She Can Play GTA 6 for 24 Hours Straight &nbsp;&nbsp; VICE",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 50.66
+  },
+  {
+   "id": "news:5a7442985701",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMkRSeE5Vc0s5NXQ0bThBVFZoZU1JSUVBQmJTWDBuMk5tLV9oaG5tZXpDYkdRNTZpTkZfbjQ1OTQ2Q2NDd3JoNWxmM0pPelRfaGJlc2tfSG96eVh5d2hNT3QtNmNUelRhaTg2dnkxcWVSMWxmekduTWxNRDU5ZXdaM3BLeTBHbU1W?oc=5",
+   "title": "GTA VI Pre-Order Bonus Now Available To Buy Separately - RockstarINTEL",
+   "description": "GTA VI Pre-Order Bonus Now Available To Buy Separately &nbsp;&nbsp; RockstarINTEL",
+   "author": "RockstarINTEL",
+   "publishedAt": "2026-11-22T14:05:33.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "special",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA VI Pre-Order Bonus Now Available To Buy Separately &nbsp;&nbsp; RockstarINTEL",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 49.56
+  },
+  {
+   "id": "news:0c73430c50a4",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkRxdk4xRGxwazdQWkpGVEhjTnNzOEIzcGFGR1kwRDhFWTducDdJWm05ZjlmOENRNGdwV3l5Ty1YYk04SWg2R3QwSmNGa1VlTkRMU3BJbTNyTWllWjU1WDQtMkJtTldwWG9ibjNJZ2ViTnVXNWNzNk1jRVNnUmtycVJEeTQ5bTdDQTBhYjA5V0pHMnRSRHdvR0NsSXVyUE1zX0ZxMlBfV0tzQXFyYjBJRG1BN19GaWc?oc=5",
+   "title": "In GTA 6, Cars Are Way, Way More Than Just Getaway Wheels - IGN Southeast Asia",
+   "description": "In GTA 6, Cars Are Way, Way More Than Just Getaway Wheels &nbsp;&nbsp; IGN Southeast Asia",
+   "author": "IGN Southeast Asia",
+   "publishedAt": "2026-11-22T14:01:03.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "In GTA 6, Cars Are Way, Way More Than Just Getaway Wheels &nbsp;&nbsp; IGN Southeast Asia",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 48.08
+  },
   {
    "id": "news:5646cf5cf25c",
    "source": "news",
@@ -22,30 +229,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
-  },
-  {
-   "id": "news:189a8ff5ad7a",
-   "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCVlQxaE1ZazR5THF1aWU1c2luVkJTSUZSRDhZZ09LUGlyb2tvVjJ6aW9jaVBJR3JxTUlVME1WSWplX09zM0w4OGotR09VcUdONVp6RUpjck9WektodXpTOVdn?oc=5",
-   "title": "GTA 6: How to Fix HDR Settings - Push Square",
-   "description": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
-   "author": "Push Square",
-   "publishedAt": "2026-11-22T13:25:02.000Z",
-   "fetchedAt": "2026-11-22T14:15:32.331Z",
-   "thumbnail": null,
-   "stats": {},
-   "spoilerFloor": null,
-   "trusted": false,
-   "kind": "tip",
-   "spoiler": "safe",
-   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
-   "area": "",
-   "tags": [],
-   "availability": null,
-   "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 47.74
   },
   {
    "id": "news:b1a37ea61d4f",
@@ -68,7 +252,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 47.74
   },
   {
    "id": "news:c218323f0906",
@@ -91,30 +275,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
-  },
-  {
-   "id": "news:78f559257773",
-   "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wVElqV0ZKZmtSc3RZWE9QNVlqaUNpTzdoSWFGeElVWHRERkRSX2dHc3l2S0FCY3hZWFRDVEVGeldZNHcwaXdKbG9TWU9TbjNhTC1VQzRMZ2U5MHpGTGtIWmRoc21CaC16T3JuWkFWS3NQVWpNMWtF?oc=5",
-   "title": "GTA 6 Riata - Grassrivers - Yahoo Tech",
-   "description": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
-   "author": "Yahoo Tech",
-   "publishedAt": "2026-11-22T13:27:51.000Z",
-   "fetchedAt": "2026-11-22T14:15:32.331Z",
-   "thumbnail": null,
-   "stats": {},
-   "spoilerFloor": null,
-   "trusted": false,
-   "kind": "news",
-   "spoiler": "safe",
-   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
-   "area": "",
-   "tags": [],
-   "availability": null,
-   "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 47.74
   },
   {
    "id": "news:31d3b2649b01",
@@ -137,7 +298,76 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 47.74
+  },
+  {
+   "id": "news:500bc0c77dc2",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQakJnUHkyLXhFbkNId2tsMDdnQzZVMjFHLUg3bWtRMXYyX2tQcFM5bHFwS0JpQU00TGVqYXNwOV9hZktsQm1YRXJRV3MwcFNzX1dnUkdkQV83eGRSRE82Z0FYSk41QjQ5WjNkTU5MMlJwbnpDS0lkdHpjekN1NGxpTjhIUFRDUXZycXMxbmFwQlVOREM2UDFwTk1YM0xtS3k4bTI2SVQzNFJ2bVJ4?oc=5",
+   "title": "GTA 6 Has Been Crashing on PlayStation 5 Consoles With Major Error - Men's Journal",
+   "description": "GTA 6 Has Been Crashing on PlayStation 5 Consoles With Major Error &nbsp;&nbsp; Men's Journal",
+   "author": "Men's Journal",
+   "publishedAt": "2026-11-22T13:46:11.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Has Been Crashing on PlayStation 5 Consoles With Major Error &nbsp;&nbsp; Men's Journal",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 43.71
+  },
+  {
+   "id": "news:78f559257773",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5wVElqV0ZKZmtSc3RZWE9QNVlqaUNpTzdoSWFGeElVWHRERkRSX2dHc3l2S0FCY3hZWFRDVEVGeldZNHcwaXdKbG9TWU9TbjNhTC1VQzRMZ2U5MHpGTGtIWmRoc21CaC16T3JuWkFWS3NQVWpNMWtF?oc=5",
+   "title": "GTA 6 Riata - Grassrivers - Yahoo Tech",
+   "description": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
+   "author": "Yahoo Tech",
+   "publishedAt": "2026-11-22T13:27:51.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 Riata - Grassrivers &nbsp;&nbsp; Yahoo Tech",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 39.22
+  },
+  {
+   "id": "news:189a8ff5ad7a",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCVlQxaE1ZazR5THF1aWU1c2luVkJTSUZSRDhZZ09LUGlyb2tvVjJ6aW9jaVBJR3JxTUlVME1WSWplX09zM0w4OGotR09VcUdONVp6RUpjck9WektodXpTOVdn?oc=5",
+   "title": "GTA 6: How to Fix HDR Settings - Push Square",
+   "description": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
+   "author": "Push Square",
+   "publishedAt": "2026-11-22T13:25:02.000Z",
+   "fetchedAt": "2026-11-22T14:15:32.331Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6: How to Fix HDR Settings &nbsp;&nbsp; Push Square",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 38.61
   },
   {
    "id": "news:3b0cc58c1008",
@@ -160,7 +390,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 45.76
+   "trend": 33.86
   },
   {
    "id": "news:588f356503ab",
@@ -183,7 +413,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 45.67
+   "trend": 33.81
   },
   {
    "id": "news:4621c5b28d42",
@@ -206,7 +436,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 42.14
+   "trend": 31.73
   },
   {
    "id": "news:55a65472b3ca",
@@ -229,7 +459,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 38.83
+   "trend": 29.71
   },
   {
    "id": "news:90260ad0cb38",
@@ -252,7 +482,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 37.18
+   "trend": 28.68
   },
   {
    "id": "news:89fa8b217922",
@@ -275,7 +505,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.53
+   "trend": 27.64
   },
   {
    "id": "news:1e91b51ae7c5",
@@ -298,7 +528,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 34.2
+   "trend": 26.79
   },
   {
    "id": "news:e023d55d50d9",
@@ -321,7 +551,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.74
+   "trend": 25.84
   },
   {
    "id": "news:56181678e0ee",
@@ -344,7 +574,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.69
+   "trend": 25.81
   },
   {
    "id": "news:7153ade9d02a",
@@ -367,7 +597,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 28.86
+   "trend": 23.26
   },
   {
    "id": "news:807c7eb532ba",
@@ -390,7 +620,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.14
+   "trend": 21.39
   },
   {
    "id": "news:1d1e61bb4a36",
@@ -413,7 +643,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 25.61
+   "trend": 21.02
   },
   {
    "id": "news:e2f193624487",
@@ -436,7 +666,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 25.11
+   "trend": 20.67
   },
   {
    "id": "news:3dda3e9ec0e3",
@@ -459,7 +689,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.36
+   "trend": 20.13
   },
   {
    "id": "news:f9c73e046731",
@@ -482,7 +712,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 23.77
+   "trend": 19.72
   },
   {
    "id": "news:5977198d5e3e",
@@ -505,7 +735,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.86
+   "trend": 18.34
   },
   {
    "id": "news:9e11ed43d656",
@@ -528,7 +758,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.44
+   "trend": 18.03
   },
   {
    "id": "news:27b36a8d65a8",
@@ -551,7 +781,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 20.61
+   "trend": 17.42
   },
   {
    "id": "news:4cb8fbe4f01a",
@@ -574,7 +804,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 20.2
+   "trend": 17.12
   },
   {
    "id": "news:03fbc54bfb5e",
@@ -597,7 +827,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 19.66
+   "trend": 16.71
   },
   {
    "id": "news:e5a608f1354f",
@@ -620,7 +850,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.98
+   "trend": 15.45
   },
   {
    "id": "news:6f25beb563fc",
@@ -643,7 +873,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.39
+   "trend": 14.23
   },
   {
    "id": "news:9a8bb4b4a157",
@@ -666,7 +896,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.99
+   "trend": 13.92
   },
   {
    "id": "news:9374a9ac60eb",
@@ -689,7 +919,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.85
+   "trend": 13.02
   },
   {
    "id": "news:56932f8ceb64",
@@ -712,7 +942,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.72
+   "trend": 12.92
   },
   {
    "id": "news:33b2edf84ed8",
@@ -735,7 +965,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.61
+   "trend": 12.83
   },
   {
    "id": "news:5a7f19acfe15",
@@ -758,7 +988,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.3
+   "trend": 12.59
   },
   {
    "id": "news:3c23ff8d6fd4",
@@ -781,7 +1011,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 13.99
+   "trend": 12.34
   },
   {
    "id": "news:86f3293eacd5",
@@ -804,7 +1034,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 10
+   "trend": 9.08
   },
   {
    "id": "news:b7993ac8513c",
@@ -827,7 +1057,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.07
+   "trend": 8.29
   },
   {
    "id": "news:6e07bd754cfb",
@@ -850,7 +1080,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.16
+   "trend": 7.51
   },
   {
    "id": "news:0693c93d02cf",
@@ -873,7 +1103,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 7.96
+   "trend": 7.33
   },
   {
    "id": "news:5e4ea696de41",
@@ -896,7 +1126,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.13
+   "trend": 5.73
   },
   {
    "id": "news:2b8150c8f675",
@@ -919,7 +1149,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.3
+   "trend": 5
   },
   {
    "id": "news:bbce030821c8",
@@ -942,7 +1172,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.26
+   "trend": 4.96
   },
   {
    "id": "news:83b5011f3ad9",
@@ -965,7 +1195,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.19
+   "trend": 4.9
   },
   {
    "id": "news:b793ef0fb171",
@@ -988,7 +1218,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.94
+   "trend": 4.67
   },
   {
    "id": "news:a144e22dbf1f",
@@ -1011,7 +1241,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.92
+   "trend": 4.66
   },
   {
    "id": "news:6e38975b4581",
@@ -1034,7 +1264,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.65
+   "trend": 4.4
   },
   {
    "id": "news:75dbb30f4890",
@@ -1057,7 +1287,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.38
+   "trend": 4.16
   },
   {
    "id": "news:1b24ce6fdedf",
@@ -1080,7 +1310,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.29
+   "trend": 4.08
   },
   {
    "id": "news:13c9ecd9b846",
@@ -1103,7 +1333,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.14
+   "trend": 3.94
   },
   {
    "id": "news:f83aa67c4754",
@@ -1126,7 +1356,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.13
+   "trend": 3.93
   },
   {
    "id": "news:927e0aa2d04c",
@@ -1149,7 +1379,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.07
+   "trend": 3.88
   },
   {
    "id": "news:a347a142c49d",
@@ -1172,7 +1402,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.04
+   "trend": 3.85
   },
   {
    "id": "news:92067cae7de8",
@@ -1195,7 +1425,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.92
+   "trend": 3.74
   },
   {
    "id": "news:58857c731b19",
@@ -1218,7 +1448,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.88
+   "trend": 3.7
   },
   {
    "id": "news:6c7cab9d99b9",
@@ -1241,7 +1471,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.77
+   "trend": 3.6
   },
   {
    "id": "news:440f45a751eb",
@@ -1264,7 +1494,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.57
+   "trend": 3.41
   },
   {
    "id": "news:6a6b90fb1ab2",
@@ -1287,7 +1517,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.56
+   "trend": 3.41
   },
   {
    "id": "news:09d20c6b55dd",
@@ -1310,7 +1540,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.53
+   "trend": 3.38
   },
   {
    "id": "news:5ce8fe98416c",
@@ -1333,7 +1563,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.48
+   "trend": 3.34
   },
   {
    "id": "news:12689bea9a2f",
@@ -1356,7 +1586,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.35
+   "trend": 3.22
   },
   {
    "id": "news:82d0873d6b9e",
@@ -1379,7 +1609,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.33
+   "trend": 3.19
   },
   {
    "id": "news:32c53540b2e6",
@@ -1402,7 +1632,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.32
+   "trend": 3.19
   },
   {
    "id": "news:01bf095dae47",
@@ -1425,7 +1655,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.05
+   "trend": 2.94
   },
   {
    "id": "news:5d0ef36fdca8",
@@ -1448,7 +1678,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.36
+   "trend": 2.29
   },
   {
    "id": "news:6dd87a7cb800",
@@ -1471,7 +1701,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.15
+   "trend": 2.09
   },
   {
    "id": "news:84689aa31e0e",
@@ -1494,7 +1724,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.05
+   "trend": 2
   },
   {
    "id": "news:5dead6c5b53a",
@@ -1517,7 +1747,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.91
+   "trend": 1.86
   },
   {
    "id": "news:8b483ae94755",
@@ -1540,7 +1770,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.89
+   "trend": 1.84
   },
   {
    "id": "news:03431783d2ab",
@@ -1563,7 +1793,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.72
+   "trend": 1.68
   },
   {
    "id": "news:e382ea9f8474",
@@ -1586,7 +1816,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.53
+   "trend": 1.5
   },
   {
    "id": "news:c7c450f65e2f",
@@ -1609,7 +1839,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.5
+   "trend": 1.46
   },
   {
    "id": "news:a68c33c2cadc",
@@ -1632,7 +1862,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.47
+   "trend": 1.44
   },
   {
    "id": "news:80d49dbbb91b",
@@ -1655,7 +1885,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.38
+   "trend": 1.36
+  },
+  {
+   "id": "news:b6736ef7e237",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOWdwZ19FWUxxVGJyMl9peEJpcWRaY3hMcHFDbXE3UzlNMzRhZUthNGY1dmkyOXJ3cndhQnl6dlk0bnpaMzlSNG94RFdscU94RVJzejcweXhmNlRjTjJoY04yQkVNalQwaW1UOVZRSi12b2t5T2pqc2J3cGpQNC1vUFozM3dzSWJVVDJ3UWFGLXE2RlE3MFVZR2FtOA?oc=5",
+   "title": "Grand Theft Auto VI Now Available - Rockstar Games",
+   "description": "Grand Theft Auto VI Now Available &nbsp;&nbsp; Rockstar Games",
+   "author": "Rockstar Games",
+   "publishedAt": "2026-11-20T00:45:35.000Z",
+   "fetchedAt": "2026-11-22T15:08:43.676Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Grand Theft Auto VI Now Available &nbsp;&nbsp; Rockstar Games",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 1.1
   },
   {
    "id": "news:4a5ac95ec934",
@@ -1678,7 +1931,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1
+   "trend": 0.98
   },
   {
    "id": "news:90f2f7767823",
@@ -1701,7 +1954,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.93
+   "trend": 0.92
   },
   {
    "id": "news:da62ff8fa31a",
@@ -1724,7 +1977,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.91
+   "trend": 0.9
   },
   {
    "id": "news:b788ecdd4579",
@@ -1747,7 +2000,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.88
+   "trend": 0.87
   }
  ]
 }
