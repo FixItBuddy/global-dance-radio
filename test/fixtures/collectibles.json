@@ -1,0 +1,37 @@
+{
+ "categories": [
+  {
+   "id": "fixture-cat",
+   "name": "Fixture Collectibles",
+   "items": [
+    {
+     "id": "c1",
+     "name": "Fixture item one",
+     "area": "Fixture Area",
+     "description": "safe one",
+     "spoiler": "safe",
+     "addedAt": "2026-11-22T07:04:12.494Z",
+     "availableUntil": null
+    },
+    {
+     "id": "c2",
+     "name": "Fixture item two",
+     "area": "",
+     "description": "safe two",
+     "spoiler": "safe",
+     "addedAt": "2026-11-22T07:04:12.494Z",
+     "availableUntil": "2026-11-24T08:04:12.494Z"
+    },
+    {
+     "id": "c3",
+     "name": "Fixture spoiler item",
+     "area": "",
+     "description": "story",
+     "spoiler": "major",
+     "addedAt": "2026-11-22T07:04:12.494Z",
+     "availableUntil": null
+    }
+   ]
+  }
+ ]
+}

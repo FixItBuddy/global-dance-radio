@@ -1,0 +1,147 @@
+{
+ "generatedAt": "2026-11-22T07:52:12.494Z",
+ "items": [
+  {
+   "id": "safe-tip",
+   "source": "youtube",
+   "url": "https://example.test/safe-tip",
+   "title": "FIXTURE safe money tip",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": null,
+   "stats": {
+    "views": 1000
+   },
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "",
+   "summary": "Spoiler-free cash advice",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "claude",
+   "trend": 50
+  },
+  {
+   "id": "mild-secret",
+   "source": "youtube",
+   "url": "https://example.test/mild-secret",
+   "title": "FIXTURE mild secret",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": null,
+   "stats": {
+    "views": 1000
+   },
+   "kind": "secret",
+   "spoiler": "mild",
+   "spoilerWhy": "",
+   "summary": "A hidden thing",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "claude",
+   "trend": 40
+  },
+  {
+   "id": "major-walk",
+   "source": "youtube",
+   "url": "https://example.test/major-walk",
+   "title": "FIXTURE major walkthrough",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": null,
+   "stats": {
+    "views": 1000
+   },
+   "kind": "walkthrough",
+   "spoiler": "major",
+   "spoilerWhy": "",
+   "summary": "Story stuff",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "claude",
+   "trend": 99
+  },
+  {
+   "id": "unknown-x",
+   "source": "youtube",
+   "url": "https://example.test/unknown-x",
+   "title": "FIXTURE unchecked video",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": null,
+   "stats": {
+    "views": 1000
+   },
+   "kind": "tip",
+   "spoiler": "unknown",
+   "spoilerWhy": "",
+   "summary": "",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "claude",
+   "trend": 30
+  },
+  {
+   "id": "xss",
+   "source": "youtube",
+   "url": "javascript:window.__xss=1",
+   "title": "<img src=x onerror=window.__xss=1>FIXTURE xss",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": "javascript:alert(1)",
+   "stats": {
+    "views": 1000
+   },
+   "kind": "tip",
+   "spoiler": "safe",
+   "spoilerWhy": "",
+   "summary": "<script>window.__xss=1</script>",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "claude",
+   "trend": 20
+  },
+  {
+   "id": "live-special",
+   "source": "news",
+   "url": "https://example.test/live-special",
+   "title": "FIXTURE live special",
+   "description": "",
+   "author": "Fixture Channel",
+   "publishedAt": "2026-11-22T05:04:12.494Z",
+   "fetchedAt": "2026-11-22T07:04:12.494Z",
+   "thumbnail": null,
+   "stats": {
+    "views": 1000
+   },
+   "kind": "special",
+   "spoiler": "safe",
+   "spoilerWhy": "",
+   "summary": "Bonus event",
+   "area": "",
+   "tags": [],
+   "availability": {
+    "from": "2026-11-22T03:04:12.494Z",
+    "until": "2026-11-23T14:04:12.494Z",
+    "note": "fixture window"
+   },
+   "enriched": "claude",
+   "trend": 25
+  }
+ ]
+}

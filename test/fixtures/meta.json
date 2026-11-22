@@ -1,0 +1,27 @@
+{
+ "generatedAt": "2026-11-22T07:52:12.494Z",
+ "aiEnrichment": true,
+ "sourceStatus": {
+  "youtube": {
+   "ok": true,
+   "count": 3,
+   "errors": [],
+   "at": "2026-11-22T07:52:12.494Z",
+   "lastOkAt": "2026-11-22T07:52:12.494Z"
+  },
+  "tiktok": {
+   "ok": false,
+   "count": 0,
+   "errors": [
+    "APIFY_TOKEN not set"
+   ],
+   "at": "2026-11-22T07:52:12.494Z",
+   "lastOkAt": null
+  }
+ },
+ "counts": {},
+ "totals": {
+  "items": 6,
+  "collectibles": 3
+ }
+}
