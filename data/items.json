@@ -1,15 +1,15 @@
 {
- "generatedAt": "2026-11-22T18:00:29.657Z",
+ "generatedAt": "2026-11-22T19:16:42.554Z",
  "items": [
   {
-   "id": "news:bf2dc1d29912",
+   "id": "news:8b7d511382a0",
    "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04X1NVX3RNTlc3Qmlib1ByR3NrSHRrYkJ3WkJlRmhqNjlWY3BIbnNBSnJldllMc1hpcmRBTWJ4eFBvajZPSHYxT2FHcmdZdU9NNHVQUEZJM3BPb3VxZ1dLLVNBcldFaUdFLXNJcUlfWjllTjNh?oc=5",
-   "title": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ - Defector",
-   "description": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ &nbsp;&nbsp; Defector",
-   "author": "Defector",
-   "publishedAt": "2026-11-22T17:31:00.000Z",
-   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQ2pRd2dIcHExRmRabWFTc25PVVZmM2dZOGUzSE5pb1JoOGFIbUduRWJSZEdKZmZTU3lDMVNfN3IzaVpDX0NPVGpzT2lUcW9aVjB4cS1WWVZ6bkRqd0MzakFtUW5PMkxOSV9NYm1jcV9PcDRfOHp4NHlpaUIxNkpyTUFuWllWUjkyVGhmVEJMdUtXM2I1a0o4QjBZM3R6RlZ2TWhHWmJ0ZmI0aEp3Z2tGak93R21mWEYxRFZXODNaN29qWGhwSFRHMkZRT0duNkpzXzFYYm93NXg4S1J4a3JBNWhiS2dud2pjeGtXSkE4YjJyNzQ?oc=5",
+   "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat - IGN Southeast Asia",
+   "description": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Southeast Asia",
+   "author": "IGN Southeast Asia",
+   "publishedAt": "2026-11-22T18:01:22.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
    "thumbnail": null,
    "stats": {},
    "spoilerFloor": null,
@@ -17,22 +17,22 @@
    "kind": "news",
    "spoiler": "safe",
    "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ &nbsp;&nbsp; Defector",
+   "summary": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Southeast Asia",
    "area": "",
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.73
   },
   {
-   "id": "news:ea2a7ba36647",
+   "id": "news:7c2f5a3c3c48",
    "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZEI2WmVHbElEU1BiWERXX2JPOVNBN0VHTlFOMGxVZ0ptSElYdVV4ZUIxNmdzTFl3dk9uMXRKRWRlTmJvSTlrM0hHeXRGRmdydnNXY2FpeUxEQ1QzU3h0UVdIQmE5LWREV01sOFZuVEQybm1lSTJsd1lhLUlLcGZuWkxKaHVhTFRjdVNCUlR4X1ZSNUp1aU42RHR2TXR5MHdyX3kzVFlSQm9nTnFEbnA5V3lhNzcxWHFiWVdubk9VM1FyakxQRTdWN3JmbWxjRXlyRlFndG9kVXoyVzhjaDc2cW1VYTRIaFJJZGJNR1I2TEdmZw?oc=5",
-   "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat - IGN Pakistan",
-   "description": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Pakistan",
-   "author": "IGN Pakistan",
-   "publishedAt": "2026-11-22T17:45:18.000Z",
-   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE43TFFqbTBrYTVFOFJBdG4tc2FTeERhYWs5WVNzU1Vsb3B6UVBGUmx2dGlsam5nX1VJVENpUlJ2aWVha09QS25FdnhaYkJXVWlVTDZmNXRLMmVfWEZ2SU5Wdg?oc=5",
+   "title": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6 - Polygon.com",
+   "description": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6 &nbsp;&nbsp; Polygon.com",
+   "author": "Polygon.com",
+   "publishedAt": "2026-11-22T18:00:18.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
    "thumbnail": null,
    "stats": {},
    "spoilerFloor": null,
@@ -40,22 +40,22 @@
    "kind": "news",
    "spoiler": "safe",
    "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Pakistan",
+   "summary": "Six Years Too Late, Next-Gen Finally Arrives with GTA 6 &nbsp;&nbsp; Polygon.com",
    "area": "",
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.42
   },
   {
-   "id": "news:abe21497ca32",
+   "id": "news:c4aec2a59199",
    "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUxNaWRiNlp1MVR0M2hUS2FYYXJPWlBiS0FoTGtnM21rWkdBWTNQSGM3R3l1Zkh3cTVoSnI4R2dZTXI5UXdLbFVEQjB5bUtKOC1HNWpFdTZSQmdlYzd2MkNQR2dBLVdfODFCVVg1MFFEOFROY2NRbTlfSmZ5UmtLbVVpeGh5NldtU3dmNEw3OA?oc=5",
-   "title": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million - Yahoo Finance",
-   "description": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; Yahoo Finance",
-   "author": "Yahoo Finance",
-   "publishedAt": "2026-11-22T17:10:00.000Z",
-   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHZjZU1rcU9Lem9BbHFrOWFiTWVxajRjTnByTjlWc215eWtxTHo2T2tsUHZVZkVtcEc3Wm10aThfX2pSQVNxc21wWUFpdlhqNFVoZU93ZlZVNFh5aHI1OU1Gd255bjdBdDBOMmpISnNKZGVOQ29LUGFDZDEtV0FiZFJyYXV2RjRSbmJBOTZEYVZ3OHlrRTBFSHBIS0Z5anM?oc=5",
+   "title": "Which GTA 6 radio station is your favourite so far? - PC Gamer",
+   "description": "Which GTA 6 radio station is your favourite so far? &nbsp;&nbsp; PC Gamer",
+   "author": "PC Gamer",
+   "publishedAt": "2026-11-22T18:00:00.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
    "thumbnail": null,
    "stats": {},
    "spoilerFloor": null,
@@ -63,35 +63,35 @@
    "kind": "news",
    "spoiler": "safe",
    "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; Yahoo Finance",
+   "summary": "Which GTA 6 radio station is your favourite so far? &nbsp;&nbsp; PC Gamer",
    "area": "",
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.34
   },
   {
-   "id": "news:abce6a39e07d",
+   "id": "news:819a5f7c49a8",
    "source": "news",
-   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcUpXYl9FbXdUN2p6UGE2ZXdQZzFaOG42dkFwTFpGVFB4OUJRdkZibGNFRmxLM25qWm1TeEFqdG9haWoxUVpjZDBpRXhWOHBwbmxOeHdOcWdteU9ad0RHMjVJYTcwMUJSb05rOUxlU3VXMDUwY2dRcTRqeGFfQjZxc2d5aDR6eTZzeUYzU0VrcklqUVN3Rzllbmt1QVpmbHFlT3lVLXFQTGVNQXZoU0RpbGlpajFXcjNYRHM0TDRfZTQxQQ?oc=5",
-   "title": "GTA 6 already has an infinite money glitch, but many players are skipping it - TweakTown",
-   "description": "GTA 6 already has an infinite money glitch, but many players are skipping it &nbsp;&nbsp; TweakTown",
-   "author": "TweakTown",
-   "publishedAt": "2026-11-22T17:20:04.000Z",
-   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNTVOdTRvUDUwRG8tNUZPMC1uamtLa1UxSWVwRFFoeGhBYjFiZU15WTk5ZWhZc3lDUzVVLXlidHlGdVVRd2RjcDZkM2JXYVhRSTBMLVI4NlFBMTZEcGJEVEc0QmFLck1zWFRyUnI1bjRsUHhPM3YyMVQxWjlWZzlEZ0tJUkZsWWVOX205QUlYRlpoZ25qeUFsOU9n?oc=5",
+   "title": "South Florida Dirt: Miami real estate on display in Grand Theft Auto 6 - The Real Deal",
+   "description": "South Florida Dirt: Miami real estate on display in Grand Theft Auto 6 &nbsp;&nbsp; The Real Deal",
+   "author": "The Real Deal",
+   "publishedAt": "2026-11-22T18:00:00.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
    "thumbnail": null,
    "stats": {},
    "spoilerFloor": null,
    "trusted": false,
-   "kind": "secret",
+   "kind": "news",
    "spoiler": "safe",
    "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
-   "summary": "GTA 6 already has an infinite money glitch, but many players are skipping it &nbsp;&nbsp; TweakTown",
+   "summary": "South Florida Dirt: Miami real estate on display in Grand Theft Auto 6 &nbsp;&nbsp; The Real Deal",
    "area": "",
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 45.34
   },
   {
    "id": "news:f9b6584a3ab1",
@@ -114,7 +114,122 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 50.66
+   "trend": 43.1
+  },
+  {
+   "id": "news:ea2a7ba36647",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQZEI2WmVHbElEU1BiWERXX2JPOVNBN0VHTlFOMGxVZ0ptSElYdVV4ZUIxNmdzTFl3dk9uMXRKRWRlTmJvSTlrM0hHeXRGRmdydnNXY2FpeUxEQ1QzU3h0UVdIQmE5LWREV01sOFZuVEQybm1lSTJsd1lhLUlLcGZuWkxKaHVhTFRjdVNCUlR4X1ZSNUp1aU42RHR2TXR5MHdyX3kzVFlSQm9nTnFEbnA5V3lhNzcxWHFiWVdubk9VM1FyakxQRTdWN3JmbWxjRXlyRlFndG9kVXoyVzhjaDc2cW1VYTRIaFJJZGJNR1I2TEdmZw?oc=5",
+   "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat - IGN Pakistan",
+   "description": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Pakistan",
+   "author": "IGN Pakistan",
+   "publishedAt": "2026-11-22T17:45:18.000Z",
+   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat &nbsp;&nbsp; IGN Pakistan",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 41.43
+  },
+  {
+   "id": "news:bf2dc1d29912",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE04X1NVX3RNTlc3Qmlib1ByR3NrSHRrYkJ3WkJlRmhqNjlWY3BIbnNBSnJldllMc1hpcmRBTWJ4eFBvajZPSHYxT2FHcmdZdU9NNHVQUEZJM3BPb3VxZ1dLLVNBcldFaUdFLXNJcUlfWjllTjNh?oc=5",
+   "title": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ - Defector",
+   "description": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ &nbsp;&nbsp; Defector",
+   "author": "Defector",
+   "publishedAt": "2026-11-22T17:31:00.000Z",
+   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ &nbsp;&nbsp; Defector",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 38.18
+  },
+  {
+   "id": "news:abce6a39e07d",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQcUpXYl9FbXdUN2p6UGE2ZXdQZzFaOG42dkFwTFpGVFB4OUJRdkZibGNFRmxLM25qWm1TeEFqdG9haWoxUVpjZDBpRXhWOHBwbmxOeHdOcWdteU9ad0RHMjVJYTcwMUJSb05rOUxlU3VXMDUwY2dRcTRqeGFfQjZxc2d5aDR6eTZzeUYzU0VrcklqUVN3Rzllbmt1QVpmbHFlT3lVLXFQTGVNQXZoU0RpbGlpajFXcjNYRHM0TDRfZTQxQQ?oc=5",
+   "title": "GTA 6 already has an infinite money glitch, but many players are skipping it - TweakTown",
+   "description": "GTA 6 already has an infinite money glitch, but many players are skipping it &nbsp;&nbsp; TweakTown",
+   "author": "TweakTown",
+   "publishedAt": "2026-11-22T17:20:04.000Z",
+   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 already has an infinite money glitch, but many players are skipping it &nbsp;&nbsp; TweakTown",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 35.98
+  },
+  {
+   "id": "news:abe21497ca32",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUUxNaWRiNlp1MVR0M2hUS2FYYXJPWlBiS0FoTGtnM21rWkdBWTNQSGM3R3l1Zkh3cTVoSnI4R2dZTXI5UXdLbFVEQjB5bUtKOC1HNWpFdTZSQmdlYzd2MkNQR2dBLVdfODFCVVg1MFFEOFROY2NRbTlfSmZ5UmtLbVVpeGh5NldtU3dmNEw3OA?oc=5",
+   "title": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million - Yahoo Finance",
+   "description": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; Yahoo Finance",
+   "author": "Yahoo Finance",
+   "publishedAt": "2026-11-22T17:10:00.000Z",
+   "fetchedAt": "2026-11-22T18:00:29.657Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6's $3.79B first-day haul tops Avengers Endgame's entire box office run by $850 million &nbsp;&nbsp; Yahoo Finance",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 34.16
+  },
+  {
+   "id": "news:a7d4e05fb975",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA4RlVHWmJWYVZGZDZYNVZqdk9uaXAyYjB3b0cxTW5IVFNXcUxTVjctT1d0UlA1blk0LWliV0prWWlLVW4tSGpYekdvMnZEWjZfbGRmUGVEMWFDNzlUenUtTUN3?oc=5",
+   "title": "The 'GTA VI' Easter eggs that broke the internet - Mashable",
+   "description": "The 'GTA VI' Easter eggs that broke the internet &nbsp;&nbsp; Mashable",
+   "author": "Mashable",
+   "publishedAt": "2026-11-22T17:01:44.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "secret",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "The 'GTA VI' Easter eggs that broke the internet &nbsp;&nbsp; Mashable",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 32.78
   },
   {
    "id": "news:9cd661f056d9",
@@ -137,7 +252,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 48.84
+   "trend": 31.75
+  },
+  {
+   "id": "news:fe19af145473",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZVg5c3dUakhuWGt3WHUzNTZEc2huenZ0SWhnM1BXZVc0LVVPU0lpRGRnZG9Na0JUZVc3Tl9iZ3kzQzlEZUo1MURDZ2l4Y01CZDF4VWdpNG1WeWNocUFtVmtDUEUwSkNNYmJMUUtsZk83UUNNdEVhR1dyUGoyM01CQlM0YjcyLUVqaUd1WWdSVnVUWlYwRTJr?oc=5",
+   "title": "Bow Wow Dismisses 'GTA VI' Relationship Storyline With Lucia: 'This Is Not \"Love Island\"' - Complex",
+   "description": "Bow Wow Dismisses 'GTA VI' Relationship Storyline With Lucia: 'This Is Not \"Love Island\"' &nbsp;&nbsp; Complex",
+   "author": "Complex",
+   "publishedAt": "2026-11-22T16:50:12.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "Bow Wow Dismisses 'GTA VI' Relationship Storyline With Lucia: 'This Is Not \"Love Island\"' &nbsp;&nbsp; Complex",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 31.02
   },
   {
    "id": "news:cddc3d439674",
@@ -160,7 +298,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 46.99
+   "trend": 30.89
   },
   {
    "id": "news:d4be4ea4dcb7",
@@ -183,7 +321,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 44.93
+   "trend": 29.91
   },
   {
    "id": "news:6fe24d665e5f",
@@ -206,7 +344,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 43.52
+   "trend": 29.23
   },
   {
    "id": "news:3469a10e0841",
@@ -229,7 +367,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 41.73
+   "trend": 28.34
   },
   {
    "id": "news:b325641dec58",
@@ -252,7 +390,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 41.45
+   "trend": 28.21
   },
   {
    "id": "news:858055e0dce3",
@@ -275,7 +413,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 36.51
+   "trend": 25.66
   },
   {
    "id": "news:9de737886b96",
@@ -298,7 +436,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.45
+   "trend": 25.1
   },
   {
    "id": "news:ae3a604ceb1f",
@@ -321,7 +459,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.32
+   "trend": 25.03
   },
   {
    "id": "news:82e662306da2",
@@ -344,7 +482,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 35.26
+   "trend": 25
   },
   {
    "id": "news:1f24da4b81d6",
@@ -367,7 +505,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 32.71
+   "trend": 23.6
   },
   {
    "id": "news:c31afaca530c",
@@ -390,7 +528,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 31.11
+   "trend": 22.7
   },
   {
    "id": "news:59c77f100ba4",
@@ -413,7 +551,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 30.87
+   "trend": 22.57
   },
   {
    "id": "news:009943a11580",
@@ -436,7 +574,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 30.41
+   "trend": 22.31
   },
   {
    "id": "news:fd3c7ff33cf6",
@@ -459,7 +597,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 29.55
+   "trend": 21.81
   },
   {
    "id": "news:8f27cc9f02eb",
@@ -482,7 +620,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 27.4
+   "trend": 20.55
   },
   {
    "id": "news:8085740f2410",
@@ -505,7 +643,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.96
+   "trend": 20.28
   },
   {
    "id": "news:b12a11541905",
@@ -528,7 +666,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.73
+   "trend": 20.14
   },
   {
    "id": "news:b2e0cbf9d11b",
@@ -551,7 +689,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 26.69
+   "trend": 20.12
   },
   {
    "id": "news:fdbad6d8d2c9",
@@ -574,7 +712,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 25.9
+   "trend": 19.64
   },
   {
    "id": "news:05a6ebe99210",
@@ -597,7 +735,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 25.6
+   "trend": 19.46
   },
   {
    "id": "news:baf1097ef81d",
@@ -620,7 +758,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.3
+   "trend": 18.66
   },
   {
    "id": "news:d2fc78999786",
@@ -643,7 +781,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 24.15
+   "trend": 18.57
   },
   {
    "id": "news:0e977d3e7c1c",
@@ -666,7 +804,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 23.96
+   "trend": 18.45
   },
   {
    "id": "news:9105544d1bdc",
@@ -689,7 +827,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 22.7
+   "trend": 17.65
   },
   {
    "id": "news:443a4259ae35",
@@ -712,7 +850,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 22.67
+   "trend": 17.64
   },
   {
    "id": "news:5a7442985701",
@@ -735,7 +873,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.68
+   "trend": 17
   },
   {
    "id": "news:0c73430c50a4",
@@ -758,7 +896,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.34
+   "trend": 16.78
   },
   {
    "id": "news:5646cf5cf25c",
@@ -781,7 +919,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.26
+   "trend": 16.73
   },
   {
    "id": "news:b1a37ea61d4f",
@@ -804,7 +942,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.26
+   "trend": 16.73
   },
   {
    "id": "news:c218323f0906",
@@ -827,7 +965,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.26
+   "trend": 16.73
   },
   {
    "id": "news:31d3b2649b01",
@@ -850,7 +988,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 21.26
+   "trend": 16.73
+  },
+  {
+   "id": "news:e77d56edcb26",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQd3FyYXR3YmZUSURyZWNwVmxDeFZyYmZMUFZ1TmxjRmNUXzl4aTc4aG5kdnVUUl9GOVF3MlF6eHQ1Nk9LYVRWQWZHODF0LWlOYk1xM01oZDBMQ3dBNS05eXI1LS0wM1lBODBjMmlFbXhTUHo0dW9JU3paMjgta1lWU0dCX1FrZG42ZzhfN3VOYTNxY0NvMmFoMmp4MXBBWlYxRjVpRFN4SEU0OVF0aGc?oc=5",
+   "title": "This Is the One Thing I’ll Never Do Again in GTA 6 - IGN Pakistan",
+   "description": "This Is the One Thing I’ll Never Do Again in GTA 6 &nbsp;&nbsp; IGN Pakistan",
+   "author": "IGN Pakistan",
+   "publishedAt": "2026-11-22T14:00:00.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "This Is the One Thing I’ll Never Do Again in GTA 6 &nbsp;&nbsp; IGN Pakistan",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 16.73
   },
   {
    "id": "news:500bc0c77dc2",
@@ -873,7 +1034,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 20.29
+   "trend": 16.09
   },
   {
    "id": "news:9f779a4553a2",
@@ -896,7 +1057,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 19.24
+   "trend": 15.4
   },
   {
    "id": "news:78f559257773",
@@ -919,7 +1080,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 19.11
+   "trend": 15.31
   },
   {
    "id": "news:189a8ff5ad7a",
@@ -942,7 +1103,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 18.94
+   "trend": 15.19
   },
   {
    "id": "news:3b0cc58c1008",
@@ -965,7 +1126,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.55
+   "trend": 14.25
   },
   {
    "id": "news:588f356503ab",
@@ -988,7 +1149,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 17.54
+   "trend": 14.24
   },
   {
    "id": "news:4621c5b28d42",
@@ -1011,7 +1172,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.88
+   "trend": 13.79
   },
   {
    "id": "news:55a65472b3ca",
@@ -1034,7 +1195,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 16.22
+   "trend": 13.33
   },
   {
    "id": "news:90260ad0cb38",
@@ -1057,7 +1218,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.87
+   "trend": 13.08
   },
   {
    "id": "news:89fa8b217922",
@@ -1080,7 +1241,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.51
+   "trend": 12.82
   },
   {
    "id": "news:1e91b51ae7c5",
@@ -1103,7 +1264,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 15.2
+   "trend": 12.61
   },
   {
    "id": "news:e023d55d50d9",
@@ -1126,7 +1287,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.86
+   "trend": 12.36
   },
   {
    "id": "news:56181678e0ee",
@@ -1149,7 +1310,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 14.85
+   "trend": 12.35
   },
   {
    "id": "news:7153ade9d02a",
@@ -1172,7 +1333,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 13.87
+   "trend": 11.65
   },
   {
    "id": "news:807c7eb532ba",
@@ -1195,7 +1356,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 13.12
+   "trend": 11.09
   },
   {
    "id": "news:1d1e61bb4a36",
@@ -1218,7 +1379,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.96
+   "trend": 10.98
   },
   {
    "id": "news:e2f193624487",
@@ -1241,7 +1402,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.82
+   "trend": 10.87
   },
   {
    "id": "news:3dda3e9ec0e3",
@@ -1264,7 +1425,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.59
+   "trend": 10.7
   },
   {
    "id": "news:f9c73e046731",
@@ -1287,7 +1448,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 12.41
+   "trend": 10.56
   },
   {
    "id": "news:5977198d5e3e",
@@ -1310,7 +1471,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.8
+   "trend": 10.1
   },
   {
    "id": "news:9e11ed43d656",
@@ -1333,7 +1494,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.66
+   "trend": 10
   },
   {
    "id": "news:27b36a8d65a8",
@@ -1356,7 +1517,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.38
+   "trend": 9.78
   },
   {
    "id": "news:4cb8fbe4f01a",
@@ -1379,7 +1540,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.24
+   "trend": 9.68
   },
   {
    "id": "news:03fbc54bfb5e",
@@ -1402,7 +1563,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 11.04
+   "trend": 9.53
   },
   {
    "id": "news:e5a608f1354f",
@@ -1425,7 +1586,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 10.43
+   "trend": 9.06
   },
   {
    "id": "news:6f25beb563fc",
@@ -1448,7 +1609,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.82
+   "trend": 8.58
   },
   {
    "id": "news:9a8bb4b4a157",
@@ -1471,7 +1632,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.66
+   "trend": 8.45
   },
   {
    "id": "news:9374a9ac60eb",
@@ -1494,7 +1655,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.19
+   "trend": 8.08
   },
   {
    "id": "news:56932f8ceb64",
@@ -1517,7 +1678,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.13
+   "trend": 8.04
   },
   {
    "id": "news:33b2edf84ed8",
@@ -1540,7 +1701,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 9.09
+   "trend": 8
   },
   {
    "id": "news:5a7f19acfe15",
@@ -1563,7 +1724,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.95
+   "trend": 7.9
   },
   {
    "id": "news:3c23ff8d6fd4",
@@ -1586,7 +1747,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 8.82
+   "trend": 7.79
   },
   {
    "id": "news:86f3293eacd5",
@@ -1609,7 +1770,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.93
+   "trend": 6.25
   },
   {
    "id": "news:b7993ac8513c",
@@ -1632,7 +1793,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 6.44
+   "trend": 5.84
   },
   {
    "id": "news:6e07bd754cfb",
@@ -1655,7 +1816,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.94
+   "trend": 5.41
   },
   {
    "id": "news:0693c93d02cf",
@@ -1678,7 +1839,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 5.82
+   "trend": 5.32
   },
   {
    "id": "news:5e4ea696de41",
@@ -1701,7 +1862,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.73
+   "trend": 4.38
   },
   {
    "id": "news:5f11e1249811",
@@ -1724,7 +1885,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.73
+   "trend": 4.38
   },
   {
    "id": "news:2b8150c8f675",
@@ -1747,7 +1908,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.2
+   "trend": 3.91
   },
   {
    "id": "news:bbce030821c8",
@@ -1770,7 +1931,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.17
+   "trend": 3.89
   },
   {
    "id": "news:83b5011f3ad9",
@@ -1793,7 +1954,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 4.13
+   "trend": 3.85
   },
   {
    "id": "news:b793ef0fb171",
@@ -1816,7 +1977,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.96
+   "trend": 3.7
   },
   {
    "id": "news:a144e22dbf1f",
@@ -1839,7 +2000,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.95
+   "trend": 3.69
   },
   {
    "id": "news:6e38975b4581",
@@ -1862,7 +2023,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.76
+   "trend": 3.52
   },
   {
    "id": "news:3ef89b4ee5e7",
@@ -1885,7 +2046,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.67
+   "trend": 3.44
   },
   {
    "id": "news:75dbb30f4890",
@@ -1908,7 +2069,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.58
+   "trend": 3.36
   },
   {
    "id": "news:1b24ce6fdedf",
@@ -1931,7 +2092,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.51
+   "trend": 3.31
   },
   {
    "id": "news:13c9ecd9b846",
@@ -1954,7 +2115,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.41
+   "trend": 3.21
   },
   {
    "id": "news:f83aa67c4754",
@@ -1977,7 +2138,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.4
+   "trend": 3.2
   },
   {
    "id": "news:927e0aa2d04c",
@@ -2000,7 +2161,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.36
+   "trend": 3.17
   },
   {
    "id": "news:a347a142c49d",
@@ -2023,7 +2184,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.34
+   "trend": 3.15
   },
   {
    "id": "news:92067cae7de8",
@@ -2046,7 +2207,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.25
+   "trend": 3.07
   },
   {
    "id": "news:58857c731b19",
@@ -2069,7 +2230,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.22
+   "trend": 3.04
   },
   {
    "id": "news:6c7cab9d99b9",
@@ -2092,7 +2253,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3.14
+   "trend": 2.97
   },
   {
    "id": "news:440f45a751eb",
@@ -2115,7 +2276,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 3
+   "trend": 2.84
   },
   {
    "id": "news:6a6b90fb1ab2",
@@ -2138,7 +2299,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.99
+   "trend": 2.84
   },
   {
    "id": "news:09d20c6b55dd",
@@ -2161,7 +2322,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.97
+   "trend": 2.82
   },
   {
    "id": "news:5ce8fe98416c",
@@ -2184,7 +2345,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.93
+   "trend": 2.78
   },
   {
    "id": "news:12689bea9a2f",
@@ -2207,7 +2368,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.84
+   "trend": 2.7
   },
   {
    "id": "news:82d0873d6b9e",
@@ -2230,7 +2391,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.82
+   "trend": 2.68
   },
   {
    "id": "news:32c53540b2e6",
@@ -2253,7 +2414,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.81
+   "trend": 2.67
   },
   {
    "id": "news:01bf095dae47",
@@ -2276,7 +2437,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.62
+   "trend": 2.49
   },
   {
    "id": "news:5d0ef36fdca8",
@@ -2299,7 +2460,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 2.08
+   "trend": 1.99
   },
   {
    "id": "news:6dd87a7cb800",
@@ -2322,7 +2483,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.91
+   "trend": 1.84
   },
   {
    "id": "news:84689aa31e0e",
@@ -2345,7 +2506,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.83
+   "trend": 1.77
   },
   {
    "id": "news:5dead6c5b53a",
@@ -2368,7 +2529,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.71
+   "trend": 1.65
   },
   {
    "id": "news:8b483ae94755",
@@ -2391,7 +2552,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.7
+   "trend": 1.64
   },
   {
    "id": "news:c8cf02db9caf",
@@ -2414,7 +2575,30 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.63
+   "trend": 1.58
+  },
+  {
+   "id": "news:f51afaab1472",
+   "source": "news",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMS13TDQwRWs1TUdkNXRlZXZCMk9xTTRkelh0WmRkd3poc3NLRy1qV0NUcHdraEg5QnBIbDNzRVhJSzhGVDdIR0VtREN3YWtSVHJ4Mk1ENEs5YTdUM0g1VlJ1aUpWaE5vVFFGbldzcFBvVlExSlRGTzRpOTVLTEJsMnoyYm9GQ3dXd1NuNDRsMTRTaFlyRDUtTnNDVlI2b002V2FTWHVIWUpId9IBrwFBVV95cUxNVUJvd1N6bWxpNW5lMlpwakV1QkJWenpIbm5ZMFhxZDFlMlRKNkk0eWxDOElpSUI2R3NsXzRkX3dCUURfcHd2ZmMzaWYyMHV2WHpPc2phTGpoSUlzOHdYbWVTYWk4N0tpb2hodkY3aDVyQ2E2RkJ4bTdvY0Y4RzJOVS1Bb0hKMjFobzA3dDcxazI0VzQ0ek1Ca1F3b0VXdEJETDMzWnAzcWpiY3B2bEpJ?oc=5",
+   "title": "GTA 6 sets record with $3.79 billion in 1st-day sales - Good Morning America",
+   "description": "GTA 6 sets record with $3.79 billion in 1st-day sales &nbsp;&nbsp; Good Morning America",
+   "author": "Good Morning America",
+   "publishedAt": "2026-11-20T19:51:25.000Z",
+   "fetchedAt": "2026-11-22T19:16:42.554Z",
+   "thumbnail": null,
+   "stats": {},
+   "spoilerFloor": null,
+   "trusted": false,
+   "kind": "news",
+   "spoiler": "safe",
+   "spoilerWhy": "tips/news-style content with no story terms (unverified by AI)",
+   "summary": "GTA 6 sets record with $3.79 billion in 1st-day sales &nbsp;&nbsp; Good Morning America",
+   "area": "",
+   "tags": [],
+   "availability": null,
+   "enriched": "heuristic",
+   "trend": 1.53
   },
   {
    "id": "news:03431783d2ab",
@@ -2437,7 +2621,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.56
+   "trend": 1.51
   },
   {
    "id": "news:e382ea9f8474",
@@ -2460,7 +2644,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.4
+   "trend": 1.36
   },
   {
    "id": "news:c7c450f65e2f",
@@ -2483,7 +2667,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.37
+   "trend": 1.33
   },
   {
    "id": "news:a68c33c2cadc",
@@ -2506,7 +2690,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.34
+   "trend": 1.31
   },
   {
    "id": "news:80d49dbbb91b",
@@ -2529,7 +2713,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.27
+   "trend": 1.24
   },
   {
    "id": "news:b6736ef7e237",
@@ -2552,7 +2736,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 1.04
+   "trend": 1.01
   },
   {
    "id": "news:4a5ac95ec934",
@@ -2575,7 +2759,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.93
+   "trend": 0.91
   },
   {
    "id": "news:90f2f7767823",
@@ -2598,7 +2782,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.87
+   "trend": 0.86
   },
   {
    "id": "news:da62ff8fa31a",
@@ -2621,7 +2805,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.86
+   "trend": 0.84
   },
   {
    "id": "news:b788ecdd4579",
@@ -2644,7 +2828,7 @@
    "tags": [],
    "availability": null,
    "enriched": "heuristic",
-   "trend": 0.83
+   "trend": 0.81
   }
  ]
 }
